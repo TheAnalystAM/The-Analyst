@@ -402,6 +402,33 @@ h6 {
 }
 
 
+.headlines-container {
+    display: grid;
+    grid-template-rows: repeat(4); /* Creates 4 rows with automatic height */
+    margin-right: 50px;
+}
+
+.headlines-container h3 {
+
+    font-weight: bold;
+    word-wrap: normal;
+
+}
+
+.headlines {
+    margin-top: 20px;
+}
+
+#timestamp {
+   font-size: 0.8em;
+   margin-top: 7px;
+   font-family: 'Avenir', sans-serif;
+   font-weight: lighter;
+   color: lightgray;
+   font-style: italic;
+}
+
+
 
 
 
@@ -1175,6 +1202,12 @@ h10 {
     .storyteasertext {
         margin-left: 10px;
         margin-top: 3px;
+    }
+
+    .homecontenttwo {
+        left: 4%;
+        margin-top: 80px;
+       
     }
 
 }
