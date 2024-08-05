@@ -482,7 +482,6 @@ h6 {
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
-    margin-top: 30px;
     row-gap: 50px;
 }
 
@@ -1456,17 +1455,6 @@ h10 {
         font-size: 1.5em;
 
     }
-
-    .toppicks {
-
-        margin-top: -100px;
-        margin-right: 5%;
-
-    }
-
-
-
-
 
 
 
