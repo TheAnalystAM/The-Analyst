@@ -432,6 +432,87 @@ h6 {
 
 
 
+/*Latest and Top Picks*/
+
+.homecontentthree {
+    position: relative;
+    left: 45px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.newspicks-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 94%;
+    gap: 20px; /* Optional: Adjust spacing between columns */
+}
+
+
+
+.thelateststories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+
+.thelateststories img {
+    width: 79%;
+    height: auto;
+}
+
+.thelateststories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+.thelateststories h6 {
+
+    font-size: 0.9em;
+    margin-bottom: -10px;
+    margin-top: 15px;
+
+}
+
+.toppicksstories {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+
+.toppicksstories img {
+    width: 90%;
+    height: auto;
+}
+
+.toppicksstories h6 {
+    margin-bottom: 15px;
+}
+
+.toppicksstories h2 {
+   margin-right: 10%;
+}
+
+
+.toppicksstories h4 {
+   font-family: 'Avenir', sans-serif;
+   font-weight: lighter;
+   word-wrap: normal;
+   color: whitesmoke;
+   margin-right: 10%;
+}
+
+
+
+
+
+
 
 
 
@@ -1210,6 +1291,16 @@ h10 {
        
     }
 
+   .storyteasertext {
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+
+    .homecontenttwo, .homecontentthree {
+    left: 4%;
+    margin-top: 80px;
+    }
+
 }
 
 
@@ -1302,6 +1393,16 @@ h10 {
         justify-self: center;
     }
 
+    .thelateststories h3 {     
+
+    font-size: 0.9em;
+
+    }
+
+    .thelateststories h6 {
+
+        font-size: 0.7em;
+    }
 
 
 }
