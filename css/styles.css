@@ -1404,6 +1404,28 @@ h10 {
         font-size: 0.7em;
     }
 
+    .toppicks {
+
+        margin-right: 8%;
+    }
+
+    .toppicksstories h6 {
+
+        font-size: 0.9em;
+
+    }
+
+    .toppicksstories h2 {
+
+        font-size: 1.05em;
+    }
+
+    .toppicksstories h4 {
+
+        font-size: 0.7em;
+
+    }
+
 
 }
 
