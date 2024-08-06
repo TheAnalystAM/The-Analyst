@@ -535,7 +535,7 @@ h6 {
 }
 
 .usnewsstories {
-    width: 91%;
+    width: 81.7%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin-top: 30px;
@@ -569,8 +569,8 @@ h6 {
 }
 
 .northamericadivider {
-    width: 85.5%; 
-    margin-right: 25%; 
+    width: 77%; 
+    margin-right: 26%; 
     border: none; 
     border-top: 1px solid #4169e1; 
     margin-top: 5px;
@@ -595,7 +595,7 @@ h6 {
 }
 
 .globalstories {
-    width: 91%;
+    width: 81.7%;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin-top: 30px;
@@ -617,13 +617,12 @@ h6 {
 }
 
 .globaldivider {
-    width: 85.5%; 
-    margin-right: 25%; 
+    width: 77%; 
+    margin-right: 26%; 
     border: none; 
     border-top: 1px solid #4169e1; 
     margin-top: 5px;
 }
-
 
 
 
