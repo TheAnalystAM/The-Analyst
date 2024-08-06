@@ -1616,8 +1616,13 @@ h10 {
     }
 
     .globaldivider {
-    margin-right: 30%; 
+    margin-right: 50%; 
 
+    }
+
+    .newspicks-container h2 {
+
+        font-size: 1.3em;
     }
 
 
