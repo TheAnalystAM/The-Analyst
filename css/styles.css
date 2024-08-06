@@ -1388,39 +1388,39 @@ h10 {
 
         font-size: 1.5em;
 
-    }
+   }
 
-    #tab2 h2 {
+   #tab2 h2 {
         font-size: 2em;
          
-    }
-
-    .storyteasertext {
-        margin-left: 10px;
-        margin-top: 3px;
-    }
-
-    .homecontenttwo {
-        left: 4%;
-        margin-top: 80px;
-       
-    }
+   }
 
    .storyteasertext {
         margin-left: 10px;
         margin-top: 3px;
-    }
+   }
 
-    .homecontenttwo, .homecontentthree {
-    left: 4%;
-    margin-top: 80px;
-    }
+   .homecontenttwo {
+        left: 4%;
+        margin-top: 80px;
+       
+   }
+
+   .storyteasertext {
+        margin-left: 10px;
+        margin-top: 3px;
+   }
+
+   .homecontenttwo, .homecontentthree {
+       left: 4%;
+       margin-top: 80px;
+   }
 
    .regionalnews {
 
-        margin-left: 0px;
+       margin-left: 0px;
     
-    }
+   }
 
 }
 
@@ -1612,17 +1612,20 @@ h10 {
    }
 
    .northamericadivider {
-    margin-right: 30%; 
+        margin-right: 30%; 
+      
     }
 
     .globaldivider {
-    margin-right: 50%; 
+       
+        margin-right: 50%; 
 
     }
 
     .newspicks-container h2 {
 
-        font-size: 1.3em;
+        font-size: 0.9em;
+       
     }
 
 
