@@ -508,6 +508,122 @@ h6 {
    margin-right: 10%;
 }
 
+/*Regional and Global News*/
+
+
+.homecontentfour {
+
+    position: relative;
+    left: 45px;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+
+.regionalnews {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.regionalnews h2 {
+
+    font-size: 1.3em;
+}
+
+.usnewsstories {
+    width: 91%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 30px;
+    column-gap: 1%;
+
+}
+
+
+.usnewsstories img {
+    width: 79%;
+    height: auto;
+}
+
+.usnewsstories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+
+
+.regionalmarketsnewsdivider {
+
+    width: 90%; 
+    margin-right: 15%; 
+    border: none; 
+    border-top: 2px solid #4169e1; 
+    margin-top: 5px;
+
+}
+
+.northamericadivider {
+    width: 85.5%; 
+    margin-right: 25%; 
+    border: none; 
+    border-top: 1px solid #4169e1; 
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+.globalnews {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.regionalnews h2 {
+
+    font-size: 1.3em;
+}
+
+.globalstories {
+    width: 91%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 30px;
+    column-gap: 1%;
+
+}
+
+
+.globalstories img {
+    width: 79%;
+    height: auto;
+}
+
+.globalstories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+.globaldivider {
+    width: 85.5%; 
+    margin-right: 25%; 
+    border: none; 
+    border-top: 1px solid #4169e1; 
+    margin-top: 5px;
+}
+
 
 
 
@@ -1301,6 +1417,12 @@ h10 {
     margin-top: 80px;
     }
 
+   .regionalnews {
+
+        margin-left: 0px;
+    
+    }
+
 }
 
 
@@ -1424,6 +1546,28 @@ h10 {
 
         font-size: 0.7em;
 
+    }
+
+   .regionalnews h3 {     
+
+        font-size: 0.8em;
+
+    }
+
+    .regionalnews h6 {
+
+        font-size: 0.9em;
+
+    }
+
+    .homecontenttwo, .homecontentthree, .homecontentfour {
+
+        padding-right: 5%;
+    }
+
+    .newspicks-container h2 {
+
+        font-size: 1.45em;
     }
 
 
