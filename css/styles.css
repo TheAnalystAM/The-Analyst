@@ -1607,10 +1607,20 @@ h10 {
         font-size: 1em;
     }
 
+   .regionalheader {
+
+      margin-left: -10px;
+
+   }
+
+   .northamericadivider{
+
+      margin-left: 15px;
+
+   }
 
 
-    .homecontentfour h2,
-    .northamericadivider
+
     .regionalmarketsnewsdivider, 
     .regionalnews,
     .globaldivider,
