@@ -1602,9 +1602,14 @@ h10 {
 
     .toppicks {
 
-        margin-top: -30px;
+        margin-top: -35px;
 
     }
+
+   .homecontentfour h2 {
+
+       padding-left: 5%
+   }
 
 }
 
