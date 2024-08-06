@@ -1604,12 +1604,15 @@ h10 {
 
     .newspicks-container h2 {
 
-        font-size: 0.9em;
+        font-size: 0.2em;
     }
 
    .homecontentfour {
 
         left: 5px;
+        padding-right: 0%;
+        margin-left: 0px;
+        
 
    }
 
