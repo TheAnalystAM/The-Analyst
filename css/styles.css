@@ -1604,19 +1604,32 @@ h10 {
 
     .newspicks-container h2 {
 
-        font-size: 0.2em;
+        font-size: 1em;
     }
 
-   .homecontentfour {
+   .homecontentfour h2 {
 
-        left: 5px;
+        margin-left: 10px;
         padding-right: 0%;
         margin-left: 0px;
         justify-content: left;
         align-content: left;
         
+   }
+
+   .regionalmarketsnewsdivider,
+   .regionalnews,
+   .globaldivider,
+   .globalstories {
+
+      margin-left: 15px;
+      padding-right: 0%;
+      margin-left: 0px;
+      justify-content: left;
+      align-content: left;
 
    }
+   
    
 
 }
