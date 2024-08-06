@@ -1612,13 +1612,11 @@ h10 {
         left: 5px;
         padding-right: 0%;
         margin-left: 0px;
+        justify-content: left;
+        align-content: left;
         
 
    }
-
-    
-
-
    
 
 }
