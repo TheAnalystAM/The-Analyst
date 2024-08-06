@@ -1422,6 +1422,7 @@ h10 {
     
    }
 
+
 }
 
 
@@ -1600,29 +1601,17 @@ h10 {
 
     }
 
-    .toppicks {
-
-        
-
-    }
-
-
-   .northamericadivider {
-      
-        left: 20px;
-      
-    }
-
-    .globaldivider {
-       
-        left: 20px;
-
-    }
 
     .newspicks-container h2 {
 
         font-size: 1.4em;
     }
+
+   .homecontentfour {
+
+        left: 5px;
+
+   }
 
     
 
