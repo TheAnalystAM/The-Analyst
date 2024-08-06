@@ -1609,19 +1609,25 @@ h10 {
 
    #regionalheader {
 
-      margin-left: -10px;
+      margin-left: -20px;
 
    }
 
    .northamericadivider{
 
-      margin-left: 15px;
+      margin-left: 10px;
+
+   }
+
+   .regionalmarketsnewsdivider {
+
+   margin-left: 10px;
 
    }
 
 
 
-    .regionalmarketsnewsdivider, 
+     
     .regionalnews,
     .globaldivider,
     .globalstories {
