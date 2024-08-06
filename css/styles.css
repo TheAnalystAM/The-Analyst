@@ -1602,29 +1602,26 @@ h10 {
 
     .toppicks {
 
-        margin-top: -35px;
+        
 
     }
 
-   .homecontentfour h2 {
-
-       padding-left: 5%
-   }
 
    .northamericadivider {
-        margin-right: 30%; 
+      
+        left: 20px;
       
     }
 
     .globaldivider {
        
-        margin-right: 50%; 
+        left: 20px;
 
     }
 
     .newspicks-container h2 {
 
-        font-size: 0.9em;
+        left: 20px;
        
     }
 
