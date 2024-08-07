@@ -1573,6 +1573,16 @@ h10 {
 
 }
 
+@media (min-width: 481px) and (max-width: 519px) {
+  
+    .homecontenttwo, .homecontentthree, .homecontentfour {
+
+        left: 27px;
+    }
+
+}
+
+
 
 
 @media (max-width: 480px) {
