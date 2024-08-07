@@ -405,7 +405,7 @@ h6 {
 .headlines-container {
     display: grid;
     grid-template-rows: repeat(4); /* Creates 4 rows with automatic height */
-    margin-right: 50px;
+    padding-right: 50px;
 }
 
 .headlines-container h3 {
@@ -496,7 +496,7 @@ h6 {
 }
 
 .toppicksstories h2 {
-   margin-right: 10%;
+   padding-right: 10%;
 }
 
 
@@ -505,7 +505,7 @@ h6 {
    font-weight: lighter;
    word-wrap: normal;
    color: whitesmoke;
-   margin-right: 10%;
+   padding-right: 10%;
 }
 
 /*Regional and Global News*/
@@ -561,7 +561,7 @@ h6 {
 .regionalmarketsnewsdivider {
 
     width: 90%; 
-    margin-right: 15%; 
+    margin-left: 0%; 
     border: none; 
     border-top: 2px solid #4169e1; 
     margin-top: 5px;
@@ -570,7 +570,7 @@ h6 {
 
 .northamericadivider {
     width: 77%; 
-    margin-right: 26%; 
+    margin-left: 0%; 
     border: none; 
     border-top: 1px solid #4169e1; 
     margin-top: 5px;
@@ -618,7 +618,7 @@ h6 {
 
 .globaldivider {
     width: 77%; 
-    margin-right: 26%; 
+    margin-left: 0%; 
     border: none; 
     border-top: 1px solid #4169e1; 
     margin-top: 5px;
@@ -1528,7 +1528,7 @@ h10 {
 
     .toppicks {
 
-        margin-right: 8%;
+        padding-right: 8%;
     }
 
     .stories h6 {
@@ -1609,13 +1609,13 @@ h10 {
 
    #regionalheader {
 
-      margin-left: -23px;
+      margin-left: -20px;
 
    }
 
    .northamericadivider{
 
-      margin-left: 2px;
+      margin-left: 1px;
 
    }
 
