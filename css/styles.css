@@ -1650,7 +1650,7 @@ h10 {
 
 /*MINIMUM WIDTH ADJUSTMENTS*/
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     .overlay {
         display: none !important; 
     }
