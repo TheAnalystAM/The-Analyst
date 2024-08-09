@@ -7,23 +7,80 @@
 $(document).ready(function(){ // begin document.ready block
 
 
+// Update Notes: Edit This to Display the Most Eye Catching Story When Clicked in News Teaser, The Latest, Regional Markets News
+
 
     // NEWS TEASER
 
     $('.topnewsteaser').click(function(){
         $('#tab1').hide();
-        $('#spiritmerger').show(); // CHANGE THIS TO UNHIDE STORY OF THE WEEK!!
+        $('#spiritmerger').show();
 
         $('html, body').scrollTop(0);
     });
 
 
 
+    $('#thelateststories1').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+    $('#thelateststories2').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+    $('#thelateststories3').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+    $('#thelateststories4').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+
+
+// Update Notes: When you add a story, add it (1) to the NEWS section, (2) to its appropriate subcatagory, (3) to the relevant
+// homepage sections, such as The Latest or Regional Markets News
+
+
     // STORIES
 
         // NEWS
 
-     $('#newsstory1').click(function(){
+    $('#newsstory2').click(function(){
+
+        $('#tab2').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+    $('#newsstory1').click(function(){
 
         $('#tab2').hide();
 
@@ -33,11 +90,20 @@ $(document).ready(function(){ // begin document.ready block
     });
 
 
+        // MARKETS
+
+    $('#marketsstory1').click(function(){
+
+        $('#subtab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+
         // BUSINESS
-
-
-
-        // FINANCE
 
 
 
