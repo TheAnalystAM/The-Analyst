@@ -13,10 +13,9 @@ $(document).ready(function(){ // begin document.ready block
     // NEWS TEASER
 
     $('.topnewsteaser').click(function(){
-        $('#tab1').hide();
-        $('#spiritmerger').show();
-
-        $('html, body').scrollTop(0);
+       
+        window.location.href = "stories/bumbledrop/";
+       
     });
 
 
