@@ -41,6 +41,17 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#news-dropdown').hide();
 
+
+   
+
+      // ABOUT
+
+   $('#tab3').click(function(){
+
+      window.location.href = "/tabs/about/";
+
+   });
+
    
    
     // OVERLAY
