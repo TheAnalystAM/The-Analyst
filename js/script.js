@@ -14,7 +14,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('.topnewsteaser').click(function(){
        
-        window.location.href = "stories/bumbledrop";
+        window.location.href = "stories/markets/s2bumbledrop/";
        
     });
 
