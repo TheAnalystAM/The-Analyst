@@ -29,7 +29,7 @@ $(document).ready(function(){ // begin document.ready block
         }
     });
 
-   $('#news-dropdown').show();
+   $('#news-dropdown').hide();
 
    
 
