@@ -7,355 +7,6 @@
 $(document).ready(function(){ // begin document.ready block
 
 
-// Update Notes: Edit This to Display the Most Eye Catching Story When Clicked in News Teaser, The Latest, Regional Markets News
-
-
-    // NEWS TEASER
-
-    $('.topnewsteaser').click(function(){
-       
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-    $('#tab1').show();
-
-
-
-
-// The Latest
-
-
-    $('#thelateststories1').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-    $('#thelateststories2').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-    $('#thelateststories3').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-    $('#thelateststories4').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-
-// Top Picks
-
-
-
-    $('#toppicksstories1').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-
-// Regional Markets News
-
-
-    // US/North America News
-
-
-    $('#usnewsstories1').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-    $('#usnewsstories2').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-    $('#usnewsstories3').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-    // Global Markets
-
-    $('#globalnewsstories1').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-    $('#globalnewsstories2').click(function(){
-
-        window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-    $('#globalnewsstories3').click(function(){
-        
-       window.location.href = "stories/markets/s2bumbledrop";
-       
-    });
-
-
-
-
-
-
-
-
-// Update Notes: When you add a story, add it (1) to the NEWS section, (2) to its appropriate subcatagory, (3) to the relevant
-// homepage sections, such as The Latest or Regional Markets News
-
-
-    // STORIES
-
-        // NEWS
-
-    // $('#newsstory3').click(function(){
-
-    //    window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-    // $('#newsstory2').click(function(){
-
-    //     window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-    // $('#newsstory1').click(function(){
-
-    //     window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-
-    //     // MARKETS
-
-
-    // $('#marketsstory2').click(function(){
-
-    //     window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-    // $('#marketsstory1').click(function(){
-
-    //    window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-
-
-        // BUSINESS
-
-
-
-        // ECONOMICS
-
-
-    // $('#spiritmerger').hide();
-
-    // $('#economicsstory1').click(function(){
-
-    //     window.location.href = "stories/markets/s2bumbledrop";
-       
-    // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Tab 1 - Home
-
-   // Subscription Email Collection
-
-    $('.subscribe').click(function(){
-         
-         var email = $('.emailinput').val();
-            if(email) {
-               
-               $.ajax({
-                  url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
-                  type: 'POST',
-                  data: {
-                     email: email
-                  },
-               success: function(response) {
-                  console.log('Email added:', response);
-                  $('.emailinput').val('');
-
-                  $('.thankyou').toggle();
-
-               },
-               error: function(error) {
-                  console.error('Error:', error);
-               }
-            });
-
-      } else {
-         console.log('Please enter an email address.');
-      }
-
-    });
-
-    $('.subscribe').click(function(){
-
-    $('.newslettersubscribe').css('height', '700px');
-
-    });
-
-
-
-
-// Tab 2 - News
-
-
-
-
-
-
-
-
-// Tab 3 - About
-
-
-
-    // $('#linkedinimg').click(function() {
-
-    //     window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
-
-    // });
-
-
-
-
-
-
-
-// Tab 4 - Subscribe
-
-    // $('.expandable-item').click(function() {
-    //     var $this = $(this);
-    //     if (!$this.hasClass('expanded')) {
-    //         $this.addClass('expanded');
-
-    //         // Hide down arrow when expanded
-    //         var $arrowDown = $this.find('.arrow .down');
-    //         $arrowDown.hide();
-    //     }
-    // });
-
-    // // Prevent default behavior for anchor links inside .expandable-item
-    // $('.expandable-item a').click(function(event) {
-    //     event.stopPropagation();
-    // });
-
-
-    // $('.tabsubscribe').click(function(){
-         
-    //      var email = $('.newsletteremailinput').val();
-    //         if(email) {
-               
-    //            $.ajax({
-    //               url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
-    //               type: 'POST',
-    //               data: {
-    //                  email: email
-    //               },
-    //            success: function(response) {
-    //               console.log('Email added:', response);
-    //               $('.newsletteremailinput').val('');
-
-    //               $('.newsletterthankyou').toggle();
-
-    //            },
-    //            error: function(error) {
-    //               console.error('Error:', error);
-    //            }
-    //         });
-
-    //   } else {
-    //      console.log('Please enter an email address.');
-
-    //   }
-
-    // });
-
-    // $('.tabsubscribe').click(function() {
-
-    // $('.newslettersubscribe').css('height', '1410px');
-
-    // });
-
-
-
-
-
-
-    // let clickCount = 0;
-
-    // $('.expandable-item').click(function() {
-    //     if (clickCount < 3) {
-    //         clickCount++;
-
-    //         let newHeight;
-    //         if (clickCount === 1) {
-    //             newHeight = '950px';
-    //         } else if (clickCount === 2) {
-    //             newHeight = '1150px';
-    //         } else if (clickCount === 3) {
-    //             newHeight = '1410px';
-    //         }
-
-    //         $('.newslettersubscribe').css('height', newHeight);
-    //     }
-    // });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -386,7 +37,7 @@ $(document).ready(function(){ // begin document.ready block
         } else {
             window.location.href = '/stories/news'; // Redirect to the stories/news folder
         }
-    });
+   });
 
    $('#news-dropdown').hide();
 
@@ -395,20 +46,15 @@ $(document).ready(function(){ // begin document.ready block
 
       // ABOUT
 
-    $('#tab3').click(function(){
+   $('#tab3').click(function(){
 
-        window.location.href = "/tabs/about/";
+      window.location.href = "/tabs/about/";
 
-    });
+   });
 
-
-  
-
-
-
-
-
-  // OVERLAY
+   
+   
+    // OVERLAY
 
 
     $('#openMenu').click(function() {
@@ -417,32 +63,26 @@ $(document).ready(function(){ // begin document.ready block
         $('#openMenu').hide();
         $('#closeMenu').show();
     });
-   
+
     $('#closeMenu, .overlay').click(function() {
         $('.menu').removeClass('show');
         $('.overlay').removeClass('show');
         $('#closeMenu').hide();
         $('#openMenu').show();
     });
-   
+
     $('.tablinks').click(function() {
         $('.menu').removeClass('show');
         $('.overlay').removeClass('show');
         $('#closeMenu').hide();
         $('#openMenu').show();
     });
-   
-    $('#news-btn-two').click(function(){
-        $('.tabcontent').hide();
-        $('#tab2').show(); // CHANGE THIS TO UNHIDE STORY OF THE WEEK!!
-   
-        $('html, body').scrollTop(0);
-    });
 
 
 
 
 
+    // Overlay
 
 
 
