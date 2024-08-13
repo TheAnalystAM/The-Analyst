@@ -79,7 +79,7 @@ $(document).ready(function(){ // begin document.ready block
     });
 
     // Open Tab1 by default
-    openTab('.stories');
+    openTab('tab1');
 
     // OVERLAY
 
