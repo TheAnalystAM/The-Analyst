@@ -21,6 +21,10 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
+
+// The Latest
+
+
     $('#thelateststories1').click(function(){
 
         $('#tab1').hide();
@@ -35,7 +39,7 @@ $(document).ready(function(){ // begin document.ready block
 
         $('#tab1').hide();
 
-        $('#disneyq3earnings').show();
+        $('#bumbledrop').show();
 
         $('html, body').scrollTop(0);
     });
@@ -62,6 +66,90 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
+// Top Picks
+
+
+
+    $('#toppicksstories1').click(function(){
+
+        $('#tab1').hide();
+
+        $('#bumbledrop').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+
+// Regional Markets News
+
+
+    // US/North America News
+
+
+    $('#usnewsstories1').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+    $('#usnewsstories2').click(function(){
+
+        $('#tab1').hide();
+
+        $('#bumbledrop').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+    $('#usnewsstories3').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+    // Global Markets
+
+    $('#globalnewsstories1').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+    $('#globalnewsstories2').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+    $('#globalnewsstories3').click(function(){
+
+        $('#tab1').hide();
+
+        $('#disneyq3earnings').show();
+
+        $('html, body').scrollTop(0);
+    });
+
+
+
+
+
+
+
 
 // Update Notes: When you add a story, add it (1) to the NEWS section, (2) to its appropriate subcatagory, (3) to the relevant
 // homepage sections, such as The Latest or Regional Markets News
@@ -70,6 +158,15 @@ $(document).ready(function(){ // begin document.ready block
     // STORIES
 
         // NEWS
+
+    $('#newsstory3').click(function(){
+
+        $('#tab2').hide();
+
+        $('#bumbledrop').show();
+
+        $('html, body').scrollTop(0);
+    });
 
     $('#newsstory2').click(function(){
 
@@ -91,6 +188,16 @@ $(document).ready(function(){ // begin document.ready block
 
 
         // MARKETS
+
+
+    $('#marketsstory2').click(function(){
+
+        $('#subtab1').hide();
+
+        $('#bumbledrop').show();
+
+        $('html, body').scrollTop(0);
+    });
 
     $('#marketsstory1').click(function(){
 
@@ -120,6 +227,7 @@ $(document).ready(function(){ // begin document.ready block
 
         $('html, body').scrollTop(0);
     });
+
 
 
 
