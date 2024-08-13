@@ -29,6 +29,8 @@ $(document).ready(function(){ // begin document.ready block
         }
     });
 
+   
+
 
     // function openTab(tabName) {
     //     if ($(window).width() > 1087) {
@@ -74,12 +76,6 @@ $(document).ready(function(){ // begin document.ready block
     //     // Hide .stories elements
     // });
 
-    $(window).resize(function() {
-        if ($(window).width() <= 1152) {
-            $('#news-dropdown').hide();
-            isDropdownVisible = false;
-        }
-    });
 
     // // Open Tab1 by default
     // openTab('tab1');
