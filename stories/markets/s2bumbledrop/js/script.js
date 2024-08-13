@@ -37,7 +37,6 @@ $(document).ready(function(){ // begin document.ready block
             $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
         }
         // Hide .stories elements
-        $('.stories').hide();
     }
 
     $('.tablinks').not('#news-btn').click(function() {
