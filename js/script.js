@@ -18,6 +18,8 @@ $(document).ready(function(){ // begin document.ready block
        
     });
 
+    $('#tab1').show();
+
 
 
 
@@ -243,6 +245,8 @@ $(document).ready(function(){ // begin document.ready block
 
 // Tab 3 - About
 
+
+
     // $('#linkedinimg').click(function() {
 
     //     window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
@@ -391,11 +395,12 @@ $(document).ready(function(){ // begin document.ready block
 
       // ABOUT
 
-   $('#tab3').click(function(){
+    $('#tab3').click(function(){
 
-      window.location.href = "/tabs/about/";
+        window.location.href = "/tabs/about/";
 
-   });
+    });
+
 
   
 
@@ -412,25 +417,25 @@ $(document).ready(function(){ // begin document.ready block
         $('#openMenu').hide();
         $('#closeMenu').show();
     });
-
+   
     $('#closeMenu, .overlay').click(function() {
         $('.menu').removeClass('show');
         $('.overlay').removeClass('show');
         $('#closeMenu').hide();
         $('#openMenu').show();
     });
-
+   
     $('.tablinks').click(function() {
         $('.menu').removeClass('show');
         $('.overlay').removeClass('show');
         $('#closeMenu').hide();
         $('#openMenu').show();
     });
-
+   
     $('#news-btn-two').click(function(){
         $('.tabcontent').hide();
         $('#tab2').show(); // CHANGE THIS TO UNHIDE STORY OF THE WEEK!!
-
+   
         $('html, body').scrollTop(0);
     });
 
