@@ -26,41 +26,29 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#thelateststories1').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
     $('#thelateststories2').click(function(){
 
-        $('#tab1').hide();
-
-        $('#bumbledrop').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
     $('#thelateststories3').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
     $('#thelateststories4').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
@@ -71,11 +59,8 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#toppicksstories1').click(function(){
 
-        $('#tab1').hide();
-
-        $('#bumbledrop').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
@@ -88,29 +73,20 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#usnewsstories1').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
     $('#usnewsstories2').click(function(){
 
-        $('#tab1').hide();
-
-        $('#bumbledrop').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
     $('#usnewsstories3').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
@@ -118,29 +94,20 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#globalnewsstories1').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
     $('#globalnewsstories2').click(function(){
 
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
     $('#globalnewsstories3').click(function(){
-
-        $('#tab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
+        
+       window.location.href = "stories/markets/s2bumbledrop";
+       
     });
 
 
@@ -158,54 +125,39 @@ $(document).ready(function(){ // begin document.ready block
 
         // NEWS
 
-    $('#newsstory3').click(function(){
+    // $('#newsstory3').click(function(){
 
-        $('#tab2').hide();
+    //    window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
-        $('#bumbledrop').show();
+    // $('#newsstory2').click(function(){
 
-        $('html, body').scrollTop(0);
-    });
+    //     window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
-    $('#newsstory2').click(function(){
+    // $('#newsstory1').click(function(){
 
-        $('#tab2').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
-    });
-
-    $('#newsstory1').click(function(){
-
-        $('#tab2').hide();
-
-        $('#spiritmerger').show();
-
-        $('html, body').scrollTop(0);
-    });
+    //     window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
 
-        // MARKETS
+    //     // MARKETS
 
 
-    $('#marketsstory2').click(function(){
+    // $('#marketsstory2').click(function(){
 
-        $('#subtab1').hide();
+    //     window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
-        $('#bumbledrop').show();
+    // $('#marketsstory1').click(function(){
 
-        $('html, body').scrollTop(0);
-    });
-
-    $('#marketsstory1').click(function(){
-
-        $('#subtab1').hide();
-
-        $('#disneyq3earnings').show();
-
-        $('html, body').scrollTop(0);
-    });
+    //    window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
 
 
@@ -216,16 +168,13 @@ $(document).ready(function(){ // begin document.ready block
         // ECONOMICS
 
 
-    $('#spiritmerger').hide();
+    // $('#spiritmerger').hide();
 
-    $('#economicsstory1').click(function(){
+    // $('#economicsstory1').click(function(){
 
-        $('#subtab3').hide();
-
-        $('#spiritmerger').show();
-
-        $('html, body').scrollTop(0);
-    });
+    //     window.location.href = "stories/markets/s2bumbledrop";
+       
+    // });
 
 
 
@@ -294,11 +243,11 @@ $(document).ready(function(){ // begin document.ready block
 
 // Tab 3 - About
 
-    $('#linkedinimg').click(function() {
+    // $('#linkedinimg').click(function() {
 
-        window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
+    //     window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
 
-    });
+    // });
 
 
 
@@ -308,82 +257,82 @@ $(document).ready(function(){ // begin document.ready block
 
 // Tab 4 - Subscribe
 
-    $('.expandable-item').click(function() {
-        var $this = $(this);
-        if (!$this.hasClass('expanded')) {
-            $this.addClass('expanded');
+    // $('.expandable-item').click(function() {
+    //     var $this = $(this);
+    //     if (!$this.hasClass('expanded')) {
+    //         $this.addClass('expanded');
 
-            // Hide down arrow when expanded
-            var $arrowDown = $this.find('.arrow .down');
-            $arrowDown.hide();
-        }
-    });
+    //         // Hide down arrow when expanded
+    //         var $arrowDown = $this.find('.arrow .down');
+    //         $arrowDown.hide();
+    //     }
+    // });
 
-    // Prevent default behavior for anchor links inside .expandable-item
-    $('.expandable-item a').click(function(event) {
-        event.stopPropagation();
-    });
+    // // Prevent default behavior for anchor links inside .expandable-item
+    // $('.expandable-item a').click(function(event) {
+    //     event.stopPropagation();
+    // });
 
 
-    $('.tabsubscribe').click(function(){
+    // $('.tabsubscribe').click(function(){
          
-         var email = $('.newsletteremailinput').val();
-            if(email) {
+    //      var email = $('.newsletteremailinput').val();
+    //         if(email) {
                
-               $.ajax({
-                  url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
-                  type: 'POST',
-                  data: {
-                     email: email
-                  },
-               success: function(response) {
-                  console.log('Email added:', response);
-                  $('.newsletteremailinput').val('');
+    //            $.ajax({
+    //               url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
+    //               type: 'POST',
+    //               data: {
+    //                  email: email
+    //               },
+    //            success: function(response) {
+    //               console.log('Email added:', response);
+    //               $('.newsletteremailinput').val('');
 
-                  $('.newsletterthankyou').toggle();
+    //               $('.newsletterthankyou').toggle();
 
-               },
-               error: function(error) {
-                  console.error('Error:', error);
-               }
-            });
+    //            },
+    //            error: function(error) {
+    //               console.error('Error:', error);
+    //            }
+    //         });
 
-      } else {
-         console.log('Please enter an email address.');
+    //   } else {
+    //      console.log('Please enter an email address.');
 
-      }
+    //   }
 
-    });
+    // });
 
-    $('.tabsubscribe').click(function() {
+    // $('.tabsubscribe').click(function() {
 
-    $('.newslettersubscribe').css('height', '1410px');
+    // $('.newslettersubscribe').css('height', '1410px');
 
-    });
-
-
+    // });
 
 
 
 
-    let clickCount = 0;
 
-    $('.expandable-item').click(function() {
-        if (clickCount < 3) {
-            clickCount++;
 
-            let newHeight;
-            if (clickCount === 1) {
-                newHeight = '950px';
-            } else if (clickCount === 2) {
-                newHeight = '1150px';
-            } else if (clickCount === 3) {
-                newHeight = '1410px';
-            }
+    // let clickCount = 0;
 
-            $('.newslettersubscribe').css('height', newHeight);
-        }
-    });
+    // $('.expandable-item').click(function() {
+    //     if (clickCount < 3) {
+    //         clickCount++;
+
+    //         let newHeight;
+    //         if (clickCount === 1) {
+    //             newHeight = '950px';
+    //         } else if (clickCount === 2) {
+    //             newHeight = '1150px';
+    //         } else if (clickCount === 3) {
+    //             newHeight = '1410px';
+    //         }
+
+    //         $('.newslettersubscribe').css('height', newHeight);
+    //     }
+    // });
 
 
 
@@ -489,7 +438,6 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-    // Overlay
 
 
 
