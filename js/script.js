@@ -36,7 +36,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#thelateststories2').click(function(){
 
-        window.location.href = "/tabs/about/";
+        window.location.href = "/stories/markets/s2bumbledrop/";
 
         $('html, body').scrollTop(0);
     });
