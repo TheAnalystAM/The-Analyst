@@ -38,7 +38,6 @@ body {
    width: 70%;
    margin: auto;
    margin-top: 40px;
-   visibility: visible;
 }
 
 
@@ -1653,16 +1652,6 @@ h10 {
 
 
 }
-
-@media (min-width: 481px) and (max-width: 519px) {
-  
-    .homecontenttwo, .homecontentthree, .homecontentfour {
-
-        left: 27px;
-    }
-
-}
-
 
 
 @media (max-width: 480px) {
