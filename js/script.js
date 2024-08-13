@@ -14,6 +14,8 @@ $(document).ready(function(){ // begin document.ready block
     $('.topnewsteaser').click(function(){
        
         window.location.href = "/tabs/about/";
+
+        $('html, body').scrollTop(0);
        
     });
 
@@ -26,6 +28,8 @@ $(document).ready(function(){ // begin document.ready block
     $('#thelateststories1').click(function(){
 
         window.location.href = "/tabs/about/";
+
+        $('html, body').scrollTop(0);
        
     });
 
@@ -42,12 +46,16 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
+        $('html, body').scrollTop(0);
+
     });
 
 
     $('#thelateststories4').click(function(){
 
         window.location.href = "/tabs/about/";
+
+        $('html, body').scrollTop(0);
 
     });
 
@@ -60,6 +68,8 @@ $(document).ready(function(){ // begin document.ready block
     $('#toppicksstories1').click(function(){
 
         window.location.href = "/tabs/about/";
+
+        $('html, body').scrollTop(0);
 
     });
 
@@ -75,17 +85,23 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
+        $('html, body').scrollTop(0);
+
     });
 
     $('#usnewsstories2').click(function(){
 
         window.location.href = "/tabs/about/";
 
+        $('html, body').scrollTop(0);
+
     });
 
     $('#usnewsstories3').click(function(){
 
         window.location.href = "/tabs/about/";
+       
+        $('html, body').scrollTop(0);
 
     });
 
@@ -95,6 +111,8 @@ $(document).ready(function(){ // begin document.ready block
     $('#globalnewsstories1').click(function(){
 
         window.location.href = "/tabs/about/";
+       
+        $('html, body').scrollTop(0);
 
     });
 
@@ -102,11 +120,15 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
+        $('html, body').scrollTop(0);
+
     });
 
     $('#globalnewsstories3').click(function(){
 
         window.location.href = "/tabs/about/";
+
+        $('html, body').scrollTop(0);
 
     });
 
