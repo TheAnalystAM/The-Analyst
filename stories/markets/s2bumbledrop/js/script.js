@@ -29,6 +29,10 @@ $(document).ready(function(){ // begin document.ready block
         }
     });
 
+   $('#news-dropdown').show();
+
+   
+
    
 
 
@@ -102,12 +106,6 @@ $(document).ready(function(){ // begin document.ready block
         $('.overlay').removeClass('show');
         $('#closeMenu').hide();
         $('#openMenu').show();
-    });
-
-    $('#news-btn-two').click(function(){
-        $('#tab2').show(); // CHANGE THIS TO UNHIDE STORY OF THE WEEK!!
-
-        $('html, body').scrollTop(0);
     });
 
 
