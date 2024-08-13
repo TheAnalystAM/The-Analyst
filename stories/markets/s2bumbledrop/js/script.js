@@ -21,8 +21,14 @@ $(document).ready(function(){ // begin document.ready block
 
     // TABS
 
-    var isDropdownVisible = false;
-    $('#news-dropdown').hide();
+   $('#news-btn').click(function(){
+        if ($(window).width() > 1087) {
+            $('#news-dropdown').toggle(); // Toggle visibility of #news-dropdown
+        } else {
+            window.location.href = '/stories/news'; // Redirect to the stories/news folder
+        }
+    });
+
 
     // function openTab(tabName) {
     //     if ($(window).width() > 1087) {
