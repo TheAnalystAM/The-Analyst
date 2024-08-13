@@ -24,49 +24,49 @@ $(document).ready(function(){ // begin document.ready block
     var isDropdownVisible = false;
     $('#news-dropdown').hide();
 
-    function openTab(tabName) {
-        if ($(window).width() > 1087) {
-            $('.tablinks').not('#news-btn').removeClass('active');
-            $('#' + tabName).show();
-            $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
-        } else {
-            $('.tablinks').removeClass('active');
-            $('#' + tabName).show();
-            $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
-        }
-        // Hide .stories elements
-    }
+    // function openTab(tabName) {
+    //     if ($(window).width() > 1087) {
+    //         $('.tablinks').not('#news-btn').removeClass('active');
+    //         $('#' + tabName).show();
+    //         $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
+    //     } else {
+    //         $('.tablinks').removeClass('active');
+    //         $('#' + tabName).show();
+    //         $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
+    //     }
+    //     // Hide .stories elements
+    // }
 
-    $('.tablinks').not('#news-btn').click(function() {
-        var tabName = $(this).data('tab');
-        openTab(tabName);
+    // $('.tablinks').not('#news-btn').click(function() {
+    //     var tabName = $(this).data('tab');
+    //     openTab(tabName);
 
-        // Reset dropdown visibility state
-        isDropdownVisible = false;
-        $('#news-dropdown').hide();
-    });
+    //     // Reset dropdown visibility state
+    //     isDropdownVisible = false;
+    //     $('#news-dropdown').hide();
+    // });
 
-    $('#news-btn').click(function() {
-        if ($(window).width() > 1087) {
-            if (isDropdownVisible) {
-                $('#news-dropdown').hide();
-            } else {
-                $('#news-dropdown').show();
-            }
-            isDropdownVisible = !isDropdownVisible;
-        } else {
-            openTab('tab2'); // Assuming 'Tab2' is the ID for the news content
-        }
-    });
+    // $('#news-btn').click(function() {
+    //     if ($(window).width() > 1087) {
+    //         if (isDropdownVisible) {
+    //             $('#news-dropdown').hide();
+    //         } else {
+    //             $('#news-dropdown').show();
+    //         }
+    //         isDropdownVisible = !isDropdownVisible;
+    //     } else {
+    //         openTab('tab2'); // Assuming 'Tab2' is the ID for the news content
+    //     }
+    // });
 
-    $('#news-dropdown .tablinks').click(function() {
-        var tabId = $(this).attr('data-tab');
-        $('#news-dropdown .tabcontent').removeClass('active');
-        $('#' + tabId).addClass('active');
-        $('#news-dropdown').hide();
-        isDropdownVisible = false; // Reset the dropdown visibility state
-        // Hide .stories elements
-    });
+    // $('#news-dropdown .tablinks').click(function() {
+    //     var tabId = $(this).attr('data-tab');
+    //     $('#news-dropdown .tabcontent').removeClass('active');
+    //     $('#' + tabId).addClass('active');
+    //     $('#news-dropdown').hide();
+    //     isDropdownVisible = false; // Reset the dropdown visibility state
+    //     // Hide .stories elements
+    // });
 
     $(window).resize(function() {
         if ($(window).width() <= 1152) {
@@ -75,8 +75,8 @@ $(document).ready(function(){ // begin document.ready block
         }
     });
 
-    // Open Tab1 by default
-    openTab('tab1');
+    // // Open Tab1 by default
+    // openTab('tab1');
 
     // OVERLAY
 
