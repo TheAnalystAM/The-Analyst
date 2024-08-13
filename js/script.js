@@ -42,7 +42,6 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
 
@@ -50,7 +49,6 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
 
@@ -63,7 +61,6 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
 
@@ -78,21 +75,18 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
     $('#usnewsstories2').click(function(){
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
     $('#usnewsstories3').click(function(){
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
 
@@ -102,21 +96,18 @@ $(document).ready(function(){ // begin document.ready block
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
     $('#globalnewsstories2').click(function(){
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
     $('#globalnewsstories3').click(function(){
 
         window.location.href = "/tabs/about/";
 
-        $('html, body').scrollTop(0);
     });
 
 
