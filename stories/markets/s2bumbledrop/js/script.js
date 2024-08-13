@@ -26,12 +26,10 @@ $(document).ready(function(){ // begin document.ready block
 
     function openTab(tabName) {
         if ($(window).width() > 1087) {
-            $('.tabcontent').not('#news-dropdown').hide();
             $('.tablinks').not('#news-btn').removeClass('active');
             $('#' + tabName).show();
             $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
         } else {
-            $('.tabcontent').hide();
             $('.tablinks').removeClass('active');
             $('#' + tabName).show();
             $('.tablinks[data-tab="' + tabName + '"]').addClass('active');
@@ -68,7 +66,6 @@ $(document).ready(function(){ // begin document.ready block
         $('#news-dropdown').hide();
         isDropdownVisible = false; // Reset the dropdown visibility state
         // Hide .stories elements
-        $('.stories').hide();
     });
 
     $(window).resize(function() {
@@ -106,7 +103,6 @@ $(document).ready(function(){ // begin document.ready block
     });
 
     $('#news-btn-two').click(function(){
-        $('.tabcontent').hide();
         $('#tab2').show(); // CHANGE THIS TO UNHIDE STORY OF THE WEEK!!
 
         $('html, body').scrollTop(0);
