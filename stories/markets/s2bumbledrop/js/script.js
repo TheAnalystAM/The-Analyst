@@ -25,6 +25,10 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#tab1').click(function(){
 
+      window.location.href = "/";
+
+   });
+
       // NEWS (+ Dropdown Menu)
 
    $('#news-btn').click(function(){
