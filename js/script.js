@@ -8,7 +8,6 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// Update Notes: Edit This to Display the Most Eye Catching Story When Clicked in News Teaser, The Latest, Regional Markets News
 
 
     // NEWS TEASER
@@ -130,19 +129,19 @@ $(document).ready(function(){ // begin document.ready block
 
          // SUBTABS
 
-    $('#subtab1').click(function(){
+   $('#subtab1').click(function(){
 
       window.location.href = '/tabs/subtabs/markets/';
 
    });
 
-    $('#subtab2').click(function(){
+   $('#subtab2').click(function(){
 
       window.location.href = '/tabs/subtabs/business/';
 
    });
 
-    $('#subtab3').click(function(){
+   $('#subtab3').click(function(){
 
       window.location.href = '/tabs/subtabs/economics/';
 
@@ -206,7 +205,6 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-   HOMEPAGE CONTENT - Not Connector Code
 
     $('.subscribe').click(function(){
          
