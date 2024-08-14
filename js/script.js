@@ -107,23 +107,25 @@ $(document).ready(function(){ // begin document.ready block
 
       // HOME - Tab 1
 
-   $('#tab1').click(function(){
+    $('#tab1').click(function(){
 
-      window.location.href = "/";
+       window.location.href = "/";
 
-   });
+    });
 
       // NEWS - Tab 2
 
-   $('#news-btn').click(function(){
-        if ($(window).width() > 1087) {
-            $('#news-dropdown').toggle(); // Toggle visibility of #news-dropdown
-        } else {
-            window.location.href = '/stories/news'; // Redirect to the stories/news folder
-        }
-   });
+    $('#news-btn').click(function(){
+         if ($(window).width() > 1087) {
+             $('#news-dropdown').toggle(); // Toggle visibility of #news-dropdown
+         } else {
+             window.location.href = '/stories/news'; // Redirect to the stories/news folder
+         }
+    });
 
-   $('#news-dropdown').hide();
+    $('#news-dropdown').hide();
+
+    });
 
 
          // SUBTABS
