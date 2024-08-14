@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// The Latest
+    // The Latest
 
 
     $('#thelateststories1').click(function(){
@@ -47,7 +47,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// Top Picks
+    // Top Picks
 
 
 
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// Regional Markets News
+     // Regional Markets News
 
 
     // US/North America News
@@ -99,7 +99,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// General Content
+    // General Content
 
 
     // TABS
@@ -123,8 +123,6 @@ $(document).ready(function(){ // begin document.ready block
     });
 
     $('#news-dropdown').hide();
-
-    });
 
 
          // SUBTABS
@@ -212,8 +210,7 @@ $(document).ready(function(){ // begin document.ready block
             if(email) {
                
                $.ajax({
-                  url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
-                  type: 'POST',
+                  url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', 
                   data: {
                      email: email
                   },
