@@ -117,6 +117,17 @@ body {
    margin-bottom: 40px;
 }
 
+#bodyphoto {
+   height: auto;
+   width: 100%;
+   margin-top: 50px;
+}
+
+#bodyphoto2 {
+   height: 70%;
+   width: 100%;
+   margin-top: 50px;
+}
 
 
 
@@ -232,9 +243,6 @@ body {
 
 
 /*Tab 1 - Home*/
-
-
-
 
 
 
@@ -402,6 +410,294 @@ h6 {
 }
 
 
+.headlines-container {
+    display: grid;
+    grid-template-rows: repeat(4); /* Creates 4 rows with automatic height */
+    padding-right: 50px;
+}
+
+.headlines-container h3 {
+
+    font-weight: bold;
+    word-wrap: normal;
+
+}
+
+.headlines {
+    margin-top: 20px;
+}
+
+#timestamp {
+   font-size: 0.8em;
+   margin-top: 7px;
+   font-family: 'Avenir', sans-serif;
+   font-weight: lighter;
+   color: lightgray;
+   font-style: italic;
+}
+
+
+
+
+
+
+/*Latest and Markets Feature (Top Picks)*/
+
+.homecontentthree {
+    position: relative;
+    left: 45px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.newspicks-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 93%;
+    gap: 20px; /* Optional: Adjust spacing between columns */
+}
+
+
+
+.thelateststories {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+
+.thelateststories img {
+    width: 79%;
+    height: auto;
+}
+
+.thelateststories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+.thelateststories h6 {
+
+    font-size: 0.9em;
+    margin-bottom: -10px;
+    margin-top: 15px;
+
+}
+
+.toppicksstories {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 30px;
+    row-gap: 50px;
+}
+
+.toppicksstories img {
+    width: 90%;
+    height: auto;
+}
+
+.toppicksstories h6 {
+    margin-bottom: 15px;
+}
+
+.toppicksstories h2 {
+   padding-right: 10%;
+}
+
+
+.toppicksstories h4 {
+   font-family: 'Avenir', sans-serif;
+   font-weight: lighter;
+   word-wrap: normal;
+   color: whitesmoke;
+   padding-right: 10%;
+}
+
+#thelateststories1 {
+    cursor: pointer;
+}
+
+#thelateststories2 {
+    cursor: pointer;
+}
+
+#thelateststories3 {
+    cursor: pointer;
+}
+
+#thelateststories4 {
+    cursor: pointer;
+}
+
+#toppicksstories1 {
+    cursor: pointer;
+}
+
+
+
+
+
+/*Regional and Global News*/
+
+
+.homecontentfour {
+
+    position: relative;
+    left: 45px;
+    width: 100%;
+    margin-top: 80px;
+
+}
+
+
+.regionalnews {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.regionalnews h2 {
+
+    font-size: 1.3em;
+}
+
+.usnewsstories {
+    width: 81.7%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 30px;
+    column-gap: 1%;
+
+}
+
+
+.usnewsstories img {
+    width: 79%;
+    height: auto;
+}
+
+.usnewsstories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+
+
+.regionalmarketsnewsdivider {
+
+    width: 90%; 
+    margin-left: 0%;
+    border: none; 
+    border-top: 2px solid #4169e1; 
+    margin-top: 5px;
+
+}
+
+.northamericadivider {
+    width: 77%; 
+    margin-left: 0%;
+    border: none; 
+    border-top: 1px solid #4169e1; 
+    margin-top: 5px;
+}
+
+
+#usnewsstories1 {
+    cursor: pointer;
+}
+
+#usnewsstories2 {
+    cursor: pointer;
+}
+
+
+#usnewsstories3 {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.globalnews {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.regionalnews h2 {
+
+    font-size: 1.3em;
+}
+
+.globalstories {
+    width: 81.7%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 30px;
+    column-gap: 1%;
+
+}
+
+
+.globalstories img {
+    width: 79%;
+    height: auto;
+}
+
+.globalstories h3 {
+
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 80%;
+}
+
+.globaldivider {
+    width: 77%; 
+    margin-left: 0%; 
+    border: none; 
+    border-top: 1px solid #4169e1; 
+    margin-top: 5px;
+}
+
+
+
+#globalnewsstories1 {
+    cursor: pointer;
+}
+
+#globalnewsstories2 {
+    cursor: pointer;
+}
+
+#globalnewsstories3 {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -423,12 +719,30 @@ h6 {
    display: grid;
    grid-template-columns: 30% 70%;
    width: 100%;
-   height: 400px;
+   height: 80%;
    cursor: pointer;
    justify-content: center;
+
 }
 
+
+.storydivider hr {
+   width: 90%;
+   margin-left: 40px;
+   padding-right: 10px;
+   border: none;
+   border-top: 1px solid #4A4A4A;
+   margin-top: 40px; /* Use a viewport width unit */
+   margin-bottom: 0px;
+}
+
+
+
+
+/*NEED TO ADD THIS*/
+
 .storyteasertext {
+   padding-top: 11px;
    width: 100%;
    font-family: 'Avenir', sans-serif;
    font-weight: lighter;
@@ -446,7 +760,7 @@ h6 {
    width: 80%; /* Ensure the image takes up the full width of its grid cell */
    height: auto; /* Maintain the aspect ratio */
    margin-left: 40px;
-   padding-top: 30px;
+   padding-top: 40px;
 
 }
 
@@ -481,7 +795,7 @@ h5 {
    margin-left: 40px;       
    border: none;           
    border-top: 4px solid #4169e1; 
-   margin-bottom: 100px;
+   margin-bottom: 20px;
    margin-top: -10px;
 }
 
@@ -970,9 +1284,7 @@ h10 {
 
 @media (max-width: 1200px) {
     /* Subtab 1 */
-    .storyteaser img {
-        max-width: 100%;
-    }
+
 
     .storyteasertext {
         position: static;
@@ -991,6 +1303,7 @@ h10 {
 
     .storyteaser img {
         max-width: 70%;
+        margin-left: 54px;
     }
 
     .newsletterthankyou {
@@ -1177,6 +1490,13 @@ h10 {
         margin-top: 3px;
     }
 
+    .regionalnews {
+
+        margin-left: 0px;
+    
+    }
+
+
 }
 
 
@@ -1269,7 +1589,76 @@ h10 {
         justify-self: center;
     }
 
+    .thelateststories h3 {     
 
+        font-size: 0.8em;
+        margin-top: 20px;
+
+    }
+
+    .thelateststories h6 {
+
+        font-size: 0.7em;
+    }
+
+    .toppicks {
+
+        padding-right: 8%;
+    }
+
+    .toppicksstories h6 {
+
+        font-size: 0.9em;
+
+    }
+
+    .toppicksstories h2 {
+
+        font-size: 1.05em;
+    }
+
+    .toppicksstories h4 {
+
+        font-size: 0.7em;
+
+    }
+
+    .regionalnews h3 {     
+
+        font-size: 0.8em;
+
+    }
+
+    .regionalnews h6 {
+
+        font-size: 0.9em;
+
+    }
+
+    .homecontenttwo, .homecontentthree, .homecontentfour {
+
+        padding-right: 5%;
+    }
+
+    .newspicks-container h2 {
+
+        font-size: 1.45em;
+    }
+
+    .storydivider hr {
+        width: 85%;
+    }
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 519px) {
+  
+    .homecontenttwo, .homecontentthree, .homecontentfour {
+
+        left: 27px;
+    }
 
 }
 
@@ -1305,7 +1694,6 @@ h10 {
 
 
 
-
 }
 
 
@@ -1314,7 +1702,7 @@ h10 {
 
 /*MINIMUM WIDTH ADJUSTMENTS*/
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
     .overlay {
         display: none !important; 
     }
@@ -1323,20 +1711,3 @@ h10 {
          display: none !important; 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
