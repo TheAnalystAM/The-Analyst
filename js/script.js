@@ -106,7 +106,4 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-
-
-
 }); //end document.ready block
