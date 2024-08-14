@@ -14,7 +14,7 @@ $(document).ready(function(){ // begin document.ready block
     // NEWS TEASER
 
     $('.topnewsteaser').click(function(){
-        window.location.href = "/tabs/about/;
+        window.location.href = '/tabs/about/';
     });
 
 
@@ -25,25 +25,25 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#thelateststories1').click(function(){
 
-        window.location.href = "/tabs/about/;
+        window.location.href = '/stories/markets/disneyq3earnings/';
     });
 
 
     $('#thelateststories2').click(function(){
 
-        window.location.href = "/tabs/about/;
+        window.location.href = '/stories/markets/s2bumbledrop/';
     });
 
 
     $('#thelateststories3').click(function(){
 
-        window.location.href = "/tabs/about/;
+        window.location.href = '/stories/markets/s2bumbledrop/';
     });
 
 
     $('#thelateststories4').click(function(){
 
-        window.location.href = "/tabs/about/;
+        window.location.href = '/stories/markets/s2bumbledrop/';
     });
 
 
@@ -54,7 +54,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#toppicksstories1').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = '/stories/markets/s2bumbledrop/';
     });
 
 
@@ -67,17 +67,17 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#usnewsstories1').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = "/stories/markets/disneyq3earnings/';
     });
 
     $('#usnewsstories2').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = "/stories/markets/s2bumbledrop/';
     });
 
     $('#usnewsstories3').click(function(){
 
-       window.location.href = "/stories/markets/s2bumbledrop/;
+       window.location.href = "/stories/economics/spiritmerger/';
     });
 
 
@@ -85,17 +85,17 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#globalnewsstories1').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = "/stories/economics/spiritmerger/';
     });
 
     $('#globalnewsstories2').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = "/stories/economics/spiritmerger/';
     });
 
     $('#globalnewsstories3').click(function(){
 
-        window.location.href = "/stories/markets/s2bumbledrop/;
+        window.location.href = "/stories/economics/spiritmerger/';
     });
 
 
@@ -105,7 +105,7 @@ $(document).ready(function(){ // begin document.ready block
 
     // TABS
 
-      // HOME
+      // HOME - Tab 1
 
    $('#tab1').click(function(){
 
@@ -113,7 +113,7 @@ $(document).ready(function(){ // begin document.ready block
 
    });
 
-      // NEWS (+ Dropdown Menu)
+      // NEWS - Tab 2
 
    $('#news-btn').click(function(){
         if ($(window).width() > 1087) {
@@ -126,17 +126,56 @@ $(document).ready(function(){ // begin document.ready block
    $('#news-dropdown').hide();
 
 
+         // SUBTABS
+
+    $('#subtab1').click(function(){
+
+      window.location.href = '/tabs/subtabs/markets/';
+
+   });
+
+    $('#subtab2').click(function(){
+
+      window.location.href = '/tabs/subtabs/business/';
+
+   });
+
+    $('#subtab3').click(function(){
+
+      window.location.href = '/tabs/subtabs/economics/';
+
+   });
+
+
    
 
-      // ABOUT
+      // ABOUT - Tab 3
 
    $('#tab3').click(function(){
 
-      window.location.href = "/tabs/about/";
+      window.location.href = '/tabs/about/';
+
+   });
+
+      // SUBSCRIBE - Tab 4
+
+   $('#tab4').click(function(){
+
+      window.location.href = '/tabs/subscribe/';
 
    });
 
    
+
+
+
+
+
+
+
+
+
+
    
     // OVERLAY
 
