@@ -109,7 +109,7 @@ $(document).ready(function(){ // begin document.ready block
 
 // General Content
 
-      // HOME
+   // HOME
 
    
 
@@ -118,6 +118,10 @@ $(document).ready(function(){ // begin document.ready block
       window.location.href = "/";
 
    });
+
+   
+
+   
    
    
 
@@ -127,7 +131,7 @@ $(document).ready(function(){ // begin document.ready block
         if ($(window).width() > 1087) {
             $('#news-dropdown').toggle(); // Toggle visibility of #news-dropdown
         } else {
-            window.location.href = '/stories/news'; // Redirect to the stories/news folder
+            window.location.href = '/tabs/news/'; // Redirect to the stories/news folder
         }
     });
 
@@ -141,6 +145,14 @@ $(document).ready(function(){ // begin document.ready block
    $('#tab3').click(function(){
 
       window.location.href = "/tabs/about/";
+
+   });
+
+      // SUBSCRIBE
+
+   $('#tab1').click(function(){
+
+      window.location.href = "/";
 
    });
 
@@ -172,9 +184,6 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-
-
-    // Overlay
 
 
 
@@ -239,6 +248,7 @@ $(document).ready(function(){ // begin document.ready block
     $('.newslettersubscribe').css('height', '700px');
 
     });
+   
 
 
 
