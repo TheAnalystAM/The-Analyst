@@ -127,15 +127,15 @@ $(document).ready(function(){ // begin document.ready block
 
       // NEWS (+ Dropdown Menu)
 
-   $('#news-btn').click(function(){
+   $('#tab2').click(function(){
         if ($(window).width() > 1087) {
-            $('#news-dropdown').toggle(); // Toggle visibility of #news-dropdown
+            $('.dropdown-content').toggle(); // Toggle visibility of #news-dropdown
         } else {
             window.location.href = '/tabs/news/'; // Redirect to the stories/news folder
         }
     });
 
-   $('#news-dropdown').show();
+   $('.dropdown-content').hide();
 
 
    
