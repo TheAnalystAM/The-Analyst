@@ -202,6 +202,12 @@ $(document).ready(function(){ // begin document.ready block
         $('#openMenu').show();
     });
 
+    $('#news-btn-two').click(function(){
+
+      window.location.href = "/tabs/news/";
+
+   });
+
    
 
 
