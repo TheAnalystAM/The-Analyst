@@ -135,7 +135,7 @@ $(document).ready(function(){ // begin document.ready block
         }
     });
 
-   $('#news-dropdown').hide();
+   $('#news-dropdown').show();
 
 
    
@@ -150,9 +150,9 @@ $(document).ready(function(){ // begin document.ready block
 
       // SUBSCRIBE
 
-   $('#tab1').click(function(){
+   $('#tab4').click(function(){
 
-      window.location.href = "/";
+      window.location.href = "/tabs/subscribe/";
 
    });
 
