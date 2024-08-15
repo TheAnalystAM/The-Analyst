@@ -94,7 +94,7 @@ $(document).ready(function(){ // begin document.ready block
 
       $('#newsstory3').click(function(){
 
-        window.location.href = '/stories/markets/disneyq3earnings/';
+        window.location.href = '/stories/markets/s2bumbledrop/';
          
     });
 
@@ -114,7 +114,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#marketsstory2').click(function(){
 
-        window.location.href = '/stories/markets/disneyq3earnings/';
+        window.location.href = '/stories/markets/s2bumbledrop/';
       
     });
 
