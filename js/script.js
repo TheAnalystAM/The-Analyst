@@ -156,6 +156,26 @@ $(document).ready(function(){ // begin document.ready block
 
    });
 
+      // MARKETS
+
+   $('#subtab1').click(function(){
+
+      window.location.href = "/subtabs/markets/";
+
+   });
+
+   $('#subtab2').click(function(){
+
+      window.location.href = "/subtabs/business/";
+
+   });
+
+   $('#subtab3').click(function(){
+
+      window.location.href = "/subtabs/economics/";
+
+   });
+
    
    
     // OVERLAY
@@ -181,6 +201,8 @@ $(document).ready(function(){ // begin document.ready block
         $('#closeMenu').hide();
         $('#openMenu').show();
     });
+
+   
 
 
 
