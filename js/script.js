@@ -7,7 +7,13 @@
 $(document).ready(function(){ // begin document.ready block
 
 
+// NEWS TEASER
 
+$('.topnewsteaser').click(function(){
+   
+     window.location.href = "/stories/economics/spiritmerger";
+   
+});
 
 
 
@@ -18,16 +24,17 @@ $(document).ready(function(){ // begin document.ready block
 
 // General Content
 
-
-    // TABS
-
       // HOME
+
+   
 
    $('#tab1').click(function(){
 
       window.location.href = "/";
 
    });
+   
+   
 
       // NEWS (+ Dropdown Menu)
 
