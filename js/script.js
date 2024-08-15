@@ -202,11 +202,35 @@ $(document).ready(function(){ // begin document.ready block
         $('#openMenu').show();
     });
 
+
+   // TABS
+
     $('#news-btn-two').click(function(){
 
-      window.location.href = "/tabs/news/";
+       window.location.href = "/tabs/news/";
 
-   });
+    });
+
+    $('#home-btn-two').click(function(){
+
+       window.location.href = "/";
+
+    });
+
+    $('#about-btn-two').click(function(){
+
+       window.location.href = "/tabs/about/";
+
+    });
+
+    $('#subscribe-btn-two').click(function(){
+
+       window.location.href = "/tabs/subscribe/";
+
+    });
+
+   
+   
 
    
 
