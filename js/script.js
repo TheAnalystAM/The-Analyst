@@ -189,6 +189,25 @@ $(document).ready(function(){ // begin document.ready block
 
    $('.dropdown-content').hide();
 
+   function checkWidth() {
+        if ($(window).width() < 1087) { 
+            $('.dropdown-content').hide(); 
+        }
+   }
+
+   $(window).resize(function() {
+      
+        checkWidth();
+   });
+
+   
+
+   
+
+   
+
+   
+
 
    
 
