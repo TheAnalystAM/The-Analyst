@@ -15,6 +15,20 @@ $('.topnewsteaser').click(function(){
    
 });
 
+// THE LATEST
+
+$('#thelateststories1').click(function(){
+   
+     window.location.href = "/stories/markets/disneyq3earnings";
+   
+});
+
+$('#thelateststories2').click(function(){
+   
+     window.location.href = "/stories/markets/bumbledrop";
+   
+});
+
 
 
 
