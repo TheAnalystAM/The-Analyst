@@ -87,6 +87,58 @@ $(document).ready(function(){ // begin document.ready block
       
    });
 
+
+   // STORIES
+
+      // News
+
+      $('#newsstory3').click(function(){
+
+        window.location.href = '/stories/markets/disneyq3earnings/';
+         
+    });
+
+    $('#newsstory2').click(function(){
+
+        window.location.href = '/stories/markets/disneyq3earnings/';
+       
+    });
+
+    $('#newsstory1').click(function(){
+
+        window.location.href = '/stories/business/spiritmerger/';
+       
+    });
+
+      // Markets
+
+    $('#marketsstory2').click(function(){
+
+        window.location.href = '/stories/markets/disneyq3earnings/';
+      
+    });
+
+    $('#marketsstory1').click(function(){
+
+        window.location.href = '/stories/markets/disneyq3earnings/';
+       
+    });
+
+   
+
+      // Business
+
+    $('#businessstory1').click(function(){
+
+        window.location.href = '/stories/business/spiritmerger/';
+       
+    });
+
+   
+      // Economics
+
+      
+
    
 
    
@@ -107,7 +159,7 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
-// General Content
+// General Code (Dont Mess With It)
 
    // HOME
 
