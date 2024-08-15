@@ -148,12 +148,95 @@ $(document).ready(function(){ // begin document.ready block
 
    });
 
+   $('#linkedinimg').click(function() {
+
+      window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
+
+   });
+
       // SUBSCRIBE
 
    $('#tab4').click(function(){
 
       window.location.href = "/tabs/subscribe/";
 
+   });
+
+   $('.expandable-item').click(function() {
+        var $this = $(this);
+        if (!$this.hasClass('expanded')) {
+            $this.addClass('expanded');
+
+            // Hide down arrow when expanded
+            var $arrowDown = $this.find('.arrow .down');
+            $arrowDown.hide();
+        }
+   });
+
+    // Prevent default behavior for anchor links inside .expandable-item
+   $('.expandable-item a').click(function(event) {
+        event.stopPropagation();
+   });
+
+
+   $('.tabsubscribe').click(function(){
+         
+         var email = $('.newsletteremailinput').val();
+            if(email) {
+               
+               $.ajax({
+                  url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
+                  type: 'POST',
+                  data: {
+                     email: email
+                  },
+               success: function(response) {
+                  console.log('Email added:', response);
+                  $('.newsletteremailinput').val('');
+
+                  $('.newsletterthankyou').toggle();
+
+               },
+               error: function(error) {
+                  console.error('Error:', error);
+               }
+            });
+
+      } else {
+         console.log('Please enter an email address.');
+
+      }
+
+   });
+
+   $('.tabsubscribe').click(function() {
+
+   $('.newslettersubscribe').css('height', '1410px');
+
+   });
+
+
+
+
+
+
+   let clickCount = 0;
+
+   $('.expandable-item').click(function() {
+        if (clickCount < 3) {
+            clickCount++;
+
+            let newHeight;
+            if (clickCount === 1) {
+                newHeight = '950px';
+            } else if (clickCount === 2) {
+                newHeight = '1150px';
+            } else if (clickCount === 3) {
+                newHeight = '1410px';
+            }
+
+            $('.newslettersubscribe').css('height', newHeight);
+        }
    });
 
       // MARKETS
