@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/economics/spiritmerger";
+        window.location.href = "/stories/business/spiritmerger";
       
    });
    
@@ -71,7 +71,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories1').click(function(){
       
-        window.location.href = "/stories/economics/spiritmerger";
+        window.location.href = "/stories/business/spiritmerger";
       
    });
 
