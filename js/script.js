@@ -7,27 +7,51 @@
 $(document).ready(function(){ // begin document.ready block
 
 
-// NEWS TEASER
+   // NEWS TEASER
+   
+   $('.topnewsteaser').click(function(){
+      
+        window.location.href = "/stories/economics/spiritmerger";
+      
+   });
+   
+   // THE LATEST
+   
+   $('#thelateststories1').click(function(){
+      
+        window.location.href = "/stories/markets/disneyq3earnings";
+      
+   });
+   
+   $('#thelateststories2').click(function(){
+      
+        window.location.href = "/stories/markets/bumbledrop";
+      
+   });
+   
+   $('#thelateststories3').click(function(){
+      
+        window.location.href = "/stories/markets/bumbledrop";
+      
+   });
+   
+   $('#thelateststories4').click(function(){
+      
+        window.location.href = "/stories/markets/bumbledrop";
+      
+   });
+   
+   // TOP PICKS
+   
+   $('#toppicksstories1').click(function(){
+      
+        window.location.href = "/stories/markets/bumbledrop";
+      
+   });
+   
+   // US/NORTH AMERICA NEWS
+   
 
-$('.topnewsteaser').click(function(){
-   
-     window.location.href = "/stories/economics/spiritmerger";
-   
-});
-
-// THE LATEST
-
-$('#thelateststories1').click(function(){
-   
-     window.location.href = "/stories/markets/disneyq3earnings";
-   
-});
-
-$('#thelateststories2').click(function(){
-   
-     window.location.href = "/stories/markets/bumbledrop";
-   
-});
 
 
 
