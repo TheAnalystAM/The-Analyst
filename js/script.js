@@ -118,6 +118,12 @@ $(document).ready(function(){ // begin document.ready block
 
       // Markets
 
+    $('#marketsstory3').click(function(){
+
+        window.location.href = '/stories/markets/sterlingstrengthen/';
+      
+    });
+
     $('#marketsstory2').click(function(){
 
         window.location.href = '/stories/markets/s2bumbledrop/';
