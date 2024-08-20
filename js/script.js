@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/markets/sterlingstrengthen";
       
    });
    
@@ -71,7 +71,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories1').click(function(){
       
-        window.location.href = "/stories/business/spiritmerger";
+        window.location.href = "/stories/markets/sterlingstrengthen/";
       
    });
 
