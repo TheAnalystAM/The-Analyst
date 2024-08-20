@@ -92,7 +92,13 @@ $(document).ready(function(){ // begin document.ready block
 
       // News
 
-      $('#newsstory3').click(function(){
+    $('#newsstory4').click(function(){
+
+        window.location.href = '/stories/markets/sterlingstrengthen/';
+         
+    });
+
+    $('#newsstory3').click(function(){
 
         window.location.href = '/stories/markets/s2bumbledrop/';
          
