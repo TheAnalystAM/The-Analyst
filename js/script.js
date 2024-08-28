@@ -37,7 +37,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/economics/starmerspeech";
       
    });
    
@@ -77,7 +77,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/economics/starmerspeech/";
       
    });
 
@@ -91,6 +91,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory5').click(function(){
+
+        window.location.href = '/stories/economics/starmerspeech/';
+         
+    });
 
     $('#newsstory4').click(function(){
 
@@ -148,6 +154,13 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Economics
+
+    $('#economicsstory1').click(function(){
+
+        window.location.href = '/stories/economics/starmerspeech/';
+         
+    });
+
 
       
 
