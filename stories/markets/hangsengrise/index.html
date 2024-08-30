@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Asia</div>
+
+    <div id="title">Hong Kong benchmark index soars after food delivery giant Meituan beats revenue expectations</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">09/29/24 • 4 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/TVC-HSI/" style="color: #4169e1;" target="_blank">HSI</a><a href="https://www.tradingview.com/symbols/HKEX-3690/" style="color: #4169e1;" target="_blank"> ,3690</a><a href="https://finance.yahoo.com/quote/LI/" style="color: #4169e1;" target="_blank"> ,LI</u></div>
+
+
+    <img src="/img/hangsengrise.jpg" id="storyphoto">
+
+    <div id="photocredit">Burst</div>
+
+
+    <div id="bodytext">
+      
+    <p>HONG KONG - The <a href="https://www.tradingview.com/symbols/TVC-HSI/" style="color: #4169e1;" target="_blank">Hang Seng Index</a> overcame early-morning jitters to log a winning day after Chinese food delivery giant Meituan revealed <a href="https://www.meituan.com/en-US/investor-relations" style="color: #4169e1;" target="_blank">better-than-expected</a> second-quarter earnings.</p>
+
+    <p>The Index rose 0.5% percent to 17,786.32 following an early morning slide of over 1% following a <a href="https://ir.lixiang.com/financial-information/quarterly-results" style="color: #4169e1;" target="_blank">weak Q2 earnings report</a> from Chinese electric vehicle manufacturer Li Auto. Today’s advance brought the benchmark’s August earnings to 2.6%.</p>
+
+    <p>Shares of Meituan surged to HK$115.70 ($14.84) after revealing that revenue increased 21% in the prior quarter to 67.96 billion yuan ($9.5 billion) compared to analyst expectations of 80.42 billion yuan ($11.3 billion). Profit increased 142% versus the prior year to 11,352,338 yuan ($1.6 billion) and adjusted earnings per share was 2.19 yuan ($0.31), ahead of analyst expectations of 1.7 yuan ($0.24).</p>
+
+    <p>“Compared to other sectors, the local commerce industry in China still has significant growth potential from digital transformation,” Meituan CEO Xing Wang said on Thursday’s earnings call,  “We will continue to implement our retail plus technology strategy, use technology to promote industry growth, and fulfill our mission to help people eat better and live better.”</p>
+
+    <img src="/img/meituan.jpg" id="bodyphoto">
+
+    <div id="photocredit">Meituan couriers deliver food orders to the service’s 40 million daily users. The company’s investments in lower-tier markets the prior quarter led to increased user engagement and market leadership.</div>
+
+    <p>Early morning trading saw the Hang Seng plunge after Li Auto, one of China’s largest EV startups, experienced a sell-off, slipping 9.8% to HK$73.15 ($9.51). The company’s Q2 earnings report revealed tightening profit margins and revenue that narrowly beat expectations amid price wars.</p>
+
+    <p>The Hang Seng index is on track to post its first one-month gain since May after suffering from <a href="https://rhg.com/research/no-quick-fixes-chinas-long-term-consumption-growth/" style="color: #4169e1;" target="_blank">weak Chinese household consumption</a> and retail sales growth. Despite its gains, the Hang Seng is still down 3.77% from a year ago thanks to <a href="https://www.reuters.com/markets/asia/chinas-economy-seen-slowing-q2-stimulus-calls-grow-2024-07-14/#:~:text=Economic%20growth%20in%20China%20has,tensions%20now%20pose%20a%20threat" style="color: #4169e1;" target="_blank">stubbornly weak</a> Chinese GDP growth.</p>
+
+    <p>Other Asian markets experienced losses. The Shanghai Composite Index experienced a decline of 0.5%, while Japan’s Nikkei 225 slipped 0.02% and Korea’s Kospi retreated 1%.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
