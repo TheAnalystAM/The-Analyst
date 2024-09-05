@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/markets/disneyq3earnings";
+        window.location.href = "/stories/markets/dicksearnings";
       
    });
    
@@ -63,9 +63,9 @@ $(document).ready(function(){ // begin document.ready block
       
    });
 
-   $('#usnewsstories1').click(function(){
+   $('#usnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/markets/dicksearnings";
       
    });
 
@@ -91,6 +91,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+    $('#newsstory7').click(function(){
+
+        window.location.href = '/stories/markets/dicksearnings/';
+         
+    });
+   
     $('#newsstory6').click(function(){
 
         window.location.href = '/stories/markets/hangsengrise/';
@@ -128,6 +134,11 @@ $(document).ready(function(){ // begin document.ready block
     });
 
       // Markets
+    $('#marketsstory4').click(function(){
+
+        window.location.href = '/stories/markets/dicksearnings/';
+      
+    });
 
     $('#marketsstory4').click(function(){
 
