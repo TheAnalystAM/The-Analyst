@@ -17,11 +17,6 @@ $(document).ready(function(){ // begin document.ready block
    
    // THE LATEST
 
-   $('#thelateststories4').click(function(){
-      
-        window.location.href = "/stories/economics/trumpmedia";
-      
-   });
    
    $('#thelateststories1').click(function(){
       
@@ -37,7 +32,13 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/sterlingstrengthen";
+        window.location.href = "/stories/markets/trumpmedia";
+      
+   });
+
+   $('#thelateststories4').click(function(){
+      
+        window.location.href = "/stories/economics/starmerspeech";
       
    });
    
@@ -50,12 +51,8 @@ $(document).ready(function(){ // begin document.ready block
    });
    
    // US / NORTH AMERICA NEWS
+   
 
-   $('#usnewsstories3').click(function(){
-      
-        window.location.href = "/stories/markets/trumpmedia";
-      
-   });
 
    $('#usnewsstories1').click(function(){
       
@@ -65,13 +62,13 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/markets/trumpmedia";
       
    });
 
-   $('#globalnewsstories1').click(function(){
+   $('#usnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/sterlingstrengthen/";
+        window.location.href = "/stories/markets/dicksearnings";
       
    });
 
