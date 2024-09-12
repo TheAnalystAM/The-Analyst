@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Politics</div>
+
+    <div id="title">Trump Media stock sinks to new post-merger low following presidential debate</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">09/11/24 • 4 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/NASDAQ-DJT/" style="color: #4169e1;" target="_blank">DJT</a></u></div>
+
+
+    <img src="/img/donaldtrumpdebate.jpg" id="storyphoto">
+
+    <div id="photocredit">Wikimedia Commons</div>
+
+
+    <div id="bodytext">
+      
+    <p>Shares of Trump Media (<a href="https://www.tradingview.com/symbols/NASDAQ-DJT/" style="color: #4169e1;" target="_blank">DJT</a>) sunk more than 10% on Wednesday, a day after majority shareholder Donald Trump’s widely criticized debate performance against Democratic presidential nominee Kamala Harris.</p>
+
+    <p>The stock tumbled 18.4% early Wednesday, recovering slightly to end the day down 10.47%. Shares of Trump Media closed at $16.68, the lowest the stock has traded at since the company <a href="https://www.marketplace.org/2024/03/25/what-is-a-spac-and-why-do-companies-use-them/" style="color: #4169e1;" target="_blank">publicly listed</a> as DJT on the Nasdaq in late March.</p>
+
+    <p>Trump Media stock is down 74.8% percent from its $66.22 intraday trading high on March 27.</p>
+
+    <p>Investing in Trump Media is often seen as a way to bet on the political fortunes of President Trump. Analysts say the performance of the social media app Truth Social and its parent company Trump Media partly hinges on the popularity of Trump, which is currently tied to his electoral prospects.</p>
+
+    <p>The stock’s slump may suggest shareholders did not like what they saw on the debate stage in Philadelphia. With less than two months until Election Day, Tuesday night’s debate presented one of the last opportunities for Harris and Trump to define themselves to undecided voters nationwide in what is expected to be a <a href="https://www.yourcentralvalley.com/news/politics/ap-harris-and-trump-are-jockeying-for-battleground-states-after-their-debate-faceoff/" style="color: #4169e1;" target="_blank">closely contested</a> race.</p>
+
+    <p>Taylor Swift’s <a href="https://www.cnn.com/2024/09/11/politics/taylor-swift-kamala-harris-endorsement/index.html" style="color: #4169e1;" target="_blank">endorsement</a> of Kamala Harris following Tuesday night’s debate may have also affected Trump Media’s stock. Swift’s endorsement was <a href="https://x.com/KamalaHQ/status/1833718357150859687" style="color: #4169e1;" target="_blank">met with applause</a> from Democrats, <a href="https://www.vanityfair.com/style/story/taylor-swift-kamala-harris-endorsement-donations-donald-trump" style="color: #4169e1;" target="_blank">triggering a donation windfall</a> and incurring the ire of Trump.</p>
+
+    <div id="subheader">Trump’s ‘bad night’</div>
+
+    <p>Investors appeared to go into Tuesday’s debate with high hopes. Shares of Trump Media surged 10% on Tuesday, possibly as a sign of optimism about how Trump was going to perform.</p>
+
+    <p>Following the former president’s 90-minute debate performance, which many political analysts characterized as <a href="https://www.politico.com/news/2024/09/11/trump-debate-winner-fox-00178611" style="color: #4169e1;" target="_blank">chaotic and peppered with falsehoods</a>, that enthusiasm appeared to dissipate.</p>
+
+    <p>“Now, look, make no mistake about it, Trump had a bad night,” Fox News chief political analyst Brit Hume said on Fox News’ post-debate roundtable Tuesday night, ”He rose to the bait repeatedly when she baited him, something I’m sure his advisers had begged him not to do.”</p>
+
+    <img src="/img/trumpdebate.png" id="bodyphoto">
+
+    <div id="photocredit">Trump debating President Joe Biden in late June. In contrast to his strong performance against Biden, Trump's Tuesday night debate with Harris was described by analysts as chaotic and peppered with falsehoods. (photo credit: Hazel Nguyen, The DePauw).</div>
+
+    <p>Despite consensus among political analysts to the contrary, Trump insisted Wednesday morning that he won the debate. The former president pushed back against the Harris campaign’s request for a second debate, saying on Fox News that he would be “less inclined” to agree to another debate after his “great night” against Harris.</p>
+
+    <p>“The first thing they did is ask for a debate because when a fighter loses, he says ‘I want a rematch,’” Trump said Wednesday morning on “Fox & Friends.”</p>
+
+    <p><a href="https://fivethirtyeight.com/tag/swing-states/" style="color: #4169e1;" target="_blank">Post-debate polls</a> show Harris with a slight lead in the battleground states of Michigan, North Carolina, Wisconsin and Pennsylvania, while Trump leads in Arizona and Georgia. The candidates are tied in Nevada.</p>
+
+    <p>An electoral defeat for the former president in Novemember could hold consequences for Trump Media, which some analysts say benefits from the political clout of its billionaire founder.</p>
+
+    <p>“If this wasn’t Trump, this thing would be trading at $1,” Matthew Tuttle, CEO of Tuttle Capital Management, told CNN on Monday.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
