@@ -11,11 +11,17 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop";
+        window.location.href = "/stories/markets/trumpmedia";
       
    });
    
    // THE LATEST
+
+   $('#thelateststories4').click(function(){
+      
+        window.location.href = "/stories/economics/trumpmedia";
+      
+   });
    
    $('#thelateststories1').click(function(){
       
@@ -35,12 +41,6 @@ $(document).ready(function(){ // begin document.ready block
       
    });
    
-   $('#thelateststories4').click(function(){
-      
-        window.location.href = "/stories/economics/starmerspeech";
-      
-   });
-   
    // TOP PICKS
    
    $('#toppicksstories1').click(function(){
@@ -51,6 +51,12 @@ $(document).ready(function(){ // begin document.ready block
    
    // US / NORTH AMERICA NEWS
 
+   $('#usnewsstories3').click(function(){
+      
+        window.location.href = "/stories/markets/trumpmedia";
+      
+   });
+
    $('#usnewsstories1').click(function(){
       
         window.location.href = "/stories/markets/disneyq3earnings";
@@ -60,12 +66,6 @@ $(document).ready(function(){ // begin document.ready block
    $('#usnewsstories2').click(function(){
       
         window.location.href = "/stories/markets/s2bumbledrop";
-      
-   });
-
-   $('#usnewsstories3').click(function(){
-      
-        window.location.href = "/stories/markets/dicksearnings";
       
    });
 
@@ -91,6 +91,13 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory8').click(function(){
+
+        window.location.href = '/stories/markets/trumpmedia/';
+         
+    });
+   
     $('#newsstory7').click(function(){
 
         window.location.href = '/stories/markets/dicksearnings/';
@@ -134,6 +141,12 @@ $(document).ready(function(){ // begin document.ready block
     });
 
       // Markets
+    $('#marketsstory6').click(function(){
+
+        window.location.href = '/stories/markets/trumpmedia/';
+      
+    });
+   
     $('#marketsstory5').click(function(){
 
         window.location.href = '/stories/markets/dicksearnings/';
