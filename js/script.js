@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/trumpmedia";
+        window.location.href = "/stories/markets/chinaq2slump";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/chinaq2slump";
+        window.location.href = "/stories/economics/starmerspeech";
       
    });
    
