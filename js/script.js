@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/hangsengrise";
+        window.location.href = "/stories/economics/starmerspeech";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/economics/starmerspeech";
+        window.location.href = "/stories/business/motelsixbuy";
       
    });
    
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory10').click(function(){
+
+        window.location.href = '/stories/business/motelsixbuy/';
+         
+    });
    
     $('#newsstory9').click(function(){
 
@@ -203,6 +209,12 @@ $(document).ready(function(){ // begin document.ready block
    
 
       // Business
+
+    $('#businessstory2').click(function(){
+
+        window.location.href = '/stories/business/motelsixbuy/';
+       
+    });
 
     $('#businessstory1').click(function(){
 
