@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/economics/starmerspeech";
+        window.location.href = "/stories/markets/eurozonerise";
       
    });
    
@@ -80,7 +80,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories2').click(function(){
       
-        window.location.href = "/stories/economics/starmerspeech/";
+        window.location.href = "/stories/markets/eurozonerise/";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+   
+    $('#newsstory11').click(function(){
+
+        window.location.href = '/stories/markets/eurozonerise/';
+         
+    });
 
     $('#newsstory10').click(function(){
 
@@ -158,6 +164,13 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory8').click(function(){
+
+        window.location.href = '/stories/markets/eurozonerise/';
+      
+    });
+   
     $('#marketsstory7').click(function(){
 
         window.location.href = '/stories/markets/chinaq2slump/';
