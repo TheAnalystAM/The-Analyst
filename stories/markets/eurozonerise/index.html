@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Europe</div>
+
+    <div id="title">European Markets expected to rise as mild inflation sets up rate cuts</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">9/30/24 • 2 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/TVC-UKX/" style="color: #4169e1;" target="_blank">FTSE 100, </a><a href="https://www.tradingview.com/symbols/XETR-DAX/" style="color: #4169e1;" target="_blank">DAX Index, </a><a href="https://www.tradingview.com/symbols/TVC-CAC40/" style="color: #4169e1;" target="_blank">CAC 40, </a><a href="https://www.tradingview.com/symbols/TVC-FTMIB/" style="color: #4169e1;" target="_blank">FTSE MIB</a></u></div>
+
+
+    <img src="/img/eurozonerise.jpg" id="storyphoto">
+
+    <div id="photocredit">Flickr</div>
+
+
+    <div id="bodytext">
+      
+    <p>European markets are set to start October in the positive as mild inflation reports have strengthened expectations of future inflation rate cuts.</p>
+
+    <p>Germany’s September harmonized inflation came in this week at 1.8%, down from 2% previously and below the 1.9% expectation of analysts polled by Reuters. The development follows last week’s release of preliminary data showing France and Spain’s inflation rate plummeted below the European Central Bank’s (ECB’s) 2% target.</p>
+
+    <p>European inflation figures are set to be released Tuesday. Analysts expect the data to reflect trends of easing inflation, reinforcing bets of a 25 basis point interest rate cut in October by the ECB.</p>
+
+    <p>"The latest developments strengthen our confidence that inflation will return to target in a timely manner," ECB President Christine Lagard said at a European Union parliamentary hearing in Brussels on Monday. "We will take that into account in our next monetary policy meeting in October."</p>
+
+    <img src="/img/eurozonerise2.jpg" id="bodyphoto">
+
+    <div id="photocredit">PickPik</div>
+
+    <p>After closing lower on Monday across almost all sectors, European stocks jumped Tuesday morning to fully price in October rate cuts. The UK’s <a href="https://www.tradingview.com/symbols/SPREADEX-FTSE/" style="color: #4169e1;" target="_blank">FTSE index</a> opened up 23 points at 8,261, Germany’s <a href="https://www.tradingview.com/symbols/XETR-DAX/" style="color: #4169e1;" target="_blank">DAX</a> was up 52 points at 19,394, France’s <a href="https://www.tradingview.com/symbols/TVC-CAC40/" style="color: #4169e1;" target="_blank">CAC</a> was up 23 points at 7,660 and Italy’s <a href="https://www.tradingview.com/symbols/TVC-FTMIB/" style="color: #4169e1;" target="_blank">FTSE MIB</a> was up 117 points at 34,128.</p>
+
+    <p>Many are hoping rate cuts will have a dual effect of boosting both markets and the economy, citing a recent trend of <a href="https://www.caixabankresearch.com/en/economics-markets/activity-growth/productivity-growth-europe-low-uneven-and-slowing" style="color: #4169e1;" target="_blank">poor growth readings.</a></p>
+
+    <p>"Looking ahead, the suppressed level of some survey indicators suggests that the recovery is facing headwinds," Lagard told the European Committee on Economic and Monetary Affairs.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
