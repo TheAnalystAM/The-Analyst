@@ -20,7 +20,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/markets/dicksearnings";
+        window.location.href = "/stories/markets/hangsengdrop";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/business/motelsixbuy";
+        window.location.href = "/stories/markets/dicksearnings";
       
    });
    
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/markets/hangsengrise";
+        window.location.href = "/stories/business/motelsixbuy";
       
    });
    
@@ -86,7 +86,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/hangsengrise";
+        window.location.href = "/stories/markets/hangsengdrop";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory12').click(function(){
+
+        window.location.href = '/stories/markets/hangsengdrop/';
+         
+    });
    
     $('#newsstory11').click(function(){
 
@@ -164,6 +170,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory9').click(function(){
+
+        window.location.href = '/stories/markets/hangsengdrop/';
+      
+    });
 
     $('#marketsstory8').click(function(){
 
