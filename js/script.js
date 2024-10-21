@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/chinaq2slump";
+        window.location.href = "/stories/business/southwestdeal";
       
    });
    
@@ -32,7 +32,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/trumpmedia";
+        window.location.href = "/stories/business/southwestdeal";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory13').click(function(){
+
+        window.location.href = '/stories/business/southwestdeal/';
+         
+    });
 
     $('#newsstory12').click(function(){
 
@@ -234,6 +240,12 @@ $(document).ready(function(){ // begin document.ready block
    
 
       // Business
+
+    $('#businessstory3').click(function(){
+
+        window.location.href = '/stories/business/southwestdeal/';
+       
+    });
 
     $('#businessstory2').click(function(){
 
