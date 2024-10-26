@@ -173,6 +173,12 @@ $(document).ready(function(){ // begin document.ready block
        
     });
 
+    $('#newsstory0').click(function(){
+
+        window.location.href = '/stories/business/waymoforward/';
+       
+    });
+
 
    
       // Markets
@@ -256,6 +262,12 @@ $(document).ready(function(){ // begin document.ready block
     $('#businessstory1').click(function(){
 
         window.location.href = '/stories/business/spiritmerger/';
+       
+    });
+ 
+    $('#businessstory0').click(function(){
+
+        window.location.href = '/stories/business/waymoforward/';
        
     });
 
