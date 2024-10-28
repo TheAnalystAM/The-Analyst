@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/economics/chinaindustrial";
+        window.location.href = "/stories/economics/chinaindustry";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/economics/chinaindustrial";
+        window.location.href = "/stories/economics/chinaindustry";
       
    });
    
@@ -97,7 +97,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#newsstory14').click(function(){
 
-        window.location.href = '/stories/economics/chinaindustrial/';
+        window.location.href = '/stories/economics/chinaindustry/';
          
     });
 
@@ -282,7 +282,7 @@ $(document).ready(function(){ // begin document.ready block
 
     $('#economicsstory2').click(function(){
 
-        window.location.href = '/stories/economics/chinaindustrial/';
+        window.location.href = '/stories/economics/chinaindustry/';
          
     });
    
