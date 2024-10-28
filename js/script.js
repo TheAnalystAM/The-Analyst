@@ -56,7 +56,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories1').click(function(){
       
-        window.location.href = "/stories/mmarkets/dicksearnings";
+        window.location.href = "/stories/markets/s2bumbledrop/";
       
    });
 
