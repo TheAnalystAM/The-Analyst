@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/business/southwestdeal";
+        window.location.href = "/stories/economics/chinaindustrial";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/dicksearnings";
+        window.location.href = "/stories/economics/chinaindustrial";
       
    });
    
@@ -56,7 +56,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories1').click(function(){
       
-        window.location.href = "/stories/markets/disneyq3earnings";
+        window.location.href = "/stories/mmarkets/dicksearnings";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory14').click(function(){
+
+        window.location.href = '/stories/economics/chinaindustrial/';
+         
+    });
 
     $('#newsstory13').click(function(){
 
@@ -274,6 +280,12 @@ $(document).ready(function(){ // begin document.ready block
    
       // Economics
 
+    $('#economicsstory2').click(function(){
+
+        window.location.href = '/stories/economics/chinaindustrial/';
+         
+    });
+   
     $('#economicsstory1').click(function(){
 
         window.location.href = '/stories/economics/starmerspeech/';
