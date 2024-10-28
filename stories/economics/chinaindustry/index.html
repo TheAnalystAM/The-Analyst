@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">China</div>
+
+    <div id="title">China’s industrial profits post sharpest decline since the pandemic</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">10/27/24 • 3 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/TVC-HSI/" style="color: #4169e1;" target="_blank">HSI</a><a href="https://www.tradingview.com/symbols/SSE-000300/" style="color: #4169e1;" target="_blank">, 000300</u></div>
+
+
+    <img src="/img/chinaindustrial.jpg" id="storyphoto">
+
+    <div id="photocredit">Free Malaysia Today</div>
+
+
+    <div id="bodytext">
+      
+    <p>China industrial profits dropped at their fastest pace since the pandemic as the country’s economy continues to reel from slow growth, low consumer spending and deflationary pressures, data from the <a href="https://www.stats.gov.cn/sj/zxfb/202410/t20241027_1957183.html" style="color: #4169e1;" target="_blank">National Bureau of Statistics</a> showed.</p>
+
+    <p>The agency report revealed a 27.1% drop in industrial profits in September compared to a year ago, a dramatic plummet from the 17.8% decline reported in August. The latest figure represents the largest slump since March 2020, when profits fell 34.9%.</p>
+
+    <p>The database excluded figures for most of 2022 when the country’s strict “Zero COVID” policy shut down factories and reduced operational capacities in most regions.</p>
+
+    <p><a href="https://www.stats.gov.cn/sj/sjjd/202410/t20241027_1957181.html" style="color: #4169e1;" target="_blank">NBS statistician Yu Weining</a> said that the 3.5% drop in industrial profits since January was a result of “insufficient demand and a sharp decline in consumer prices” that weighed down the profitability of industrial firms. Weining added that a significantly higher base of comparison than in August contributed to the weak September growth figure.</p>
+
+    <p>High-tech manufacturing profits proved resilient in the face of economic headwinds, logging growth of 6.3% since January. Semiconductor equipment manufacturing profits grew by 13.2% while lithium-ion manufacturing grew by 58.8%, reflecting the country’s <a href="https://asia.nikkei.com/Business/Tech/Semiconductors/China-buys-more-chip-tools-than-South-Korea-Taiwan-U.S.-combined2" style="color: #4169e1;" target="_blank">recent investments</a> in its chipmaking and <a href="https://www.wsj.com/business/chinas-spending-on-green-energy-is-causing-a-global-glut-d80eaea7" style="color: #4169e1;" target="_blank">green energy technology</a> production capacity.</p>
+
+    <img src="/img/chinaports.jpg" id="bodyphoto">
+
+    <div id="photocredit">Freight containers filled with Chinese goods are loaded onto a ship at the Port of Hong Kong. International demand for Chinese industrial goods has taken a hit due to U.S. tariffs placed on the country's outputs. (photo credit: Eilis Garvey, Unsplash)</div>
+
+    <p>“Although profits of large-scale industrial enterprises have declined, the resilience of new industrial growth drivers is evident,” Weining said Sunday in a note, “With business expectations stabilizing and confidence improving, industrial enterprise profitability is expected to recover.”</p>
+
+    <p>Chinese authorities have ramped up efforts to stimulate the economy in recent weeks as growth continues to stagnate due to a contraction in the real estate sector, sluggish consumption, a weak labor market and entrenched deflation. <a href="https://www.theguardian.com/world/2024/oct/18/china-economy-slow-growth-yuan#:~:text=On%20Friday%2C%20Beijing's%20National%20Bureau,its%20strict%20pandemic%2Dera%20lockdowns" style="color: #4169e1;" target="_blank">China’s economy</a> grew by 4.6% in the third quarter, its slowest pace since early 2023.</p>
+
+    <p><a href="https://www.reuters.com/markets/rates-bonds/china-cuts-benchmark-loan-prime-rates-by-25-bps-2024-10-21/" style="color: #4169e1;" target="_blank">The People’s Bank of China</a> recently announced a 25 basis point cut in benchmark lending rates in a highly anticipated move to help revitalize the economy. The shift came after an <a href="https://analystam.com/stories/markets/hangsengdrop/" style="color: #4169e1;" target="_blank">unexpectedly slim stimulus plan</a> announced in early October failed to impress investors, sending Hong Kong stocks tumbling in their worst single-day drop since 2008.</p>
+
+    <p><a href="https://www.cnbc.com/2024/10/25/china-schedules-meeting-expected-to-reveal-fiscal-stimulus-details.html" style="color: #4169e1;" target="_blank">The nation’s parliament</a> scheduled a meeting for early next month, after which the National People’s Congress is expected to announce details on highly anticipated fiscal stimulus. Despite headwinds, the federal government said it remains “fully confident” in achieving its 5% annual growth target.</p>
+
+    <p>The country is set to release its official manufacturing purchasing managers’ index for October on Thursday.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
