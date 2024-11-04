@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/eurozonerise";
+        window.location.href = "/stories/business/comcastcable";
       
    });
    
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/business/motelsixbuy";
+        window.location.href = "/stories/markets/chinaq2slump";
       
    });
    
@@ -56,7 +56,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories1').click(function(){
       
-        window.location.href = "/stories/markets/s2bumbledrop/";
+        window.location.href = "/stories/business/comcastcable";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory15').click(function(){
+
+        window.location.href = '/stories/business/comcastcable';
+         
+    });
 
     $('#newsstory14').click(function(){
 
@@ -252,6 +258,12 @@ $(document).ready(function(){ // begin document.ready block
    
 
       // Business
+
+    $('#businessstory4').click(function(){
+
+        window.location.href = '/stories/business/comcastcable/';
+       
+    });
 
     $('#businessstory3').click(function(){
 
