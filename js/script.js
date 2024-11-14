@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/economics/chinaindustry";
+        window.location.href = "/stories/business/amdlayoffs";
       
    });
    
@@ -20,7 +20,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/markets/hangsengdrop";
+        window.location.href = "/stories/business/amdlayoffs";
       
    });
    
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory16').click(function(){
+
+        window.location.href = '/stories/business/amdlayoffs';
+         
+    });
 
     $('#newsstory15').click(function(){
 
