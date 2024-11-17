@@ -407,7 +407,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#linkedinimg').click(function() {
 
-      window.open('https://www.linkedin.com/in/aidan-williams-5a4976224/', '_blank');
+      window.open('https://www.linkedin.com/in/aidan--williams/', '_blank');
 
    });
 
