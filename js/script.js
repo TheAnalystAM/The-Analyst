@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/markets/chinaq2slump";
+        window.location.href = "/stories/markets/eurodefense";
       
    });
    
@@ -74,7 +74,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories1').click(function(){
       
-        window.location.href = "/stories/markets/chinaq2slump/";
+        window.location.href = "/stories/markets/eurodefense/";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory17').click(function(){
+
+        window.location.href = '/stories/markets/eurodefense';
+         
+    });
 
     $('#newsstory16').click(function(){
 
@@ -200,6 +206,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory10').click(function(){
+
+        window.location.href = '/stories/markets/eurodefense/';
+      
+    });
 
     $('#marketsstory9').click(function(){
 
