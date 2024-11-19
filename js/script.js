@@ -32,7 +32,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/business/southwestdeal";
+        window.location.href = "/stories/markets/supermicro";
       
    });
 
@@ -62,13 +62,13 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/trumpmedia";
+        window.location.href = "/stories/markets/southwestdeal";
       
    });
 
    $('#usnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/dicksearnings";
+        window.location.href = "/stories/markets/supermicro";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory18').click(function(){
+
+        window.location.href = '/stories/markets/supermicro';
+         
+    });
 
     $('#newsstory17').click(function(){
 
@@ -206,6 +212,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory11').click(function(){
+
+        window.location.href = '/stories/markets/supermicro/';
+      
+    });
 
     $('#marketsstory10').click(function(){
 
