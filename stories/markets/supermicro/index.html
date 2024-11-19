@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Tech</div>
+
+    <div id="title">Super Micro shares jump 40% after hiring new auditor</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">11/18/24 • 2 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/NASDAQ-SMCI/" style="color: #4169e1;" target="_blank">SMCI, </a><a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/" style="color: #4169e1;" target="_blank">NVDA, </a><a href="https://www.tradingview.com/symbols/NYSE-HPE/" style="color: #4169e1;" target="_blank">HPE, </a><a href="https://www.tradingview.com/symbols/NYSE-DELL/" style="color: #4169e1;" target="_blank">DELL</a></u></div>
+
+
+    <img src="/img/supermicro.jpg" id="storyphoto">
+
+    <div id="photocredit">Rawpixel.com</div>
+
+
+    <div id="bodytext">
+      
+    <p>Shares of the battered server maker <a href="https://www.tradingview.com/symbols/NASDAQ-SMCI/" style="color: #4169e1;" target="_blank">Super Micro Computer</a> popped 40% in after-hours trading on Monday after the company announced hiring <a href="https://www.bdo.com/" style="color: #4169e1;" target="_blank">BDO</a> as its new auditor and filing compliance plans with Nasdaq.</p>
+
+    <p>“This is an important next step to bring our financial statements current, an effort we are pursuing with both diligence and urgency,” Super Micro CEO Charles Liang said in a <a href="https://ir.supermicro.com/news/news-details/2024/Supermicro-Announces-Appointment-of-BDO-USA-as-Independent-Auditor-and-Filing-of-Compliance-Plan-with-Nasdaq/default.aspx" style="color: #4169e1;" target="_blank">statement.</a></p>
+
+    <p>The company believes it can complete its annual report for the year ended June 30, 2024, and its quarterly report for the fiscal quarter ended Sept. 30, 2024. Super Micro said it will remain listed on the Nasdaq pending the exchange’s “review of the compliance plan.”</p>
+
+    <p>Super Micro, which saw its stock soar twentyfold over the past two years, has seen shares plummet more than 80% after the company delayed filing its 2024 year-end report with the Securities and Exchange Commission. The firm said last month it was looking for a new auditor to complete its filings <a href="https://www.reuters.com/technology/super-micro-computer-says-ernst-young-resigns-its-accountant-shares-tank-2024-10-30/" style="color: #4169e1;" target="_blank">after</a> Ernst & Young resigned, saying it was “unwilling to be associated with the financial statements prepared by management.”</p>
+
+    <p>The company, once valued at over $70 billion, has seen its market cap decline to $12.6 billion at Monday’s regular trading close.</p>
+
+    <p>Super Micro was similarly reviewed and eventually delisted from the Nasdaq in 2018 following an investigation by the SEC which found the company had “improperly and immaturely” pre-booked revenues. It was relisted on the exchange in 2020 after settling with the SEC.</p>
+
+    <p>Demand for Super Micro’s artificial intelligence-dedicated servers skyrocketed in 2024 as AI computing grew. The company’s servers are renowned for their advanced liquid cooling technology, allowing them to run on 40% less energy and take up 80% less space.</p>
+
+    <p>Super Micro has also benefitted from its long relationship with <a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/" style="color: #4169e1;" target="_blank">Nvidia</a>. The San Jose-based server maker boasts an array of Nvidia AI chip <a href="https://ir.supermicro.com/news/news-details/2024/Supermicro-Delivers-Direct-Liquid-Optimized-NVIDIA-Blackwell-Solutions/default.aspx" style="color: #4169e1;" target="_blank">servers</a> popular among companies expanding their AI computing capacity.</p>
+
+    <p>On Monday, the server maker announced it will begin selling servers featuring Nvidia’s latest Blackwell AI chips. This is despite <a href="https://www.nasdaq.com/articles/could-move-nvidia-protect-it-super-micro-computers-woes" style="color: #4169e1;" target="_blank">reports</a> that Nvidia is shifting new orders away from Super Micro to competitors <a href="hhttps://www.tradingview.com/symbols/NYSE-HPE/" style="color: #4169e1;" target="_blank">Hewlett Packard Enterprises</a> and <a href="https://www.tradingview.com/symbols/NYSE-DELL/" style="color: #4169e1;" target="_blank">Dell</a>.</p>
+
+    <p>Analysts expect the company’s earnings to grow more than 40% in the 2025 fiscal year. Sales are expected to surge just over 70%.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
