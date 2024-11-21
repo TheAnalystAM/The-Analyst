@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/business/amdlayoffs";
+        window.location.href = "/stories/markets/nvidiaearnings";
       
    });
    
@@ -62,7 +62,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/southwestdeal";
+        window.location.href = "/stories/markets/nvidiaearnings";
       
    });
 
@@ -94,6 +94,11 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+    $('#newsstory19').click(function(){
+
+        window.location.href = '/stories/markets/nvidiaearnings';
+         
+    });
 
     $('#newsstory18').click(function(){
 
@@ -212,6 +217,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory12').click(function(){
+
+        window.location.href = '/stories/markets/nvidiaearnings/';
+      
+    });
 
     $('#marketsstory11').click(function(){
 
