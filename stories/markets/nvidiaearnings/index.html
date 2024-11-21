@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Tech</div>
+
+    <div id="title">Nvidia beats earnings expectations as AI demand spikes, reveals mixed guidance</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">11/20/24 • 5 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/" style="color: #4169e1;" target="_blank">NVDA</a></u></div>
+
+
+    <img src="/img/nvidiaearnings.webp" id="storyphoto">
+
+    <div id="photocredit">Flickr</div>
+
+
+    <div id="bodytext">
+      
+    <p><a href="https://www.tradingview.com/symbols/NASDAQ-NVDA/" style="color: #4169e1;" target="_blank">Nvidia</a> posted third-quarter earnings on Wednesday, <a href="https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2025" style="color: #4169e1;" target="_blank">beating</a> sales and earnings beats while revealing mixed guidance for the fourth quarter.</p>
+
+    <p>The AI chipmaker logged revenues of $35.1 billion, beating the $33.2 billion analysts polled by LSEG had estimated. EPS rose to 81 cents per share versus the 75 cents expected. Revenue increased 94% from the prior year while EPS doubled.</p>
+
+    <p>Operating expenses climbed 44% from a year ago, largely because of “higher compensation” due to “employee growth and compensation increases.”</p>
+
+    <p>“The age of AI is in full steam, propelling a global shift to NVIDIA computing,” Nvidia founder and CEO Jensen Huang said in a statement Wednesday.</p>
+
+    <p>Forecasts for the fourth quarter predict revenue of $37.5 billion with gross margins of 73%. While impressive, the figures disappointed investors, who went intot the call with <a href="https://finance.yahoo.com/news/nvidia-forecast-fails-meet-loftiest-213827540.html" style="color: #4169e1;" target="_blank">sky-high expectations</a> for the highly successful chipmaker.</p>
+
+    <p>"Investors have become accustomed to huge beats from this company, but doing that is getting harder and harder," Ryan Detrick, chief market strategist at Carson Group, told Reuters Wednesday, "This was still a very solid report, but the truth is when the bar is this high it makes things just that much tougher."trategic Studies found that European military spending is still insufficient to properly deter Russia.</p>
+
+    <p>Shares of Nvidia sunk 1.74% in after-hours trading following the earnings release. The stock ended the day down 2.5%.</p>
+
+    <div id="subheader">Nvidia's data center dominance pays dividends</div>
+
+    <p>Data center sales, long a highlight of Nvidia’s quarterly earnings reports, came in at 30.8 billion, a 212% increase from the prior-year period. The chipmaker stated that Q4 revenue growth was largely “driven by demand” for its Hopper GPUs, which are used to train large language models, run recommendation engines and power generative AI applications.</p>
+
+    <p>Revenue from data center sales further benefitted from the expansion of AI cloud computing, which now comprises 50% of Nvidia’s sales base. The chipmaker touted its strong relationship U.S. cloud giants AWS, Microsoft, Google Cloud and Oracle Cloud, and the company’s developing bond with “cloud leaders” in India, Japan and Indonesia.</p>
+
+    <img src="/img/nvidiaearningstwo.jpg" id="bodyphoto">
+
+    <div id="photocredit">Nvidia founder and CEO Jensen Huang speaks at conference in Taipei. Huang expressed high hopes for the company going forward, citing the success of Nvidia's new Blackwell system as a key driver.</div>
+
+    <p>Despite being on the back burner the past year, gaming revenue increased 14.8% from the prior year, rising to $3.3 billion from $2.9 billion. The increase, which the company attributed to elevated sales of “GeForce RTX 40 Series GPUs and game console SoCs,” stands in stark contast to rival AMD's quarterly results, which <a href="https://ir.amd.com/news-events/press-releases/detail/1224/amd-reports-third-quarter-2024-financial-results#:~:text=Gaming%20segment%20revenue%20was%20%24462,customers%20normalized%20their%20inventory%20levels" style="color: #4169e1;" target="_blank">revealed</a> a 69% decrease in gaming sales.</p>
+
+    <p>Nvidia’s smaller automotive division saw revenue skyrocket 72% compared to the prior-year quarter as AI chips began being added to “self-driving platforms.” The company pointed to its latest partnerships with Volvo, Toyota and Indian carmaker Ola Motors as opportunities for growth within the sector.</p>
+
+    <p>Going forward, the company expects revenue growth to spike as demand for the company’s Blackwell AI chips heats up. While the new chips over twice as fast as their predecessor, the Hopper GPU, they have been wrought with overheating issues that leave investors concerned about their deployment.</p>
+
+    <p>Nvidia confirmed on Wednesday that despite ongoing issues with Blackwell AI chips, orders have already surpassed supply.</p>
+
+    <p>“It is the case that demand exceeds our supply, and that’s expected as we’re in the beginnings of this generative AI revolution,” Huang said.</p>
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
