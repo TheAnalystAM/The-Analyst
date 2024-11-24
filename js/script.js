@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/nvidiaearnings";
+        window.location.href = "/stories/markets/germanypm";
       
    });
    
@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/economics/chinaindustry";
+        window.location.href = "/stories/markets/nvidiaearnings";
       
    });
    
@@ -80,7 +80,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/eurozonerise/";
+        window.location.href = "/stories/markets/germanypm/";
       
    });
 
@@ -94,6 +94,13 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory20').click(function(){
+
+        window.location.href = '/stories/markets/germanypm';
+         
+    });
+   
     $('#newsstory19').click(function(){
 
         window.location.href = '/stories/markets/nvidiaearnings';
@@ -217,6 +224,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory13').click(function(){
+
+        window.location.href = '/stories/markets/germanypm/';
+      
+    });
 
     $('#marketsstory12').click(function(){
 
