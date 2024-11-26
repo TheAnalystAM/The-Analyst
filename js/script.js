@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/business/comcastcable";
+        window.location.href = "/stories/markets/sfholdings";
       
    });
    
@@ -86,7 +86,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/hangsengdrop";
+        window.location.href = "/stories/markets/sfholdings";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory21').click(function(){
+
+        window.location.href = '/stories/markets/sfholdings';
+         
+    });
 
     $('#newsstory20').click(function(){
 
@@ -224,6 +230,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory14').click(function(){
+
+        window.location.href = '/stories/markets/sfholdings/';
+      
+    });
 
     $('#marketsstory13').click(function(){
 
