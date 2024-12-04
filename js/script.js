@@ -20,7 +20,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/business/amdlayoffs";
+        window.location.href = "/stories/economics/southkoreapm";
       
    });
    
@@ -74,7 +74,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories1').click(function(){
       
-        window.location.href = "/stories/markets/eurodefense/";
+        window.location.href = "/stories/economics/southkoreapm/";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory22').click(function(){
+
+        window.location.href = '/stories/economics/southkoreapm';
+         
+    });
 
     $('#newsstory21').click(function(){
 
@@ -357,6 +363,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Economics
+
+    $('#economicsstory3').click(function(){
+
+        window.location.href = '/stories/economics/southkoreapm/';
+         
+    });
 
     $('#economicsstory2').click(function(){
 
