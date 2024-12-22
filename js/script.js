@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/markets/eurodefense";
+        window.location.href = "/stories/markets/bitcoinbull";
       
    });
    
@@ -94,7 +94,13 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+   
+    $('#newsstory23').click(function(){
 
+        window.location.href = '/stories/markeets/bitcoinbull';
+         
+    });
+   
     $('#newsstory22').click(function(){
 
         window.location.href = '/stories/economics/southkoreapm';
@@ -236,6 +242,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory15').click(function(){
+
+        window.location.href = '/stories/markets/bitcoinbull/';
+      
+    });
 
     $('#marketsstory14').click(function(){
 
