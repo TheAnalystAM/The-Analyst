@@ -131,16 +131,102 @@ body {
 
 
 
+/* ----------------------------------------------------------------------------- */
+
+/* Trade Desk */
+
+.homecontentfive {
+    position: relative;
+    left: 45px;
+    margin-top: 80px;
+}
+
+#desc {
+   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 1em;
+   line-height: 155%;
+   margin: 0;
+   padding: 0;
+   color: whitesmoke;
+   font-style: italic; /* Italicize the text */
+   font-weight: normal; /* Remove bold (set font weight to normal) */
+}
+
+/*------*/
 
 
+#tradedesktopics,
+#tradedeskdescription,
+#tradedesktargets,
+#tradedesketftargets {
+  position: absolute;
+  color: whitesmoke; /* White text for visibility */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  z-index: 2;
+}
+
+#tradedesktopics {
+  top: 20px;
+  left: 20px;
+  font-size: 2.2em;
+  font-weight: bold;
+}
+
+#tradedeskdescription {
+  top: 75px;
+  left: 20px;
+  font-size: 1.2em;
+  line-height: 1.4;
+  max-width: 90%; /* Prevent text from spilling out of the image */
+}
+
+/*#tradedesktargets {
+  top: 160px;
+  left: 20px;
+  font-size: 1em;
+  line-height: 1.4;
+  max-width: 90%; /* Prevent text from spilling out of the image */
 
 
+#tradedesketftargets {
+  top: 215px;
+  left: 20px;
+  font-size: 1em;
+  line-height: 1.4;
+  max-width: 90%; /* Prevent text from spilling out of the image */
+}
 
+#themecaption {
+  bottom: 20px;
+  left: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
+.tradedeskholder {
+    display: flex;
+    flex-direction: column; /* Stack the trade desk boxes vertically */
+    gap: 20px; /* Adds space between each trade desk box */
+    margin-top: 20px;
+}
 
+#tradedeskbox {
+    position: relative;
+    width: 100%; /* Full width */
+    height: 300px; /* Fixed height for each box */
+    margin: 10px 0; /* Adds space above and below each box */
+    cursor: pointer;
+}
 
+#tradedeskbox img {
+    width: 100%; /* Ensure image takes the full width */
+    height: 100%; /* Ensure image fills the box height */
+    object-fit: cover;
+    filter: brightness(0.5);
+    z-index: 1;
+}
 
-
+/* ---------------------------------------------------------------------------- */
 
 .header {
    background-color: #1e222d;
@@ -1633,7 +1719,7 @@ h10 {
 
     }
 
-    .homecontenttwo, .homecontentthree, .homecontentfour {
+    .homecontenttwo, .homecontentthree, .homecontentfour, .homecontentfive {
 
         padding-right: 5%;
     }
@@ -1647,16 +1733,28 @@ h10 {
         width: 85%;
     }
 
+   #tradedesketftargets {
+    display: none;
+   }
+
+   #tradedeskdescription {
+    font-size: 1em;
+   }
+
 
 
 }
 
 @media (min-width: 481px) and (max-width: 519px) {
   
-    .homecontenttwo, .homecontentthree, .homecontentfour {
+    .homecontenttwo, .homecontentthree, .homecontentfour, .homecontentfive {
 
         left: 27px;
     }
+
+   #desc {
+    padding-right: 100px;
+   }
 
 }
 
