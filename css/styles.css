@@ -136,8 +136,6 @@ body {
    line-height: 30px;
 }
 
-/* ---------- */
-
 .homecontentfive {
     position: relative;
     left: 45px;
@@ -218,13 +216,6 @@ body {
     filter: brightness(0.5);
     z-index: 1;
 }
-
-
-
-
-/* ---------------- */
-
-
 
 
 
@@ -1712,7 +1703,7 @@ h10 {
 
     }
 
-    .homecontenttwo, .homecontentthree, .homecontentfour {
+    .homecontenttwo, .homecontentthree, .homecontentfour, .homecontentfive {
 
         padding-right: 5%;
     }
@@ -1734,6 +1725,14 @@ h10 {
       margin-left: 37px;
 
    }
+
+   #tradedesketftargets {
+    display: none;
+   }
+
+   #tradedeskdescription {
+    font-size: 1em;
+   }
    
 
 
@@ -1741,10 +1740,14 @@ h10 {
 
 @media (min-width: 481px) and (max-width: 519px) {
   
-    .homecontenttwo, .homecontentthree, .homecontentfour {
+    .homecontenttwo, .homecontentthree, .homecontentfour, .homecontentfive {
 
         left: 27px;
     }
+
+   #desc {
+    padding-right: 100px;
+   }
 
 }
 
