@@ -641,6 +641,34 @@ $(document).ready(function(){ // begin document.ready block
 
     });
 
+   // Trade Desk Content (Update!!)
+
+   $('.defensetrade').click(function(){
+
+       window.location.href = "/tabs/tradedesk/spoilsofwar";
+
+    });
+
+    $('.thefinalfrontier').click(function(){
+
+       window.location.href = "/tabs/tradedesk/thefinalfrontier";
+
+    });
+
+    $('.aitheme').click(function(){
+
+       window.location.href = "/tabs/tradedesk/aitheme";
+
+    });
+
+   $('.cryptotrade').click(function(){
+
+       window.location.href = "/tabs/tradedesk/cryptotrade";
+
+    });
+
+   
+
    
    
 
