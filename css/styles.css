@@ -26,9 +26,12 @@ body {
 
 
 
+.overlay {
+   z-index: 10;
+}
 
-#tab1p {
-   cursor: pointer;
+.header {
+   z-index: 10;
 }
 
 
