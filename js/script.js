@@ -399,6 +399,106 @@ $(document).ready(function(){ // begin document.ready block
 
    
 
+
+   
+   // Trade Desk Content (Update!!)
+
+   $('.defensetrade').click(function(){
+
+       window.location.href = "/tabs/tradedesk/spoilsofwar/";
+
+    });
+
+    $('.thefinalfrontier').click(function(){
+
+       window.location.href = "/tabs/tradedesk/thefinalfrontier/";
+
+    });
+
+    $('.aitheme').click(function(){
+
+       window.location.href = "/tabs/tradedesk/thecuttingedge/";
+
+    });
+
+   $('.cryptotrade').click(function(){
+
+       window.location.href = "/tabs/tradedesk/cryptobullrun/";
+
+    });
+
+
+   
+   // Trade Desk Tabs (Update!!)
+
+
+      // SPOILS OF WAR
+
+   $('#spoilsofwarstory2').click(function(){
+
+        window.location.href = '/stories/markets/eurodefense';
+         
+   });
+
+   $('#spoilsofwarstory1').click(function(){
+
+        window.location.href = '/stories/markets/germanypm';
+         
+   });
+
+      // THE CUTTING EDGE
+
+   
+   $('#thecuttingedgestory4').click(function(){
+
+        window.location.href = '/stories/markets/nvidiaearnings';
+         
+   });
+
+   $('#thecuttingedgestory3').click(function(){
+
+        window.location.href = '/stories/markets/supermicro';
+         
+   });
+
+   $('#thecuttingedgestory2').click(function(){
+
+        window.location.href = '/stories/business/amdlayoffs';
+         
+   });
+
+   $('#thecuttingedgestory1').click(function(){
+
+        window.location.href = '/stories/business/waymoforward/';
+         
+   });
+
+      // THE FINAL FRONTIER
+
+   $('#thefinalfrontierstory1').click(function(){
+
+        window.location.href = '/stories/business/southwestdeal/';
+         
+   });
+
+      // CRYPTO BULL RUN
+
+   $('#cryptobullrunstory1').click(function(){
+
+        window.location.href = '/stories/markets/bitcoinbull';
+         
+   });
+
+   
+
+
+
+
+
+
+
+
+
    
 
    
@@ -413,6 +513,16 @@ $(document).ready(function(){ // begin document.ready block
 
 
 
+
+
+
+
+
+
+
+
+
+   
 
 
 
@@ -638,32 +748,6 @@ $(document).ready(function(){ // begin document.ready block
     $('#subscribe-btn-two').click(function(){
 
        window.location.href = "/tabs/subscribe/";
-
-    });
-
-   // Trade Desk Content (Update!!)
-
-   $('.defensetrade').click(function(){
-
-       window.location.href = "/tabs/tradedesk/spoilsofwar";
-
-    });
-
-    $('.thefinalfrontier').click(function(){
-
-       window.location.href = "/tabs/tradedesk/thefinalfrontier";
-
-    });
-
-    $('.aitheme').click(function(){
-
-       window.location.href = "/tabs/tradedesk/aitheme";
-
-    });
-
-   $('.cryptotrade').click(function(){
-
-       window.location.href = "/tabs/tradedesk/cryptotrade";
 
     });
 
