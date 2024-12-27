@@ -136,6 +136,9 @@ body {
    line-height: 30px;
 }
 
+
+/* ------------------------------ */
+
 .homecontentfive {
     position: relative;
     left: 45px;
@@ -220,55 +223,56 @@ body {
 
 /* ------------------------------ */
 
-.specialscontent {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    overflow: hidden; /* Ensures content doesn't spill outside the box */
+.tradedeskcontent {
+    margin-top: 100px;
 }
 
-#specialsvideo {
-    position: absolute;
+
+.specialscontent {
+    position: absolute; /* Ensures text aligns relative to this container */
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Makes the video fill the container without distortion */
-    z-index: 1; /* Ensures the video is behind other elements */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+
+#specialsvideo {
+    position: relative;
+    top: 18.4%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    z-index: 1;
+    filter: brightness(0.6);
 }
 
 .specialsheader {
-    position: absolute;
-    top: 20%; /* Adjusts vertical position of the header */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2; /* Ensures it appears above the video */
-    color: white;
-    font-size: 2rem;
+    font-family: 'Avenir', sans-serif;
+    color: whitesmoke;
+    font-size: 7em;
     font-weight: bold;
     text-align: center;
+    z-index: 2;
 }
 
-#specialsline {
-    position: absolute;
-    top: 28%; /* Adjusts vertical position of the line */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    width: 50%; /* Line width */
-    border-top: 2px solid #4169e1; /* Retains the line style */
-}
 
-#specialdescription {
-    position: absolute;
-    top: 35%; /* Adjusts vertical position of the description */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-    color: white;
-    font-size: 1rem;
+.specialdescription {
+    font-family: 'Avenir', sans-serif;
+    margin-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 1.5rem;
     text-align: center;
-    padding: 0 10px; /* Adds padding for better readability */
+    z-index: 2;
 }
 
 /* --------------------------------- */
@@ -1619,18 +1623,30 @@ h10 {
     
    }
 
+   #specialsvideo {
+    margin-top: -50px;
+/*    MARK*/
+   }
 
+   .specialsheader {
+    font-size: 4em;
+/*    MARK*/
+   }
+   
 }
 
 
-
-
-
-
-
-
-
-
+@media (max-width: 930px) {
+    .specialsheader {
+    font-size: 4em;
+   }
+/*   MARK*/
+    
+    .tradedeskcontent {
+    margin-top: 0px;
+/* Mark */
+    }
+}
 
 
 
@@ -1668,8 +1684,42 @@ h10 {
         margin-bottom: 2px;
     }
 
+   #specialsvideo {
+
+    margin-top: -110px;
+
+/*    MARK*/
+    }
 
 }
+
+@media (max-width: 690px) {
+
+    #specialsvideo {
+
+    margin-top: -105px; 
+
+/*    MARK*/
+   }
+
+   .specialsheader {
+    font-size: 3em;
+/*    MARK*/
+   }
+
+   .specialdescription {
+    font-size: 1em;
+/*    MARK*/
+   }
+
+   .tradedeskcontent {
+    margin-top: -60px;
+/*    MARK*/
+    }
+
+
+}
+
 
 /*REAL MOBILE*/
 
