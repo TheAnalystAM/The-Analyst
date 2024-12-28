@@ -236,7 +236,7 @@ body {
 
 .specialscontent {
     position: absolute; /* Ensures text aligns relative to this container */
-    top: 13%;
+    top: 10%;
     left: 0;
     width: 100%;
     height: 100%;
