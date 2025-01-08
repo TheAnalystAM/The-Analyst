@@ -32,7 +32,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/supermicro";
+        window.location.href = "/stories/markets/nvidiadrop";
       
    });
 
@@ -56,7 +56,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories1').click(function(){
       
-        window.location.href = "/stories/business/comcastcable";
+        window.location.href = "/stories/markets/nvidiadrop";
       
    });
 
@@ -94,10 +94,16 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory24').click(function(){
+
+        window.location.href = '/stories/markets/nvidiadrop';
+         
+    });
    
     $('#newsstory23').click(function(){
 
-        window.location.href = '/stories/markeets/bitcoinbull';
+        window.location.href = '/stories/markets/bitcoinbull';
          
     });
    
@@ -242,6 +248,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory16').click(function(){
+
+        window.location.href = '/stories/markets/nvidiadrop/';
+      
+    });
 
     $('#marketsstory15').click(function(){
 
@@ -448,6 +460,11 @@ $(document).ready(function(){ // begin document.ready block
 
       // THE CUTTING EDGE
 
+   $('#thecuttingedgestory5').click(function(){
+
+        window.location.href = '/stories/markets/nvidiadrop';
+         
+   });
    
    $('#thecuttingedgestory4').click(function(){
 
