@@ -38,7 +38,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/nvidiaearnings";
+        window.location.href = "/stories/markets/bitcoinrally";
       
    });
    
@@ -68,7 +68,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/supermicro";
+        window.location.href = "/stories/markets/bitcoinrally";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory25').click(function(){
+
+        window.location.href = '/stories/markets/bitcoinrally';
+         
+    });
 
     $('#newsstory24').click(function(){
 
@@ -248,6 +254,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory17').click(function(){
+
+        window.location.href = '/stories/markets/bitcoinrally/';
+      
+    });
 
     $('#marketsstory16').click(function(){
 
