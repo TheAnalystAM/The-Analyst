@@ -512,6 +512,12 @@ $(document).ready(function(){ // begin document.ready block
 
       // CRYPTO BULL RUN
 
+   $('#cryptobullrunstory2').click(function(){
+
+        window.location.href = '/stories/markets/bitcoinrally';
+         
+   });
+
    $('#cryptobullrunstory1').click(function(){
 
         window.location.href = '/stories/markets/bitcoinbull';
