@@ -26,7 +26,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/sfholdings";
+        window.location.href = "/stories/markets/trumpfutures";
       
    });
    
@@ -62,7 +62,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/nvidiaearnings";
+        window.location.href = "/stories/markets/trumpfutures";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory26').click(function(){
+
+        window.location.href = '/stories/markets/trumpfutures';
+         
+    });
 
     $('#newsstory25').click(function(){
 
@@ -254,6 +260,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory18').click(function(){
+
+        window.location.href = '/stories/markets/trumpfutures/';
+      
+    });
 
     $('#marketsstory17').click(function(){
 
