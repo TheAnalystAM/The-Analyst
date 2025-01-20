@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Politics</div>
+
+    <div id="title">Stock futures rise as Trump is sworn in, deregulation expected</div>
+
+    <div id="byline">By <u>Aidan Williams</u></div>
+
+    <div id="date">01/20/25 • 2 minute read</div>
+
+    <div id="stocks">In This Article: <u><a href="https://www.tradingview.com/symbols/CBOT_MINI-YM1!/" style="color: #4169e1;" target="_blank">YMW00</a><a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/" style="color: #4169e1;" target="_blank">, ESW00</a></u></div>
+
+
+    <img src="/img/trumpfutures.jpg" id="storyphoto">
+
+    <div id="photocredit">BusinessWorld Online</div>
+
+    <div id="bodytext">
+      
+    <p>Stock futures rose on Monday as President Donald Trump was sworn into office, reining in a new political era expected to be defined by deregulation and government spending cuts.</p>
+
+    <p><a href="https://www.tradingview.com/symbols/CME_MINI-ES1!/" style="color: #4169e1;" target="_blank">S&P 500</a> Futures rose 0.36% in the hours leading up to Trump’s swearing-in while <a href="https://www.tradingview.com/symbols/CBOT_MINI-YM1!/" style="color: #4169e1;" target="_blank">Dow Jones Futures</a> jumped 0.38%. Regular session trading was closed on Monday in observance of Martin Luther King Jr. Day.</p>
+
+    <p>Trump is expected to begin the process of deregulation within the first few hours of his tenure <a href="https://www.nytimes.com/live/2025/01/20/us/trump-executive-orders" style="color: #4169e1;" target="_blank">through the signing of “close to 100” executive orders.</a> The 47th president had previously mentioned scaling back regulations on energy and fossil fuels, financial services and <a href="https://analystam.com/stories/markets/bitcoinrally/" style="color: #4169e1;" target="_blank">cryptocurrency.</a></p>
+
+    <p>“We need double the energy that we already have,” Trump said at a pre-inauguration rally on Sunday. “We’re going to slash the regulations, environmental regulations that are really put in there in order to stop progress in this country.”</p>
+
+    <p>Investors hope Trump’s administration will also tackle the government’s ballooning budget deficit, which now sits at $1.9 trillion. Tech billionaire Elon Musk and serial entrepreneur Vivek Ramaswamy are <a href="https://www.washingtonpost.com/business/2025/01/20/doge-trump-musk-ramaswamy/" style="color: #4169e1;" target="_blank">slated to run Trump’s new Department of Government Efficiency (DOGE),</a> which plans to slash $2 trillion from the federal government budget over time.</p>
+
+    <p>The skyrocketing federal deficit, coupled with worrying inflation data, recently pushed 10-year Treasury Bond yields past 5% for the first time since October 2023.</p>
+
+    <img src="/img/trumpfuturesnew.webp" id="bodyphoto">
+
+    <div id="photocredit">Thousands of Trump supporters gathered to hear the 47th President speak at Sunday's pre-inauguration rally in Washington D.C.'s Capitol One Arena. Trump's promises to those watching included deregulating oil and gas, mass deportations and renewed trade wars. (photo credit: Flickr)</div>
+
+    <p>While many investors are optimistic, Trump’s honeymoon period may not last long. Stock futures similarly skyrocketed following Trump’s electoral victory in November before inflationary concerns surrounding the President-elect’s tariff and immigration proposals dampened investor sentiments.</p>
+
+    <p>Analysts are uncertain how serious Trump’s tariff and immigration threats are, with <a href="https://apnews.com/article/trump-deportation-immigration-homan-asylum-inauguration-ac10480dc636b758ab3c435b974aeb19" style="color: #4169e1;" target="_blank">some not even sure they can be realistically achieved.</a> Despite this, the new president mentioned in his pre-inauguration address that trade and immigration reforms would appear in his first round of executive orders. Trump is expected to sign the orders into law Monday night.</p>
+
+    <p>“We will stop illegal immigration once and for all,” Trump said on Sunday. “We will not be invaded. We will not be occupied. We will not be overrun. We will not be conquered. We will be a free and proud nation once again. And that will take place tomorrow at 12 o’clock.”</p>
+
+  </div>
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
