@@ -261,6 +261,12 @@ $(document).ready(function(){ // begin document.ready block
    
       // Markets
 
+    $('#marketsstory19').click(function(){
+
+        window.location.href = '/stories/markets/vaccinenewsletter/';
+      
+    });
+
     $('#marketsstory18').click(function(){
 
         window.location.href = '/stories/markets/trumpfutures/';
