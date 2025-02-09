@@ -95,7 +95,7 @@ $(document).ready(function(){ // begin document.ready block
 
       // News
 
-     z$('#newsstory27').click(function(){
+    $('#newsstory27').click(function(){
 
         window.location.href = '/stories/business/nihfunding';
          
