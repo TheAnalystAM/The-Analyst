@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/germanypm";
+        window.location.href = "/stories/business/nihfunding";
       
    });
    
@@ -20,7 +20,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/economics/southkoreapm";
+        window.location.href = "/stories/business/nihfunding";
       
    });
    
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/markets/bitcoinbull";
+        window.location.href = "/stories/markets/germanypm";
       
    });
    
@@ -56,7 +56,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories1').click(function(){
       
-        window.location.href = "/stories/markets/nvidiadrop";
+        window.location.href = "/stories/business/nihfunding";
       
    });
 
@@ -94,6 +94,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+     z$('#newsstory27').click(function(){
+
+        window.location.href = '/stories/business/nihfunding';
+         
+    });
 
     $('#newsstory26').click(function(){
 
@@ -384,6 +390,12 @@ $(document).ready(function(){ // begin document.ready block
    
 
       // Business
+
+    $('#businessstory4').click(function(){
+
+        window.location.href = '/stories/business/nihfunding/';
+       
+    });
 
     $('#businessstory4').click(function(){
 
