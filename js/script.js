@@ -95,9 +95,21 @@ $(document).ready(function(){ // begin document.ready block
 
       // News
 
-    $('#newsstory27').click(function(){
+    $('#newsstory28').click(function(){
 
         window.location.href = '/stories/business/nihfunding';
+         
+    });
+
+    $('#newsstory27').click(function(){
+
+        window.location.href = '/stories/markets/vaccinenewsletter';
+         
+    });
+
+    $('#newsstory26andhalf').click(function(){
+
+        window.location.href = '/stories/markets/quantumnewsletter';
          
     });
 
@@ -270,6 +282,12 @@ $(document).ready(function(){ // begin document.ready block
     $('#marketsstory19').click(function(){
 
         window.location.href = '/stories/markets/vaccinenewsletter/';
+      
+    });
+
+    $('#marketsstory18andhalf').click(function(){
+
+        window.location.href = '/stories/markets/quantumnewsletter/';
       
     });
 
