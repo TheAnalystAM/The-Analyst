@@ -95,15 +95,17 @@ $(document).ready(function(){ // begin document.ready block
 
       // News
 
-   $('#newsstory30').click(function(){
+    $('#newsstory30').click(function(){
 
         window.location.href = '/stories/markets/alibabachina';
          
     });
 
+    $('#newsstory29').click(function(){
 
-
-   
+        window.location.href = '/stories/markets/sleepingdragonnewsletter';
+         
+    });
 
     $('#newsstory28').click(function(){
 
@@ -295,8 +297,11 @@ $(document).ready(function(){ // begin document.ready block
       
     });
 
+    $('#marketsstory20').click(function(){
 
-   
+        window.location.href = '/stories/markets/sleepingdragonnewsletter/';
+      
+    });
 
     $('#marketsstory19').click(function(){
 
