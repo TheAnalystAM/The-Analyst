@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/business/nihfunding";
+        window.location.href = "/stories/markets/alibabachina";
       
    });
    
@@ -32,7 +32,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/nvidiadrop";
+        window.location.href = "/stories/markets/alibabachina";
       
    });
 
@@ -80,7 +80,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/germanypm/";
+        window.location.href = "/stories/markets/alibabachina/";
       
    });
 
@@ -94,6 +94,16 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+   $('#newsstory30').click(function(){
+
+        window.location.href = '/stories/markets/alibabachina';
+         
+    });
+
+
+
+   
 
     $('#newsstory28').click(function(){
 
@@ -278,6 +288,15 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory21').click(function(){
+
+        window.location.href = '/stories/markets/alibabachina/';
+      
+    });
+
+
+   
 
     $('#marketsstory19').click(function(){
 
