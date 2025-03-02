@@ -14,6 +14,26 @@ $(document).ready(function(){ // begin document.ready block
         window.location.href = "/stories/markets/alibabachina";
       
    });
+
+   // HEADLINES
+
+   $('#headline1').click(function(){
+      
+        window.location.href = "/stories/markets/sleepingdragonnewsletter";
+      
+   });
+
+   $('#headline2').click(function(){
+      
+        window.location.href = "/stories/markets/nihfunding";
+      
+   });
+
+   $('#headline3').click(function(){
+      
+        window.location.href = "/stories/markets/alibabachina";
+      
+   });
    
    // THE LATEST
 
