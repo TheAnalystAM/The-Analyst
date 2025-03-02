@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/nihfunding";
+        window.location.href = "/stories/business/nihfunding";
       
    });
 
