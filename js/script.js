@@ -746,11 +746,17 @@ $(document).ready(function(){ // begin document.ready block
 
 
    $('.tabsubscribe').click(function(){
+
+         var email = $('.newsletteremailinput').val();
+    
+         if (email) { 
+                 $('.newsletterthankyou').show(); // Show the thank-you message only when an email is entered
+         } else {
+                 $('.newsletterthankyou').hide(); // Hide it when no email is provided
+         }
          
          var email = $('.newsletteremailinput').val();
             if(email) {
-
-               $('.newsletterthankyou').toggle();
 
                $.ajax({
                   url: 'https://script.google.com/macros/s/AKfycbzqEj2dpy_qsRGywNb6w3Q96rBALK7GMvJNkFY5_eVOGfNmUt8XPMaMIv1j7EmA2xx_/exec', // Replace with your Google Apps Script web app URL
