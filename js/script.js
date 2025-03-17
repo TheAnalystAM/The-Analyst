@@ -926,6 +926,15 @@ $(document).ready(function(){ // begin document.ready block
    // Subscription Email Collection
 
     $('.subscribe').click(function(){
+       
+         var email = $('.emailinput').val();
+    
+         if (email) { 
+                 $('.newsletterthankyou').show(); // Show the thank-you message only when an email is entered
+         } else {
+                 $('.newsletterthankyou').hide(); // Hide it when no email is provided
+         }
+         
          
          var email = $('.emailinput').val();
             if(email) {
@@ -939,8 +948,6 @@ $(document).ready(function(){ // begin document.ready block
                success: function(response) {
                   console.log('Email added:', response);
                   $('.emailinput').val('');
-
-                  $('.thankyou').toggle();
 
                },
                error: function(error) {
