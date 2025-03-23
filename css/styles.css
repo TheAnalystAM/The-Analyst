@@ -226,6 +226,10 @@ body {
     z-index: 1;
 }
 
+#headline1, #headline2, #headline3 {
+   cursor: pointer;
+}
+
 
 /* ------------------------------ */
 
