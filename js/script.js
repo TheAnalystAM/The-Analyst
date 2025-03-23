@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/alibabachina";
+        window.location.href = "/stories/markets/chinaspendingnewsletter";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/sleepingdragonnewsletter";
+        window.location.href = "/stories/markets/recessionfearsnewsletter";
       
    });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/alibabachina";
+        window.location.href = "/stories/markets/chinaspendingnewsletter";
       
    });
    
