@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/business/nihfunding";
+        window.location.href = "/stories/markets/trumptariffsnewsletter";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory31').click(function(){
+
+        window.location.href = '/stories/markets/trumptariffsnewsletter';
+         
+    });
 
     $('#newsstory30').click(function(){
 
@@ -310,6 +316,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory22').click(function(){
+
+        window.location.href = '/stories/markets/trumptariffsnewsletter/';
+      
+    });
 
     $('#marketsstory21').click(function(){
 
