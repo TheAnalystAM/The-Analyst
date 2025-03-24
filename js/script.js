@@ -942,11 +942,10 @@ $(document).ready(function(){ // begin document.ready block
          var email = $('.emailinput').val();
     
          if (email) { 
-                 $('.newsletterthankyou').show(); // Show the thank-you message only when an email is entered
+                 $('.thankyou').show(); // Show the thank-you message only when an email is entered
          } else {
-                 $('.newsletterthankyou').hide(); // Hide it when no email is provided
+                 $('.thankyou').hide(); // Hide it when no email is provided
          }
-         
          
          var email = $('.emailinput').val();
             if(email) {
