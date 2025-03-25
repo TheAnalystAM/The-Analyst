@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/chinaspendingnewsletter";
+        window.location.href = "/stories/markets/teslaheatnewsletter";
       
    });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/trumptariffsnewsletter";
+        window.location.href = "/stories/markets/teslaheatnewsletter";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory32').click(function(){
+
+        window.location.href = '/stories/markets/teslaheatnewsletter';
+         
+    });
 
     $('#newsstory31').click(function(){
 
@@ -316,6 +322,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory23').click(function(){
+
+        window.location.href = '/stories/markets/teslaheatnewsletter/';
+      
+    });
 
     $('#marketsstory22').click(function(){
 
