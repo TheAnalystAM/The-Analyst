@@ -115,9 +115,21 @@ $(document).ready(function(){ // begin document.ready block
 
       // News
 
-    $('#newsstory32').click(function(){
+    $('#newsstory34').click(function(){
 
         window.location.href = '/stories/markets/teslaheatnewsletter';
+         
+    });
+
+    $('#newsstory33').click(function(){
+
+        window.location.href = '/stories/markets/chinaspendingnewsletter';
+         
+    });
+
+    $('#newsstory32').click(function(){
+
+        window.location.href = '/stories/markets/recessionfearsnewsletter';
          
     });
 
@@ -322,10 +334,21 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+    $('#marketsstory25').click(function(){
+
+        window.location.href = '/stories/markets/teslaheatnewsletter/';
+      
+    });
+
+    $('#marketsstory24').click(function(){
+
+        window.location.href = '/stories/markets/chinaspendingnewsletter/';
+      
+    });
 
     $('#marketsstory23').click(function(){
 
-        window.location.href = '/stories/markets/teslaheatnewsletter/';
+        window.location.href = '/stories/markets/recessionfearsnewsletter/';
       
     });
 
