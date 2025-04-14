@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/chinaspendingnewsletter";
+        window.location.href = "/stories/markets/chinastratnewsletter";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory36').click(function(){
+
+        window.location.href = '/stories/markets/chinastratnewsletter';
+         
+    });
 
     $('#newsstory35').click(function(){
 
@@ -340,6 +346,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory27').click(function(){
+
+        window.location.href = '/stories/markets/chinastratnewsletter/';
+      
+    });
 
     $('#marketsstory26').click(function(){
 
