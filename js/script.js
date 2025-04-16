@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/consumerpainnewsletter";
+        window.location.href = "/stories/markets/usmanufacturingnewsletter";
       
    });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/teslaheatnewsletter";
+        window.location.href = "/stories/markets/usmanufacturingnewsletter";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory37').click(function(){
+
+        window.location.href = '/stories/markets/usmanufacturingnewsletter';
+         
+    });
 
     $('#newsstory36').click(function(){
 
@@ -346,6 +352,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory28').click(function(){
+
+        window.location.href = '/stories/markets/usmanufacturingnewsletter/';
+      
+    });
 
     $('#marketsstory27').click(function(){
 
