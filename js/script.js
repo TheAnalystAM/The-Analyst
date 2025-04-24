@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/usmanufacturingnewsletter";
+        window.location.href = "/stories/economics/consumerdamages";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/consumerpainnewsletter";
+        window.location.href = "/stories/economics/consumerdamages";
       
    });
 
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/bitcoinrally";
+        window.location.href = "/stories/economics/consumerdamages";
       
    });
    
@@ -88,7 +88,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/bitcoinrally";
+        window.location.href = "/stories/economics/consumerdamages";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory38').click(function(){
+
+        window.location.href = '/stories/economics/consumerdamages';
+         
+    });
 
     $('#newsstory37').click(function(){
 
@@ -575,6 +581,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Economics
+
+    $('#economicsstory4').click(function(){
+
+        window.location.href = '/stories/economics/consumerdamages/';
+         
+    });
 
     $('#economicsstory3').click(function(){
 
