@@ -929,6 +929,18 @@ $(document).ready(function(){ // begin document.ready block
 
    });
 
+   $('#subtab4').click(function(){
+
+      window.location.href = "/subtabs/politics/";
+
+   });
+
+   $('#subtab5').click(function(){
+
+      window.location.href = "/subtabs/law/";
+
+   });
+
    
    
     // OVERLAY
