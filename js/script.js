@@ -828,6 +828,30 @@ $(document).ready(function(){ // begin document.ready block
 
    });
 
+   $('#linkedinimgone').click(function() {
+
+      window.open('https://www.linkedin.com/in/justincli/', '_blank');
+
+   });
+
+   $('#linkedinimgtwo').click(function() {
+
+      window.open('https://www.linkedin.com/in/aidan--williams/', '_blank');
+
+   });
+
+   $('#linkedinimgthree').click(function() {
+
+      window.open('https://www.linkedin.com/in/galilea-rios-schulz-20b43a273/', '_blank');
+
+   });
+
+   $('#linkedinimgfour').click(function() {
+
+      window.open('https://www.linkedin.com/in/ethan-chen-b02808319/', '_blank');
+
+   });
+
       // SUBSCRIBE
 
    $('#tab4').click(function(){
