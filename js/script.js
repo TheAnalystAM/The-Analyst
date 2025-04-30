@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/economics/consumerdamages";
+        window.location.href = "/stories/markets/chinastillnewsletter";
       
    });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/chinastratnewsletter";
+        window.location.href = "/stories/markets/chinastillnewsletter";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory39').click(function(){
+
+        window.location.href = '/stories/markets/chinastillnewsletter';
+         
+    });
 
     $('#newsstory38').click(function(){
 
@@ -358,6 +364,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory29').click(function(){
+
+        window.location.href = '/stories/markets/chinastillnewsletter/';
+      
+    });
 
     $('#marketsstory28').click(function(){
 
