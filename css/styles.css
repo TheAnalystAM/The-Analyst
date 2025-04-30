@@ -979,6 +979,7 @@ h5 {
 
 .bios {
    margin-top: 45px;
+   margin-bottom: 90px;
    display: grid;
    grid-template-columns: 30% 70%;
    gap: 1%;
