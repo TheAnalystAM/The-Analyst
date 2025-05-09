@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/usmanufacturingnewsletter";
+        window.location.href = "/stories/markets/buffettcashnewsletter";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory40').click(function(){
+
+        window.location.href = '/stories/markets/buffettcashnewsletter';
+         
+    });
 
     $('#newsstory39').click(function(){
 
@@ -365,6 +371,12 @@ $(document).ready(function(){ // begin document.ready block
    
       // Markets
 
+    $('#marketsstory30').click(function(){
+
+        window.location.href = '/stories/markets/buffettcashnewsletter/';
+      
+    });
+   
     $('#marketsstory29').click(function(){
 
         window.location.href = '/stories/markets/chinastillnewsletter/';
