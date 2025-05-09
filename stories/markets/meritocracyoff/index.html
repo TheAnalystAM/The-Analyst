@@ -1,0 +1,375 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Opinion</div>
+
+    <div id="title">We Have Meritocracy All Wrong</div>
+
+    <div id="dek">The Devastating effects of Trump’s DEI rollbacks on low-income families and access to education</div>
+
+    <div id="byline">By <u>Galilea Rios Schulz</u></div>
+
+    <div id="date">05/09/25 • 7 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+    
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/wethepeople.png" id="storyphoto">
+
+    <div id="photocredit">American Civil Liberties Union</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p><a href="https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-removes-dei-from-the-foreign-service/" target="_blank">“We will terminate every diversity, equity, and inclusion program across the entire federal government,”</a> President Donald Trump wrote earlier this year, vowing to restore America’s foundational values of “individual dignity, hard work and excellence.”</p>
+
+
+    <p>At first glance, the sentiment is appealing; a pledge to put merit first in education, hiring, and public service. While government policies can often fail to produce satisfactory results, they rarely go so far astray as to worsen the problem they’re trying to solve. Yet the dismantling of DEI initiatives in the hopes of promoting meritocracy appears likely to hamper competition, not bolster it.</p>
+
+
+    <p>At its core, meritocracy is a system built to serve as a great equalizer. Individuals rise based on their talents, efforts and abilities. True believers of the American Dream see the application of this practice as essential to providing individuals from varying socioeconomic backgrounds the opportunity to advance.</p>
+
+
+    <p>Take the <a href="https://laist.com/news/education/usc-eliminates-dei-trump-administration" target="_blank">Department of Education’s mid-February directive</a> ordering learning institutions to dismantle DEI initiatives or lose funding. The order eliminated DEI frameworks on the basis that these programs are covert ways to promote “explicit race-consciousness,” harming white and Asian American students.”</p>
+
+
+    <img src="/img/headstart.jpeg" id="bodyphoto">
+
+    <div id="photocredit">First Head Start Program Opened in 1960. (Sutori - Sydney Lambert)</div>
+
+    <p>“DEI programs, for example, frequently preference certain racial groups and teach students that certain racial groups bear unique moral burdens that others do not. Such programs stigmatize students who belong to particular racial groups based on crude racial stereotypes.  Consequently, they deny students the ability to participate fully in the life of a school,” said a <a href="https://www.ed.gov/media/document/dear-colleague-letter-sffa-v-harvard-109506.pdf" target="_blank">letter sent to K-12 schools and universities by the Department of Education</a> regarding Trump’s policy changes.</p>
+
+    <p>DEI may be outdated. It could be that the U.S. has created a level playing field that provides people on any rung of the socioeconomic ladder a way to the top. DEI initiatives push for diversity, equity and inclusion, yet calculating these <a href="https://eric-sandosham.medium.com/the-problem-with-dei-cb81d1053543" target="_blank">latent variables</a> while applying them to education seems to lack measurable, data-specific results.</p>
+
+    <div id="subheader">Access to education for low-income communities</div>
+
+    <p>Only 34% of K-12 school mission statements include the importance of DEI, according to a 2023 <a href="https://www.pewresearch.org/social-trends/2023/04/04/school-district-mission-statements-highlight-a-partisan-divide-over-diversity-equity-and-inclusion-in-k-12-education/" target="_blank">Pew Research Center report.</a> Additionally, over <a href="[https://robertsmith.com/blog/what-is-dei-in-education/" target="_blank">30 bills requesting to remove DEI programs</a> in state universities were proposed at the beginning of 2023. An objective system that provides a consistent measure of academic ability and potential already exists. Standardized tests such as the ACT and SAT have been used in the U.S for years to assess a student’s academic success and <a href="https://prepexpert.com/the-erosion-of-meritocracy/" target="_blank">level the playing field between socioeconomic tranches. </a></p>
+
+    <p>Reliance on subjective information, such as recommendation letters and essays, may initiate implicit prejudices or socioeconomic biases. Conversely, <a href="https://honorsocietyfoundation.org/standardized-testing-reflecting-or-rejecting-diversity/" target="_blank">critics of standardized testing argue that marginalized students are disadvantaged.</a> Exams introduce other class differentiators, such as access to test prep materials, internet access, study time and <a href="https://www.epi.org/publication/bp278/" target="_blank">familial structures that can support test preparation.</a></p>
+
+    <p>Programs that promote inclusion are not attempting to lower academic standards. Instead, they are aimed at giving underrepresented students with diverse backgrounds, religious, racial, cultural, ethnic, economic, or otherwise, an equal chance to meet and raise academic standards.</p>
+
+    <p>Removing these programs jeopardizes many <a href="https://www.usatoday.com/story/news/education/2025/04/11/trump-proposal-eliminating-head-start/83045346007/" target="_blank">low-income families and young children,</a> taking away essential systems of support for students who have been <a href="https://www.epi.org/publication/the-racial-achievement-gap-segregated-schools-and-segregated-neighborhoods-a-constitutional-insult/">historically hindered from accessing educational opportunities.</a> 
+
+    <p>Consider the early education program Head Start. Launched as part of President Lyndon B. Johnson’s War on Poverty, Head Start provides childcare, social benefits and education to low-income families. The Trump administration’s plan to <a href="https://www.weareiowa.com/article/life/family/head-start-federal-cuts-drake-university-head-start-child-care-access-early-childhood-education-iowa/524-53e5927a-1d83-4072-901d-4ce350ffdc02" target="_blank">defund federal grants</a> for this long-standing program is creating shockwaves as families, employees and young children are faced with the possibility of losing their support systems.</p>
+
+    <p>President Trump has repeatedly <a href="https://www.npr.org/2025/01/31/nx-s1-5280364/trump-enacts-project-2025-policies-which-he-distanced-himself-from-while-campaigning" target="_blank">distanced himself from the policy agendas of Project 2025,</a> a political initiative aimed at reshaping the United States federal government and executive power to favor right-wing policies. Yet eliminating Head Start is part of the <a href="https://www.project2025.org" target="_blank">Heritage Foundation’s Project 2025.</a> Head Start plays a role in many Americans’ lives, addressing socioeconomic disparities regardless of a student's or family’s partisanship. </p>
+
+   <p><a href="https://apnews.com/article/head-start-office-closures-hhs-trump-00b1a6b33ef918cb66e59b7ffb07ac13">“A Republican household, a Democratic household, a libertarian household could be a Head Start household,”</a>  said Rhett Cecil, the executive director of the Indiana Head Start Association.</p>
+
+   <p>The Trump administration aims to dismantle DEI programs while maintaining recognition for oppressed and marginalized communities. An executive order from President Trump forming the <a href="https://www.justice.gov/opa/pr/federal-task-force-combat-antisemitism-announces-visits-10-college-campuses-experienced">Federal Task Force to Combat Anti-Semitism</a> has prioritized the protection of Jewish individuals on university campuses. Efforts to protect Jewish students and faculty from known discrimination underscore an important principle: when groups face systematic abuse, tailored responses are necessary to protect safety while promoting fairness and opportunity.</p>
+
+   <p>The Trump administration has shown that meritocracy is a dynamic goal that requires acknowledging disadvantage. This includes the barriers individuals face when competing in a race in which many are born with a head start.</p>
+
+   <p>To restore dignity and excellence, as President Trump has insisted on, we must acknowledge systemic barriers to success that hard work cannot overcome. True academic excellence emerges when individuals have the support to make it past the starting line.</p>
+
+   <p>The American Dream rests upon the ideal that everybody deserves a chance to rise above their station. Let’s honor this sacred ideal by keeping our schools competitive and equitable for all.</p>
+
+
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
