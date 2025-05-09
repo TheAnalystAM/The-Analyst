@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/chinastillnewsletter";
+        window.location.href = "/stories/politics/meritocracyoff";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/economics/consumerdamages";
+        window.location.href = "/stories/politics/meritocracyoff";
       
    });
 
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/trumpfutures";
+        window.location.href = "/stories/politics/meritocracyoff";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory41').click(function(){
+
+        window.location.href = '/stories/politics/meritocracyoff';
+         
+    });
 
     $('#newsstory40').click(function(){
 
@@ -631,7 +637,14 @@ $(document).ready(function(){ // begin document.ready block
     });
 
 
-      
+      // Politics
+
+   $('#politicsstory1').click(function(){
+
+        window.location.href = '/stories/politics/meritocracyoff/';
+         
+    });
+   
 
    
 
