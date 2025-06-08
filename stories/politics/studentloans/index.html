@@ -1,0 +1,360 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Opinion</div>
+
+    <div id="title">I’m a college student with federal student loans. Here’s what Trump’s education purge means for our future.</div>
+
+    <div id="dek"></div>
+
+    <div id="byline">By <u>Nate Minor</u></div>
+
+    <div id="date"> 06/09/25 • 3 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/trumpharvard.png" id="storyphoto">
+
+    <div id="photocredit">Mel Musto - Getty Images</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>Trump has a long history of failed business gambles that include running two casinos, three hotels and a university into the ground, and now his failure has moved squarely into the public sector.</p>
+
+
+    <p>Last month, his administration executed one of the most drastic government agency purges in recent history, firing over a third of the agency’s 4,133 person<a href="[https://www.npr.org/2025/03/12/nx-s1-5325854/trump-education-department-layoffs-civil-rights-student-loans]" target="_blank">staff</a>. The cut, which was enacted with little justification, will unravel key federal student aid programs and delay crucial services, irreparably harming a cornerstone of America’s economic and social infrastructure.</p>
+
+
+    <p>At a time when I and a record 42 million Americans are carrying federal student loans, a significant part of the Department’s core responsibilities—student loan servicing, borrower protections and aid distribution—have never been more essential.</p>
+
+
+    <p>Despite this, the Trump administration has moved the student debt portfolio out of the Education Department entirely. Responsibility now rests in the hands of the Small Business Administration (SBA), itself a victim of cost cutting measures that saw<a href="[https://www.sba.gov/article/2025/03/21/small-business-administration-announces-agency-wide-reorganization]" target="_blank">43% of its staff fired</a>last month. The remaining SBA staff are not trained nor equipped to manage the<a href="[https://www.statista.com/statistics/500814/debt-owned-by-consumers-usa-by-type/]" target="_blank">second-largest debt portfolio</a>debt portfolio in the country, especially in the wake of such steep internal reductions. This move will only contribute to Trump's chaotic saga of managerial inadequacies by creating delayed payments and frozen forgiveness programs that leave millions of borrowers in the dark.</p>
+
+    <p>We’ve recently seen how disastrously poor planning can derail federal loan awardment and disbursement. The 2024-25 FAFSA rollout saw technical errors and poor planning that left many students in limbo for months, and new strains on the system threatens to push it into total collapse. Already, loan forgiveness efforts under the Biden-era SAVE plan are <a href="[https://studentaid.gov]" target="_blank">indefinitely paused</a>, and this won’t be the only program that’ll be derailed. Trump’s game here clearly isn't simple policy whiplash, it’s active sabotage.</p>
+
+    <p>While executive actions can reshape our administrative state, Trump knows only Congress has the constitutional authority to eliminate entire departments. Yet that fact hasn't stopped his administration from effectively attempting to shutter the Department of Education from the inside out. Seven of the 12 civil rights offices within the Department, which are responsible for investigating discrimination complaints and enforcing Title IX protections, have shuttered their doors in compliance with<a href="[https://www.k12dive.com/news/half-of-ocr-fired-after-trump-education-department-layoffs/742374/]" target="_blank">Trump’s executive orders</a>. The legal gray zone here is striking, but the human cost is clearer: students across the country will lose options in the face of Trump’s intentional injustice.</p>
+
+    <div id="subheader">[Add subheader]</div>
+
+    <p>Higher education institutions are also under siege. In recent weeks, the Trump administration has made hundreds of billions of dollars of federal funding for universities contingent upon ideological compliance with his demands. Harvard University was threatened with the revocation of<a href="[https://www.reuters.com/world/us/us-reviewing-federal-contracts-grants-harvard-over-antisemitism-allegations-2025-03-31/]" target="_blank">$9 billion</a>in federal funding if it did not comply with administration demands to rectify alleged pro-Hamas antisemitism in response to last spring’s student-led protests against the ongoing Israel-Hamas War, and Trump has subsequently <a href="[https://www.bbc.com/news/articles/c05768jmm11o]" target="_blank">blocked</a>Harvard’s ability to enroll international students because of the university’s legal pushback. At Columbia, a similar ultimatum led to sweeping changes. The university agreed to overhaul its Middle Eastern Studies Department and revise protest and security policies in the hopes of clawing back <a href="[https://www.nytimes.com/2025/03/21/nyregion/columbia-response-trump-demands.html]" target="_blank">$400 million in federal funding</a>.</p>
+
+    <p>The Trump administration’s moves signal a new kind of government overreach in the United States, one where academic freedoms are traded for political loyalty. If universities stand to lose billions for not aligning with the executive branch’s worldview, what room is left for intellectual freedom, critical thought or student activism? None, apparently.</p>
+
+    <p>Let me be clear, this is not about efficiency or budget tightening for Trump. His targeting and dismantling of systems supporting access, equity and accountability in American education isn’t happening in a vacuum. It’s part of a broader pattern in an administration that has shown time and time again it is willing to weaponize federal power to silence dissent and reshape our country in its ideological image.</p>
+
+    <p>Education will never be just a policy issue. It is the foundation of the democratic life we hold dear, the economic mobility passed through generations and the backbone of national resilience held in the face of uncertainty and violence. Gutted loan services, silenced civil rights offices and universities under threat are chilling examples of what happens when the state sees knowledge as a threat and public service as expendable and dehumanized.</p>
+
+    <p>In the coming months and years, everyday Americans will bear the brunt of these impulsive and costly decisions. Families trying to send their kids to college and current students with federal loans like me will face confusing delays and the potential loss of aid. Borrowers counting on forgiveness will be forced into repayment limbo. Targeted universities will have no other option but to choose between academic freedom and financial survival.</p>
+
+    <p>By law, the federal government’s job is to protect and expand access to education, not use it as a political bargaining chip for a broader and unfounded ideological war. America is stronger when education is properly funded, fairly administered and our leaders hold societal progression over their own quest for power.</p>
+
+    <p>[Institutions and governing branches are not powerless to Trump’s attacks. We need Congress to step in and assert its oversight role. We need state leaders, college presidents, educators, students, civil advocacy groups and everyone else to speak out and resist this gutting of the public trust. Our nation must foster generational advancement so that vibrant communities with access to economic mobility will be the norm in America. A less educated population will make our country lose talent, productivity and soft power across the globe.</p>
+
+    <p>Now that the Department of Education is hollowed out, students' futures aren’t being streamlined. Rather, they are being gambled upon like business exploits in Trump’s unsuccessful management career.</p>
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
