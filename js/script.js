@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/chinastillnewsletter";
+        window.location.href = "/stories/markets/brexitnewsletter";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory42').click(function(){
+
+        window.location.href = '/stories/markets/brexitnewsletter';
+         
+    });
 
     $('#newsstory41').click(function(){
 
@@ -376,6 +382,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory31').click(function(){
+
+        window.location.href = '/stories/markets/brexitnewsletter/';
+      
+    });
 
     $('#marketsstory30').click(function(){
 
