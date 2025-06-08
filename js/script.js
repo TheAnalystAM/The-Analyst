@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/meritocracyoff";
+        window.location.href = "/stories/politics/studentloans";
       
    });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/buffettcashnewsletter";
+        window.location.href = "/stories/politics/studentloans";
       
    });
 
@@ -40,7 +40,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/business/nihfunding";
+        window.location.href = "/stories/politics/studentloans";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory43').click(function(){
+
+        window.location.href = '/stories/politics/studentloans';
+         
+    });
 
     $('#newsstory42').click(function(){
 
@@ -650,6 +656,12 @@ $(document).ready(function(){ // begin document.ready block
 
 
       // Politics
+
+   $('#politicsstory2').click(function(){
+
+        window.location.href = '/stories/politics/studentloans/';
+         
+   });
 
    $('#politicsstory1').click(function(){
 
