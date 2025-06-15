@@ -1,0 +1,379 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Opinion</div>
+
+    <div id="title">Habeas Corpus is on Trial</div>
+
+    <div id="dek">America’s founding principles are under siege following Trump’s mass deportation policies</div>
+
+    <div id="byline">By <u>Galilea Rios Schulz</u></div>
+
+    <div id="date"> 06/14/25 • 5 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/dueprocessrights.png" id="storyphoto">
+
+    <div id="photocredit">Wikimedia Commons</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>By considering the suspension of habeas corpus amid escalating immigration measures, the Trump administration is not only threatening the rights of migrants, but the foundation of American democracy and due process.</p>
+
+    <p>The Trump administration is <a href="https://www.cnn.com/2025/05/09/politics/miller-habeas-corpus-immigrant-judge" style="color: #4169e1;" target="_blank">“actively looking at” suspending habeas corpus</a>, which is a person’s right to challenge their detention in court, said White House Deputy Chief of Staff Stephan Miller earlier this month.</p>
+
+
+    <p>If the executive branch enacts this suspension without approval from Congress, it would not only escalate the administration's war on illegal immigration, but represent an unprecedented consolidation of unitary power by the executive branch.</p>
+
+    <p><a href="https://constitution.congress.gov/browse/essay/artI-S9-C2-1/ALDE_00001087/" style="color: #4169e1;" target="_blank">Article 1 of the Constitution</a> allows for the suspension of habeas corpus only under extraordinary circumstances. Specifically, habeas corpus “shall not be suspended, unless when in cases of rebellion or invasion the public safety may require it.”</p>
+
+    <p>Miller has argued that the United States is facing a national security threat because undocumented migrants are "invading" the country, justifying the suspension of one of America’s most fundamental rights. “The Constitution is clear, and that, of course, is the supreme law of the land, that the privilege of the writ of habeas corpus can be suspended in time of invasion,” Miller initially stated. “So, it's an option we're actively looking at,” he added. </p>
+
+
+    <p>During a hearing earlier this week held by the Senate Homeland Security and Governmental Affairs Committee, <a href="https://www.politico.com/newsletters/playbook-pm" style="color: #4169e1;" target="_blank">Homeland Security Secretary Kristi Noem failed to define “habeas corpus”</a> accurately when asked by Democratic Senator Maggie Hassan (NH).</p>
+
+    <p>Noem’s answer: "Habeas corpus is a constitutional right that the president has to be able to remove people from this country."</p>
+
+    <p><a href="https://constitutioncenter.org/the-constitution/articles/article-i/clauses/763" style="color: #4169e1;" target="_blank">The United States has suspended habeas corpus</a> four times before. During the Civil War, post-Civil War Reconstruction in South Carolina, the 1905 insurrection in the Philippines and after Pearl Harbor was bombed by Japan during World War II. In each of these instances, Congress approved the suspension of habeas corpus. These decisions were never made unilaterally by the executive branch.</p>
+
+    <p>Yet the unprecedented nature of their actions has not stopped the Trump administration from meddling with habeas corpus rights, particularly for undocumented migrants.</p>
+
+    <p>“The big emergency right now is that we have thousands of people that we want to take out, and we have some judges that want everybody to go to court.” President Trump told NBC News “Meet the Press” moderator Kristen Welker earlier this month.</p>
+
+    <p>Judges across the country, including those elected by President Trump, are voicing their concerns regarding the relentless attacks on due process, which they see as slowly eroding one of America’s most fundamental tenets.</p>
+
+    <p>Due process, which is included in the <a href="https://constitution.congress.gov/constitution/amendment-5/" style="color: #4169e1;" target="_blank">5th Amendment of the Constitution</a>, states that “no person shall … be deprived of life, liberty or property, without due process of law.” The word “person,” as judges have asserted in numerous rulings against the Trump administration, provides no distinction between noncitizens or citizens.</p>
+
+    <p>The principle was found to be <a href="https://www.law.cornell.edu/supct/html/91-905.ZO.html" style="color: #4169e1;" target="_blank">“well-established”</a> in the case of Reno v. Flores (1993) through the court opinion written by <a href="https://supreme.justia.com/cases/federal/us/507/292/" style="color: #4169e1;" target="_blank">Justice Antonin Scalia</a>. Supreme Court justices have also long asserted that this <a href="https://www.supremecourt.gov/opinions/24pdf/24a931_2c83.pdf" style="color: #4169e1;" target="_blank">fundamental right extends to every person in the U.S., regardless of their legal status.</a></p>
+
+    <p>“Our Court System is not letting me do the job I was elected to do … activist judges must let the Trump Administration deport murderers, and other criminals who have come into our Country illegally, WITHOUT DELAY!!!”  President Trump said on Truth Social.</p>
+
+    <p>Regardless of whether habeas corpus is ultimately suspended, judges and politicians worry that U.S. citizens may currently be under threat as immigration efforts quickly become all-encompassing.</p>
+
+    <p>“We are literally trying to enforce a process embodied in probably the most significant document with respect to people’s rights against tyrannical government oppression.” U.S. District Judge Ana Reyes said during a hearing in April.</p>
+
+    <p>In the past couple of months, a slew of deportations involving potential due process violations have come to light, along with strong rebukes by the courts.</p>
+
+    <p>Following a routine appointment at the ICE office in New Orleans, <a href="https://www.nytimes.com/2025/04/25/us/politics/us-citizen-deported.html" style="color: #4169e1;" target="_blank">a 2-year-old child, referred to only as V.M.L. in court documents</a>, was deported along with her older sister and mother, Jenny Carolina Lopes Villela. In a court filing, Trump-appointed Judge Terry Doughty questioned the legality of the government’s actions on the suspicion that this deportation happened “with no meaningful process.”</p>
+
+    <p>In an emergency hearing, Judge Brian E. Murphy criticized the deportation efforts of the Trump administration for expelling eight immigrants to South Sudan without allowing them a court order that individuals have a <a href="https://www.pbs.org/newshour/world/watch-live-homeland-security-will-address-its-migrant-flight-to-south-sudan" style="color: #4169e1;" target="_blank">“meaningful opportunity” to contest their removal</a>. Legal representation and the right to counsel are part of due process, recognized specifically for criminal proceedings. Immigration proceedings are civil matters, thus, the Constitution does not establish a guarantee to free legal counsel, greatly impacting how immigration cases are handled.</p>
+
+    <p>>“The department actions in this case are unquestionably in violation of this court’s order,” Murphy said. What Murphy is highlighting is the right of individuals to be given time to consult legal counsel and challenge their deportation under Fifth Amendment’s guarantees.</p>
+
+    <p>According to the acting director of Immigration and Customs Enforcement, Todd Lyons, the migrant’s origin countries, Laos, Mexico, Lais, Myanmar, and Vietnam,  would not take the deportees back.</p>
+
+    <p>“These represent the true national security threats,” Lyons said. Displayed behind him were photos of men he said had been convicted of homicide, rape, and armed robbery amoungst other crimes.</p>
+
+    <p>What has become apparent in Trump’s second term is a tension between executive expediency and constitutional due process rights. Is there even a supposed "invasion" by Tren De Agua, argued by the Trump Administration? If such an invasion is occurring, does it justify the suspension of Habeas Corpus, and what could such a move mean for Americans? </p>
+
+    <p>“Over 77 million Americans gave President Trump a resounding Election Day mandate to enforce our immigration laws and mass deport criminal illegal aliens,” White House spokesperson Kush Desai said, “The Trump administration is using every power endowed to the Executive Branch by the Constitution and Congress, such as Expedited Removal, to deliver on this mandate.”</p>
+
+    <p>Ultimately, these tensions highlight how constitutional principles are tested during moments of political pressure, underscoring the significance of independent judiciaries in safeguarding fundamental individual rights for U.S. citizens and non-citizens alike.</p>
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
