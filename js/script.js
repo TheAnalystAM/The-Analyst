@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/studentloans";
+        window.location.href = "/stories/law/dueprocessrights";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/politics/meritocracyoff";
+        window.location.href = "/stories/law/dueprocessrights";
       
    });
 
@@ -52,7 +52,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/alibabachina";
+        window.location.href = "/stories/law/dueprocessrights";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory44').click(function(){
+
+        window.location.href = '/stories/law/dueprocessrights';
+         
+    });
 
     $('#newsstory43').click(function(){
 
@@ -670,6 +676,14 @@ $(document).ready(function(){ // begin document.ready block
     });
    
 
+
+   // Law
+
+   $('#lawstory1').click(function(){
+
+        window.location.href = '/stories/law/dueprocessrights/';
+         
+   });
    
 
 
