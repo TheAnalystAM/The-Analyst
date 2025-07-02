@@ -1,0 +1,402 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Analysis</div>
+
+    <div id="title">Is Trump’s One Big, Beautiful Bill a Predictable Mess?</div>
+
+    <div id="dek"></div>
+
+    <div id="byline">By <u>Galilea Rios Schulz</u></div>
+
+    <div id="date">07/02/25 • 7 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+    
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/bigbill.png" id="storyphoto">
+
+    <div id="photocredit">Wikimedia Commons</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>The One Big, Beautiful Bill continues to face criticism from economists while deepening divisions within the Republican Party as it trudges through to the House. </p>
+
+
+    <p>The sweeping spending and tax policy package backed by the Trump administration is billed as a “tremendous pro-growth package,” according to House Speaker Mike Johnson.</p>
+
+
+    <p>Yet the bill’s prospects of delivering on its economic promises appear slim, while politicians across the board are concerned by its proposed budget cuts to integral programs like Medicaid and the Inflation Reduction Act.</p>
+
+
+    <p>In addition, various parts of this bill are sparking intra-party conflict. Right-wing lawmakers interested in codifying Republicans’ ideological agenda, namely low taxes and minimized social spending, face a pragmatic wing of the party more concerned with the electoral consequences of deeply cutting benefits for the working class.</p>
+
+    <img src="/img/congresspic.png" id="bodyphoto">
+
+    <p>Even though <a href="https://www.cnn.com/politics/live-news/trump-big-beautiful-bill-vote-07-01-25" target="_blank" style="color: #4169e1;">the Big, Beautiful Bill has passed through the Senate</a>, it faces an uphill battle in the House.</p>
+
+    <p>The version of the bill considered by the Senate was originally crafted by House Republicans. However, Senate leaders introduced various amendments that could sour the policy package for House Republicans ahead of its return for final ratification.</p>
+
+    <p>If the bill does make it past the House, it’ll go to the President for signing. If the house does not approve the bill, both chambers may form a conference committee to produce a final version of the bill they could then vote on.</p>
+
+    <p>According to Rep. Jeff Drew (R-N.J.), the reason Trump’s policy bill is facing such backlash is that it promotes political instability while “hurting people that shouldn’t be hurt.”</p>
+
+    <p>The Senate package, which is <a href="https://www.cbsnews.com/news/whats-in-trump-big-beautiful-bill-senate-version/" target="_blank" style="color: #4169e1;">an extension of President Trump’s 2017 Tax Cuts and Jobs Act</a>, increases spending on border security, defense and energy production. These increases are partially offset by $1.2 trillion in budget cuts, which primarily go after Medicaid and food stamp programs that low-income households rely on to meet their basic needs. Cuts to Medicaid funding come in part by <a href="https://www.kff.org/policy-watch/which-states-might-have-to-reduce-provider-taxes-under-the-senate-reconciliation-bill/" target="_blank" style="color: #4169e1;">incrementally lowering provider taxes from 6% to 3.5% by 2032.</a></p>
+
+    <p>SNAP, a food assistance program set to be slashed, aims to support food security, which is the ability to have access to enough food for members of a household to live active, healthy lives. USDA and ERS research shows that SNAP <a href="https://www.ers.usda.gov/topics/food-nutrition-assistance/supplemental-nutrition-assistance-program-snap/key-statistics-and-research" target="_blank" style="color: #4169e1;">reduces the “severity of poverty experienced by recipient households, especially among children, who experience higher poverty rates than the population at large.”</a></p>
+
+    <p>If the Big Beautiful Bill is passed, the federal government will continue to fund SNAP benefits for states with an error payment rate <a href="https://www.cbsnews.com/news/whats-in-trump-big-beautiful-bill-senate-version/" target="_blank" style="color: #4169e1;">under 6% until the beginning of 2028. However, states with error rates over 6% will now be responsible for 5% to 15% of the costs.</a></p>
+
+    <img src="/img/trumphospital.jpg" id="bodyphoto">
+
+    <p>One much-discussed bipartisan concern is that the bill will lower the cap on provider taxes for states that provide expanded Medicaid coverage. <a href="https://thehill.com/homenews/house/5355954-gop-bill-opposition-house-medicaid-salt/" target="_blank" style="color: #4169e1;">Rep. Jeff Van Drew warns</a> that the cut would harm hospitals operating in rural and low-income communities. Yet Senate Republican leadership stands by the measure, with Senate Majority Leader John Thune (R-S.D.) <a href="https://thehill.com/homenews/house/5355954-gop-bill-opposition-house-medicaid-salt/" target="_blank" style="color: #4169e1;">defending the adjustments</a> as a way to ensure Medicaid resources are used more efficiently.</p>
+
+    <p>In the House, growing opposition among Republican lawmakers is casting a shadow on the bill’s fate, even as <a href="https://thehill.com/homenews/house/5355954-gop-bill-opposition-house-medicaid-salt/" target="_blank" style="color: #4169e1;">President Trump pressures Congress to pass it by his self-imposed July 4 deadline.</a></p>
+
+    <p>“You have a significant problem with respect to deficits. You have a significant problem with respect to the Inflation Reduction Act,” Rep. Chip Roy (R-Texas), a member of the conservative House Freedom Caucus, told reporters. “My main takeaway for you guys is this bill, as the Senate has produced it, is definitely dead if it were to come over to the House in anything resembling its current form.” </p>
+
+    <p>Despite its deep cuts to benefits, Republicans believe this bill will be a net positive by fueling economic growth. Nonetheless, these claims ring hollow against current projections.</p>
+
+    <p>Independent analyses from the right-leaning Tax Foundation and the University of Pennsylvania Wharton Budget Model revealed underwhelming estimates for added economic growth, alongside troublesome deficits stemming from the Senate’s version of the One, Big, Beautiful Bill.</p>
+
+    <p>The Tax Foundation estimated the bill would add a mere 0.8% economic boost in U.S. GDP over a thirty-year period, while Penn Wharton’s estimates show a 0.4% increase by 2034. These predictions are paired with an eye-popping $3.2 trillion deficit expansion.</p>
+
+    <p>“We look at the bill and kind of shrug our shoulders and say, ‘You could have done better on growth,’” said Tax Foundation President Daniel Bunn.</p>
+
+    <img src="/img/taxfoundation.jpg" id="bodyphoto">
+
+    <p>The Trump administration has dismissed expert analyses of the One Big, Beautiful Bill, pointing to old critiques of <a href="https://waysandmeans.house.gov/2025/05/14/ways-and-means-votes-to-make-2017-tax-cuts-permanent-provide-additional-relief-for-workers-reward-investment-in-america-and-hold-woke-elites-accountable/" target="_blank" style="color: #4169e1;">Trump’s 2017 tax cuts</a>, which ended up being wrong in the short term despite evidence of their long-term impact remaining inconclusive. </p>
+
+    <p>“So-called ‘experts’ panning The One, Big, Beautiful Bill, without a smidge of self-awareness, should remember that they made these same exact gloomy predictions about President Trump’s tax cuts during his first term,” White House spokesman Kush Desai said in a statement to CNN.</p>
+
+    <p>The One Big, Beautiful Bill appears to have overestimated ideological unity among Republicans, creating a package that fails to satisfy fiscal hawks while doing little to reassure moderates.</p>
+
+    <p>While further changes are imminent, it is unclear what, if anything, Republican Congressional leaders could do to appease their party members’ widespread concerns and get this bill passed.</p>
+
+    <div id="subheader">Update: Senate Passes Trump’s Agenda Bill</div>
+
+    <p>On July 1, <a href="https://www.cnn.com/2025/07/01/politics/senate-vote-trump-agenda-bill" target="_blank" style="color: #4169e1;">Senate republicans narrowly passed President Trump’s agenda bill in a 50-50 vote</a>, with Vice President JD Vance casting the tie-breaking vote. The next step for the One Big, Beautiful Bill is a vote in the House, where GOP leaders are facing a fragile margin. Republicans can afford to lose only three Republican votes as long as democrats act in united opposition.</p>
+
+    <p>Much to Republican House leaders’ dismay, some votes already appear to be lost.</p>
+
+    <p>“I want to go back to the drawing board,” said Rep. Ralph Norman (R-SC), a Rules Committee member who opposes the Senate’s version of the bill. When asked what the plan to do so may look like, Rep. Ralph Norman answered, “I have no idea.”</p>
+
+    <p>House Majority Leader Steve Scalise warned House members on Tuesday of what further changes to the bill may mean.</p>
+
+    <p>“Every change you make on one side of the bill to appease maybe one group of people can impact the group negatively for 20 other members on the other side,” said Scalise.</p>
+
+    <p>Despite opposition from Reps. Keith Self, Marlin Stutzman and members of the far-right Freedom Caucus, Scalise said that “more changes” are the real threat to the bill, which could “end up collapsing the entire thing.” </p>
+
+    <p>When asked about the likelihood of the final passage of the bill, Scalise said he is “very confident.”</p>
+
+    <p>Trump’s message to the House following the passage of the Senate’s version of the bill: “It is no longer a ‘House Bill’ or a ‘Senate Bill.’ It is everyone’s Bill. There is so much to be proud of, and EVERYONE got a major Policy WIN.” Trump said on Truth Social. Trump urged House Republicans to “Stay UNITED, have fun, and Vote ‘YAY.’”</p>
+
+
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
