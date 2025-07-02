@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/law/dueprocessrights";
+        window.location.href = "/stories/politics/bigbill";
       
    });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/brexitnewsletter";
+        window.location.href = "/stories/politics/bigbill";
       
    });
    
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/economics/consumerdamages";
+        window.location.href = "/stories/politics/bigbill";
       
    });
    
@@ -82,7 +82,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#usnewsstories2').click(function(){
       
-        window.location.href = "/stories/markets/trumpfutures";
+        window.location.href = "/stories/politics/bigbill";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory45').click(function(){
+
+        window.location.href = '/stories/politics/bigbill';
+         
+    });
 
     $('#newsstory44').click(function(){
 
@@ -662,6 +668,12 @@ $(document).ready(function(){ // begin document.ready block
 
 
       // Politics
+
+   $('#politicsstory3').click(function(){
+
+        window.location.href = '/stories/politics/bigbill/';
+         
+   });
 
    $('#politicsstory2').click(function(){
 
