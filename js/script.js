@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/politics/studentloans";
+        window.location.href = "/stories/economics/evtariffs";
       
    });
 
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/politics/meritocracyoff";
+        window.location.href = "/stories/economics/evtariffs";
       
    });
    
@@ -66,7 +66,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/markets/germanypm";
+        window.location.href = "/stories/economics/evtariffs";
       
    });
    
@@ -106,7 +106,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#globalnewsstories3').click(function(){
       
-        window.location.href = "/stories/markets/sfholdings";
+        window.location.href = "/stories/economics/evtariffs";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory46').click(function(){
+
+        window.location.href = '/stories/economics/evtariffs';
+         
+    });
 
     $('#newsstory45').click(function(){
 
@@ -641,6 +647,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Economics
+
+    $('#economicsstory5').click(function(){
+
+        window.location.href = '/stories/economics/evtariffs/';
+         
+    });
 
     $('#economicsstory4').click(function(){
 
