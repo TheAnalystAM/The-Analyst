@@ -1,0 +1,360 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Analysis</div>
+
+    <div id="title">Trump's China tariffs are a bitter pill American EV firms must swallow</div>
+
+    <div id="dek"></div>
+
+    <div id="byline">By <u>Cameron Williams</u></div>
+
+    <div id="date">07/03/25 • 3 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/bydcars.png" id="storyphoto">
+
+    <div id="photocredit">Flickr</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>The electric vehicle market has been increasingly dominated in recent years by America’s greatest economic rival, China.</p>
+
+
+    <p>Mainland-based firms such as <a href="https://www.tradingview.com/symbols/SZSE-300750/" target="_blank">CATL</a> and <a href="https://www.tradingview.com/symbols/SZSE-002594/" target="_blank">BYD</a> produce the world’s leading EV batteries, contributing to China’s 79% share of global EV battery manufacturing. Their influence extends beyond borders, with a growing presence in Europe and South America.</p>
+
+    <img src="/img/batteryproduction.png" id="bodyphoto">
+
+    <p>Yet one foreign market Chinese EV firms have been unable to breach is the United States. This is by design. In 2020, When Chinese EV firms began expanding into the international car market, former President Biden placed a 100% tariff on Chinese electric vehicles.</p>
+
+
+    <p>This steep tariff, which effectively acts as an EV trade embargo, has recently been raised to 155% as part of President Trump’s <a href="https://www.nytimes.com/2025/06/19/business/economy/trump-tariffs-la-port.html" target="_blank">ongoing trade war with China</a></p>
+
+    <img src="/img/trumptariffrate.png" id="bodyphoto">
+
+    <p>By effectively barring the sale of Chinese EVs in U.S., the Trump administration hopes to encourage Americans to buy more domestic products, including American EVs. Given their <a href="https://www.forbes.com/sites/katharinabuchholz/2025/05/16/chinese-evs-now-almost-as-affordable-as-gasoline-cars/" target="_blank">relative affordability</a>and <a href="https://www.livescience.com/technology/electric-vehicles/chinas-superfast-charging-technology-is-twice-as-fast-as-teslas-fully-recharging-evs-in-just-6-minutes" target="_blank">faster charging times</a>, Chinese EVs would likely dominate the U.S. EV market if introduced, threatening domestic manufacturers and raising national security concerns that the Trump administration is keen to avoid.</p>
+
+    <p>Trump’s motives draw distinct similarities to Biden’s, yet his application of tariffs is markedly different.</p>
+
+    <p>The Biden administration proved more targeted in its application of tariffs. The former president focused trade policy on protecting industries developing critical emerging technologies. Import taxes included the 100% tariff on Chinese EVs, a 50% tariff on semiconductors and solar cells and a 25% tariff on EV batteries, battery parts and graphite.</p>
+
+    <img src="/img/bidentariffs.png" id="bodyphoto">
+
+    <p>The Trump administration’s tariffs are far broader, seeking to overturn the U.S. and China’s long standing trade relationship rather than protect key industries. After agreeing to a trade framework in June, America’s <a href="https://www.china-briefing.com/news/us-china-tariff-rates-2025/#:~:text=According%20to%20the%20Peterson%20Institute,32.6%20percent%2C%20also%20applied%20broadly." target="_blank">average tariff rate on all Chinese imported goods rests at 51.1%</a>. While this figure is at historical highs, it is far lower than the previous blanket tariff rate of 145% imposed in April.</p>
+
+    <div id="subheader">Effect on Prices</div>
+
+    <p>Consumers can expect to see automobile prices rise across the board as a result of Trump’s tariffs. This is especially true for EVs, as while Chinese electric vehicles aren’t sold in the U.S., Chinese-made car parts that American EV makers depend on are now subject to significantly higher tariffs.</p>
+
+    <p>Some companies such as Ford, Rivian and Tesla are more insulated from tariff effects due to their robust domestic manufacturing. Still, it’s nearly impossible to make a modern EV without some Chinese car parts, meaning all firms will experience tariff pain on some level.</p>
+
+    <p>As prices rise, demand for EVs is expected to fall drastically. Buyers, who already displayed hesitancy in buying EVs due to their hefty costs and long charging times, will be further discouraged from making the switch as the price gap between EVs and gas-powered vehicles grows.</p>
+
+    <p>During the Biden administration, the higher costs of EVs compared to combustion engine vehicles were offset by up to $7,500 EV tax credits. Under Trump, these tax incentives are due to be dismantled. This puts EV makers in a tricky situation, one in which it is uncertain how they can recover.</p>
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
