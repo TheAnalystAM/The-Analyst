@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/bigbill";
+        window.location.href = "/stories/politics/educationcuts";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/law/dueprocessrights";
+        window.location.href = "/stories/politics/educationcuts";
       
    });
 
@@ -40,7 +40,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/politics/studentloans";
+        window.location.href = "/stories/politics/educationcuts";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory47').click(function(){
+
+        window.location.href = '/stories/politics/educationcuts';
+         
+    });
 
     $('#newsstory46').click(function(){
 
@@ -680,6 +686,12 @@ $(document).ready(function(){ // begin document.ready block
 
 
       // Politics
+
+   $('#politicsstory4').click(function(){
+
+        window.location.href = '/stories/politics/educationcuts/';
+         
+   });
 
    $('#politicsstory3').click(function(){
 
