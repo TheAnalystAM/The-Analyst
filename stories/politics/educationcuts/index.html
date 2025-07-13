@@ -1,0 +1,354 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Politics</div>
+
+    <div id="title">How Trump's Education Policies are Hurting Title I Schools</div>
+
+    <div id="dek"></div>
+
+    <div id="byline">By <u>Ethan Chen</u></div>
+
+    <div id="date">07/13/25 • 4 minute read</div>
+
+
+    <img src="/img/ ivan-aleksic-PDRFeeDniCk-unsplash.jpg" id="storyphoto">
+
+    <div id="photocredit">Ivan Aleksic - Unsplash</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p> President Trump has captured headlines and taken over social media feeds in recent weeks. From military strikes on Iran to nationwide “No Kings” protests, it seems every action the president has taken recently grabs national attention.</p>
+
+
+    <p>Yet there’s one sector facing Trump’s wrath that has fallen under the radar, but remains highly relevant to the everyday lives of most Americans: education.</p>
+
+
+    <p>Trump has recently implemented policies targeting Title I public schools, which are characterized by a student body in which 40% or more are considered low-income.</p>
+
+    <p> The mandated 40% of students includes those who receive free or subsidized school lunches, or those residing in neighborhoods labeled as low-income, as determined by census data. As a result, the government provides these schools with various grants, which are used to benefit disadvantaged students.</p>
+
+    <p> Coming from a Title I school in Central New Jersey, there are many ways in which these policies have impacted my school.</p>
+
+    <p> For starters, student organizations have been restricted from participating in overnight out-of-state competitions. For the Distributive Education Fund of America, a pre-professional business management club, students who qualify for national case competitions will no longer be able to attend. Similarly, students in Model United Nations are now unable to participate in competitions previously held in locations like Washington, D.C., and Mexico.</p>
+
+    <p> While these competitions may sound small, they are integral to developing students’ real-world problem-solving and critical thinking skills. Model United Nations competitions allow participants to participate in simulated diplomatic conferences. Students play the role of international delegates who must engage in constructive debate to eventually come to a consensus, testing individuals’ abilities to work through multifaceted problems. In the same vein, DECA prepares emerging leaders for business careers by testing their ability to solve problems under time constraints.</p>
+
+    <p> Clubs are also losing the ability to send students to national conferences, where they can showcase their interests and skills for the chance to win prestigious scholarships. Given that my school sends a large number of students to these summits each year, many of my younger classmates are losing the opportunity to attend these events. This makes it all the more difficult for them to excel in the college admissions process, where citing such experiences can demonstrate an applicant’s commitment to their intended field of study.</p>
+
+    <p> Federal grant cuts have even targeted standard course programs such as Mandarin classes. This cut in particular reveals the radical shift in cultural and academic priorities under the Trump administration, which is attempting to crack down on alleged Chinese foreign influence and multicultural focus in education.</p>
+
+    <p> This gutting of funding has already driven upwards of five Mandarin classes within my school to be shut down, forcing students from grades six through 12 to switch to Spanish to fulfill their 2-year state-mandated language requirements. In a community where opportunities to learn a foreign language are scarce, the elimination of this service cuts especially deep, preventing students from developing critical global literacy skills.</p>
+
+    <p> A recent study conducted by the Pew Research Center showed that roughly 51% of Americans believe that public education is headed in the wrong direction. Since becoming president, Trump has implemented various education policies intended to fix the system, many of which have sparked heated debate. From terminating diversity, equity, and inclusion (DEI) programs to ordering the Department of Education to roll back K-12 schools’ student body equity programs, the White House has time and again pitted itself against educators, who have long championed such policies.</p>
+
+    <p> Trump’s stated goal with his reforms is to target “woke” ideas such as critical race theory and gender identity education, give parents more say when it comes to their child’s curriculum, and combat alleged foreign influence within the American education system.</p>
+
+    <p> In line with the administration’s stance on schooling, the Department of Education sent a memo in early April to state officials dictating that schools had 10 days to shut down DEI programs or risk losing federal funding. The administration invoked Title VI of the Civil Rights Act in the memos, which “prohibits discrimination on the basis of race, color, national origin in programs and activities receiving federal financial assistance.”</p>
+
+    <p> As if overhauling curricula wasn’t strenuous enough, schools are also facing steep budget cuts as Trump and the Department of Government Efficiency seek to “balance the government’s budget.” Title 1 schools like mine have been hit particularly hard, but they’re not the only ones hurting. From K-12 public schools to prestigious universities such as Columbia and Harvard, vast funding cuts have made it all the more difficult for students to succeed in their studies.</p>
+
+    <p> As a country that places a heavy emphasis on the education system to prepare students for future careers, the last thing we should do is reduce students’ ability to access pre-professional programs. For the sake of student outcomes, we must prioritize real-world learning opportunities over trying to balance the budget by cutting where it’ll hurt the most.</p>
+
+
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
