@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/educationcuts";
+        window.location.href = "/stories/business/cancervaccines";
       
    });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/politics/bigbill";
+        window.location.href = "/stories/business/cancervaccines";
       
    });
    
@@ -52,7 +52,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/law/dueprocessrights";
+        window.location.href = "/stories/business/cancervaccines";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory48').click(function(){
+
+        window.location.href = '/stories/business/cancervaccines';
+         
+    });
 
     $('#newsstory47').click(function(){
 
@@ -614,6 +620,12 @@ $(document).ready(function(){ // begin document.ready block
    
 
       // Business
+
+    $('#businessstory7').click(function(){
+
+        window.location.href = '/stories/business/cancervaccines/';
+       
+    });
 
     $('#businessstory4').click(function(){
 
