@@ -1,0 +1,399 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Analysis</div>
+
+    <div id="title">Trump is redefining how the US goes to war</div>
+
+    <div id="dek"></div>
+
+    <div id="byline">By <u>Galilea Rios Schulz</u></div>
+
+    <div id="date">07/30/25 • 5 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/executivepower.png" id="storyphoto">
+
+    <div id="photocredit">NurPhoto - Getty</div>
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>A dangerous shift towards emboldening Presidential military decision-making under Trump risks deeper U.S. involvement in Middle Eastern affairs, while establishing a precedent that future presidents may come to exploit.</p>
+
+    <p>Last month, the U.S military performed a series of precision strikes on the three key nuclear assemblies in the Iranian regime, including Fordo, Natanz and Isfahan. The White House’s stated goal was to eliminate “Iran's nuclear enrichment capacity,” putting to a stop “the nuclear threat posed by the world's number one state sponsor of terror.”</p>
+
+    <p>The strikes immediately provoked bipartisan backlash. Democratic National Committee Chairman Ken Martin <a href="https://democrats.org/news/dnc-chair-ken-martin-statement-on-trumps-unilateral-act-of-war-with-iran/" target="_blank" style="color: #4169e1;">released a statement</a> saying that Trump’s decision to bomb Iran clashes with the President’s stated agenda, namely to have his success be measured by the “wars we never get into.” Martin points out that “against his own words, the president sent bombers into Iran,” an act that Americans “overwhelmingly” do not want, as it risks “the safety of our troops abroad” and poses the threat of entering <a href="https://www.foreignaffairs.com/age-forever-wars" target="_blank" style="color: #4169e1;">another forever war.</a></p>
+
+    <p>Republican Congressman Thomas Massie <a href="https://www.bbc.com/news/articles/c4gkw04yze1o" target="_blank" style="color: #4169e1;">stated on X </a>that the effort was “not constitutional,” while his colleague, Warren Davidson, said that <a href="https://www.bbc.com/news/articles/c4gkw04yze1o" target="_blank" style="color: #4169e1;">“it’s hard to conceive a rationale that’s Constitutional.”</a></p>
+
+    <p>Such scathing criticism gets at the underlying question of whether a president can involve the U.S. in foreign military conflicts without approval from Congress. Many in Congress say no. However, a definitive answer is anything but simple to come by.</p>
+
+    <p>In Trump’s second term, it's become clear that the President seeks to strip Congress of their involvement in military decision-making, with the rationale being that the U.S. must respond promptly to quickly developing situations abroad.   But does the growing scale of executive war power strengthen America’s military preparedness, or instead, represent an unconstitutional consolidation of power under the executive branch that threatens the checks and balances system of our Republic?</p>
+
+    <p>The difficulty of answering this question stems from the complexities of the Constitution.</p>
+
+    <img src="/img/trumpwhitehouse.pdf" id="bodyphoto">
+
+    <div id="photocredit">US President Donald Trump delivers an address to the nation alongside Vice President JD Vance, Secretary of State Marco Rubio and Defense Secretary Pete Hegseth at the White House in Washington, DC, June 21, 2025 (Carlos Barria, Reuters)</div>
+
+    <p>Article I states that <a href="https://constitution.congress.gov/constitution/article-1/" target="_blank" style="color: #4169e1;">one of Congress’s powers is to “declare war.” However, Article II says that the president “shall be Commander in Chief of the Army.”</a></p>
+
+    <p>Many Constitutional experts argue that Article II <a href="https://constitutioncenter.org/the-constitution/articles/article-ii/clauses/348" target="_blank" style="color: #4169e1;">gives the president authority to administer military force</a> in particular circumstances, including “actual or anticipated attacks,” or efforts to “advance other important national interests.”</p>
+
+    <p>White House officials saw the Iranian air strikes as fitting this criteria, <a href="https://www.bbc.com/news/articles/c4gkw04yze1o" target="_blank" style="color: #4169e1;">justifying unilateral executive action.</a></p>
+
+    <p>For over half a century, <a href="https://education.cfr.org/learn/reading/middle-east-timeline" target="_blank" style="color: #4169e1;">the United States has been deeply involved</a> in the Middle East. Politically and economically,  the U.S. has used the region as a staging ground to advance its foreign policy priorities. Throughout history, the U.S. military has provided support for Israel, promoted the flow of oil, and defended against the influence of the Soviet Union during the Cold War.</p>
+
+    <p>Trump’s recent attack on Iran may be the beginning of ongoing military action that could shift lesser military involvement in the Middle East into war. Furthermore, such actions will give future presidents precedent to use their executive power to work against political, legal and public interests in the name of national security and defense.</p>
+
+    <div id="subheader">Ceding Power</div>
+
+    <p>The provision in Article I that gives Congress the power to declare war was <a href="https://www.senate.gov/about/powers-procedures.htm#:~:text=Congress%20has%20declared%20war%20on,war%20during%20World%20War%20II" target="_blank" style="color: #4169e1;">last invoked in 1942 during the Second World War.</a></p>
+
+    <p>John Bellinger, once a legal adviser for President George W Bush, said that while Congress has an important role to play in military decision-making, <a href="https://www.bbc.com/news/articles/c4gkw04yze1o" target="_blank" style="color: #4169e1;">“over the last several decades, Congress has acquiesced more and more in presidential uses of military force for a variety of purposes without congressional authorisation.”</a></p>
+
+    <p>In 1999, President Bill Clinton launched strikes in the Balkans without congressional approval. A decade later, President Barack Obama authorized airstrikes in Libya during a mission to execute Osama Bin Laden. Another decade later, President Joe Biden decided to strike Houthi targets in Yemen and Syria. In each case, the executive branch made a unilateral decision to strike military targets, justifying each attack <a href="https://www.bbc.com/news/articles/c4gkw04yze1o" target="_blank" style="color: #4169e1;">with the same Article II clause that Trump employed with Iran.</a></p>
+
+    <p>The Iranian strikes are not the first time President Trump has exercised his authority as Commander in Chief of the Army. During President Trump’s first term, the killing of an Iranian military officer, Qasem Soleimani was carried out without congressional approval.</p>
+
+    <p>“History and precedent favour Trump in this action.” <a href="https://www.aol.com/news/did-trump-legal-authority-strike-215555245.html" target="_blank" style="color: #4169e1;">Speaker Johnson said shortly after the Iranian strikes, </a>“Presidents of both parties have acted with the same commander-in-chief authority under Article II.”</p>
+
+    <div id="subheader">Growing Military Might</div>
+
+    <p>Discussions around the executive branch’s control of the military come as America’s defense consortium is quickly expanding.</p>
+
+    <p>In a recent 221-209 vote, the House passed the <a href="https://appropriations.house.gov/news/press-releases/house-passes-fy26-defense-bill-investing-americas-military-superiority" target="_blank" style="color: #4169e1;">Full Year 2026 defense spending bill,</a> allocating over $831.5 billion towards <a href="https://www.theepochtimes.com/us/house-passes-831-5-billion-defense-spending-bill-5887688?welcomeuser=1" target="_blank" style="color: #4169e1;">“new naval vessels, next-generation aircraft, space capabilities and President Donald Trump’s “Golden Dome” missile defense program.”</a></p>
+
+    <p>Including the $157 billion allocated to the Pentagon in Trump’s Big, Beautiful Bill, total annual defense spending now surpasses $1 trillion.</p>
+
+    <p>Thanks to this additional funding, the U.S. military has more firepower to expend at Trump’s request than ever before. This makes any military decision by the President all the more consequential if left unchecked by Congress.</p>
+
+    <div id="subheader">An Unsympathetic Public</div>
+
+    <p>Even as Trump pushes to consolidate military power, support for military intervention abroad is depleting.</p>
+
+    <p>According to a CNN <a href="https://embed.documentcloud.org/documents/26001886-cnn-poll-conducted-by-ssrs/?embed=1&responsive=1&title=1&onlyshoworg=1" target="_blank" style="color: #4169e1;"> poll conducted by SSRS,</a> only 40% of the U.S. population approves of the way Donald Trump is handling foreign affairs. </p>
+
+    <p>Trump’s assault on Iran appears to have struck a particular nerve with pro-isolationists, with Trump’s disapproval rating spiking to <a href="https://edition.cnn.com/2025/07/18/politics/cnn-poll-israel-support" target="_blank" style="color: #4169e1;">59%</a>following the attack on Iran. These numbers far exceed any point within his first term, including after President Trump ordered the assassination of Iranian military leader, Qasem Soleimani, which pushed his <a href="https://edition.cnn.com/2025/07/18/politics/cnn-poll-israel-support" target="_blank" style="color: #4169e1;">disapproval rating to 53%.</a></p>
+
+    <p>The Iran and Israel war is putting innocent lives at risk. Although  <a href="https://www.cfr.org/global-conflict-tracker/conflict/confrontation-between-united-states-and-iran" target="_blank" style="color: #4169e1;">President Trump made his nuclear strikes to prevent future attacks against Israel,</a>
+    the escalating violence between the two countries may end up doing the opposite, sparking a long-term conflict between the two nations.<p>
+
+    <p>Most recently, <a href="https://www.timesofisrael.com/iran-raises-death-toll-from-conflict-with-israel-to-more-than-900/#:~:text=Iran%20raised%20the%20official%20death,the%20Evin%20strike%20was%2071." target="_blank" style="color: #4169e1;">quoting judiciary spokesman Asghar Jahangir,</a> Iranian state media raised the official death toll from its war with Israel, reporting that 935 people were killed during the 12-day conflict in late June of this year, including 38 children and 132 women.<p>
+
+    <p>On <a href="https://www.npr.org/2025/06/23/nx-s1-5441791/takeaways-us-airstrikes-iran-nuclear-trump" target="_blank" style="color: #4169e1;">Meet The Press, Sen. Mark Kelly of Arizona said  that Iran did not pose an immediate threat to the U.S. prior to the strikes.</a><p>
+
+    <p>“I would say when there's a clear and imminent threat to U.S. citizens, to the United States, to the homeland, the commander-in-chief has a right to act,” said Kelly.<p>
+
+    <p>President Trump may be pushing the U.S. into an unnecessary foreign conflict. According to Sen. Mark Kelly, there are “40,000 troops in at least six countries in the Middle East… those troops are now at greater risk.”<p>
+
+    <p>Against the interests of the U.S. public and Democracy, the President is pushing forth plans to consolidate warmaking power under his control. The consequences for the U.S. and the Middle East are sure to become apparent as Trump continues making careless decisions that threaten regional peace.<p>
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
