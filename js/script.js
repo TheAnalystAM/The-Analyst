@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/business/cancervaccines";
+        window.location.href = "/stories/politics/executivepower";
       
    });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/economics/evtariffs";
+        window.location.href = "/stories/politics/executivepower";
       
    });
 
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/politics/bigbill";
+        window.location.href = "/stories/politics/executivepower";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory49').click(function(){
+
+        window.location.href = '/stories/politics/executivepower';
+         
+    });
 
     $('#newsstory48').click(function(){
 
@@ -698,6 +704,12 @@ $(document).ready(function(){ // begin document.ready block
 
 
       // Politics
+
+   $('#politicsstory5').click(function(){
+
+        window.location.href = '/stories/politics/executivepower/';
+         
+   });
 
    $('#politicsstory4').click(function(){
 
