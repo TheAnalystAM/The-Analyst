@@ -1301,7 +1301,7 @@ h10 {
     position: fixed;
     top: 0;
     left: -33%;
-    width: 33%;
+    width: 40%;
     height: 100%;
     background-color: #1e222d;
     padding-top: 50px;
@@ -1319,7 +1319,7 @@ h10 {
     font-family: 'Avenir', sans-serif;
     margin: 20px 0;
     text-align: left;
-    margin-left: 26px;
+    margin-left: 40px;
 }
 
 #closeMenu {
