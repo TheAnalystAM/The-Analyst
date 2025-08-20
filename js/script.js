@@ -52,7 +52,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/business/cancervaccines";
+        window.location.href = "/stories/politics/bigbill";
       
    });
 
