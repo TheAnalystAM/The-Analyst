@@ -633,9 +633,15 @@ $(document).ready(function(){ // begin document.ready block
        
     });
 
-    $('#businessstory4').click(function(){
+    $('#businessstory6').click(function(){
 
         window.location.href = '/stories/business/nihfunding/';
+       
+    });
+
+    $('#businessstory5').click(function(){
+
+        window.location.href = '/stories/business/amdlayoffs/';
        
     });
 
