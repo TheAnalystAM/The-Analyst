@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/business/cancervaccines";
+        window.location.href = "/stories/markets/palantirvalue";
       
    });
    
@@ -40,7 +40,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/politics/educationcuts";
+        window.location.href = "/stories/markets/palantirvalue";
       
    });
    
@@ -66,7 +66,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#toppicksstories1').click(function(){
       
-        window.location.href = "/stories/economics/evtariffs";
+        window.location.href = "/stories/markets/palantirvalue";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory51').click(function(){
+
+        window.location.href = '/stories/markets/palantirvalue';
+         
+    });
 
     $('#newsstory50').click(function(){
 
@@ -430,6 +436,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory32').click(function(){
+
+        window.location.href = '/stories/markets/palantirvalue/';
+      
+    });
 
     $('#marketsstory31').click(function(){
 
