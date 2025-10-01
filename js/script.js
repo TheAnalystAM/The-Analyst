@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/aisociety";
+        window.location.href = "/stories/markets/governmentshutdownnewsletter";
       
    });
 
@@ -19,19 +19,19 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/politics/aisociety";
+        window.location.href = "/stories/markets/ellisonstudiosnewsletter";
       
    });
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/politics/executivepower";
+        window.location.href = "/stories/markets/oraclerisenewsletter";
       
    });
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/palantirvalue";
+        window.location.href = "/stories/markets/governmentshutdownnewsletter";
       
    });
    
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/politics/executivepower";
+        window.location.href = "/stories/markets/ellisonstudiosnewsletter";
       
    });
    
@@ -114,6 +114,24 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory54').click(function(){
+
+        window.location.href = '/stories/markets/governmentshutdownnewsletter';
+         
+    });
+
+    $('#newsstory53').click(function(){
+
+        window.location.href = '/stories/markets/oraclerisenewsletter';
+         
+    });
+
+    $('#newsstory52').click(function(){
+
+        window.location.href = '/stories/markets/ellisonstudiosnewsletter';
+         
+    });
 
     $('#newsstory51').click(function(){
 
@@ -436,6 +454,24 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory35').click(function(){
+
+        window.location.href = '/stories/markets/governmentshutdownnewsletter/';
+      
+    });
+
+    $('#marketsstory34').click(function(){
+
+        window.location.href = '/stories/markets/oraclerisenewsletter/';
+      
+    });
+
+    $('#marketsstory33').click(function(){
+
+        window.location.href = '/stories/markets/oraclerisenewsletter/';
+      
+    });
 
     $('#marketsstory32').click(function(){
 
