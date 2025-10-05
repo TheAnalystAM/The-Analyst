@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/governmentshutdownnewsletter";
+        window.location.href = "/stories/economics/ratecutting";
       
    });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/oraclerisenewsletter";
+        window.location.href = "/stories/economics/ratecutting";
       
    });
 
@@ -52,7 +52,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/politics/bigbill";
+        window.location.href = "/stories/economics/ratecutting";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory55').click(function(){
+
+        window.location.href = '/stories/economics/ratecutting';
+         
+    });
 
     $('#newsstory54').click(function(){
 
@@ -731,6 +737,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Economics
+
+    $('#economicsstory6').click(function(){
+
+        window.location.href = '/stories/economics/ratecutting/';
+         
+    });
 
     $('#economicsstory5').click(function(){
 
