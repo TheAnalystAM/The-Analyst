@@ -1,0 +1,335 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Economics</div>
+
+    <div id="title">What Fed rate cuts mean for your wallet</div>
+
+    <div id="dek">While central bank efforts to ease monetary policy could revive the job market and lower borrowing costs, inflation risks remain</div>
+
+    <div id="byline">By <u>Brandon Dong</u></div>
+
+    <div id="date">10/6/25 • 3 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/ratecutting.png" id="storyphoto">
+
+    <div id="photocredit">Flickr</div>
+
+    <div id="bodytext">
+
+
+    <p>The past few months have revealed that the U.S. has a labor issue.</p>
+
+    <p>A string of monthly jobs reports has signaled a significant slowdown in hiring since President Trump’s tariffs were enacted in early April. A recent downward revision by the Bureau of Labor Statistics of 911,000 jobs over the past year confirmed that the job market has been teetering for some time. All it needed was the force of tariff uncertainty to send the labor market into crisis.</p>
+
+    <p>The responsibility for supporting the labor market through prudent U.S. monetary policy falls on the Federal Open Market Committee, the Fed’s policymaking arm that sets short-term interest rates. On September 17th, the FOMC delivered a much-expected rate cut of 25 basis points, lowering the federal funds rate from 4.25 to 4.00 in an attempt to revive the job market.</p>
+
+    <p>The decision was not unanimous.  Newly appointed Fed governor Stephen Miran dissented in favor of a steeper 50 basis point cut, saying in a speech after the Fed meeting that leaving interest rates too high “risks unnecessary layoffs and higher unemployment.”</p>
+
+    <p>While Fed rate cuts only apply to the lending rate between banks, cuts and raises have a trickle-down effect across the broader lending ecosystem. Rates for business loans, mortgages and auto loans often decrease after a rate cut, lowering borrowing costs for businesses and consumers while accelerating the economy.</p>
+
+    <p>For most individuals, lower mortgage rates are often the most tangible effect of a rate cut. A 25-basis-point cut doesn’t necessarily mean mortgage rates for new homeowners will fall immediately, but it often sets the stage for a gradual decline. Current homeowners will also benefit from decreased refinancing rates.</p>
+
+    <p>Unfortunately, homeowners with fixed-rate mortgages, who are locked into a fixed rate for the duration of their loan, will not see the same benefits from a cut. While these loans are helpful in shielding property owners from interest rate hikes, they are ineligible to reap the benefits of rate cuts.</p>
+
+    <p>For those who don’t own property, and especially for young people, rate cuts can be most prominently felt through changes to credit card borrowing rates. Most U.S. credit cards peg their variable lending rate to the Prime Rate, which is a lending rate directly influenced by the Fed funds rate. When the Fed funds rate declines, so too does the Prime Rate.</p>
+
+    <p>For investors and those with retirement or savings accounts, rate cuts are generally beneficial. Cuts boost economic activity by lowering the borrowing rate for corporations as they seek to finance expansion plans with debt. The opportunity for corporations to grow at a lower cost acts as a tailwind for stocks, which rise as a result.</p>
+
+    <p>[Yet poorly timed rate cuts can drag on stocks. During periods of rising prices, cuts can lead to inflationary spirals, which harm corporations while eroding purchasing power. The Fed must strike a balance between its dual mandates of maintaining low unemployment and keeping inflation in check.</p>
+
+    <p>Despite Fed governors’ hesitancy over further easing monetary policy, markets are pricing in more rate cuts later this year. CME Group’s Fedwatch forecasts an 87.7% probability of a 25 basis-point cut in October, with possible further cuts heading into the fourth quarter.</p>
+
+    <p>Still, the path forward remains uncertain. Any unexpectedly strong inflation reading, surprising economic resilience or persistent supply-side pressures could force the Fed to halt its cycle of rate cuts. The coming months will test whether the Fed’s September rate cut was enough or whether further action will be necessary to revive America’s struggling labor market.</p>
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
