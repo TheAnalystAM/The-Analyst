@@ -145,6 +145,12 @@ $(document).ready(function(){ // begin document.ready block
          
     });
 
+    $('#newsstory50.5').click(function(){
+
+        window.location.href = '/stories/politics/trumpjrventures';
+         
+    });
+
     $('#newsstory50').click(function(){
 
         window.location.href = '/stories/politics/aisociety';
