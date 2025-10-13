@@ -783,6 +783,12 @@ $(document).ready(function(){ // begin document.ready block
 
       // Politics
 
+   $('#politicsstory7').click(function(){
+
+        window.location.href = '/stories/politics/trumpjrventures/';
+         
+   });
+
    $('#politicsstory6').click(function(){
 
         window.location.href = '/stories/politics/aisociety/';
