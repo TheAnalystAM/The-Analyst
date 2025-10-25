@@ -19,19 +19,19 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/ellisonstudiosnewsletter";
+        window.location.href = "/stories/markets/disneysuccession";
       
    });
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/economics/ratecutting";
+        window.location.href = "/stories/markets/greenenergycuts";
       
    });
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/governmentshutdownnewsletter";
+        window.location.href = "/stories/markets/uschinatrust";
       
    });
    
@@ -114,6 +114,24 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory58').click(function(){
+
+        window.location.href = '/stories/markets/greenenergycuts';
+         
+    });
+
+    $('#newsstory57').click(function(){
+
+        window.location.href = '/stories/markets/uschinatrust';
+         
+    });
+
+    $('#newsstory56').click(function(){
+
+        window.location.href = '/stories/markets/disneysuccession';
+         
+    });
 
     $('#newsstory55').click(function(){
 
@@ -466,6 +484,24 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory38').click(function(){
+
+        window.location.href = '/stories/markets/greenenergycuts/';
+      
+    });
+
+    $('#marketsstory37').click(function(){
+
+        window.location.href = '/stories/markets/uschinatrust/';
+      
+    });
+
+    $('#marketsstory36').click(function(){
+
+        window.location.href = '/stories/markets/disneysuccession/';
+      
+    });
 
     $('#marketsstory35').click(function(){
 
