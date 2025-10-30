@@ -1,0 +1,396 @@
+
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!-- DONT CHANGE ANYTHING IN THIS FIRST SECTION!!! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Analyst - Breaking Markets News, Global Finance News and Economics Stories</title>
+
+	<!-- viewport for responsive -->	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- character set -->
+    <meta charset="UTF-8">
+  
+
+	<!-- CSS stylesheets -->	
+	<link href="/css/normalize.css" rel="stylesheet" type="text/css">
+	<link href="/css/jqueryui.css" rel="stylesheet" type="text/css">
+	<link href="/css/styles.css" rel="stylesheet" type="text/css">
+	
+  </head>
+  <body>
+
+  <div class="header">
+
+    <img src="/img/analyst.png" id="westcoasttowallstreet">
+
+    <div class="tab">
+
+      <button class="tablinks" id="tab1" data-tab="tab1">Home</button>
+
+      <button class="tablinks" id="tab2" data-tab="tab2" id="news-btn">News</button>
+
+      <button class="tablinks" id="tab3" data-tab="tab3">About</button>
+
+      <button class="tablinks" id="tab4" data-tab="tab4"><img src="/img/send3.png" class="mini"> Subscribe </button>
+
+    </div>
+
+    <div class="menu-button">
+      <img src="/img/menu.png" id="openMenu" alt="Menu">
+    </div>
+
+  </div>
+
+  <div class="overlay"></div>
+
+    <div class="menu">
+
+      <img src="/img/exitmenu.png" id="closeMenu" alt="Close Menu" style="display: none;">
+
+      <button class="tablinks" id="home-btn-two" data-tab="tab1">Home</button>
+      <button class="tablinks" id="news-btn-two">News</button>
+      <button class="tablinks" id="about-btn-two" data-tab="tab3">About</button>
+      <button class="tablinks" data-tab="tab4">
+      
+      <div class="adjustsubscribebuttons">
+
+        <button class="tablinks" id="subscribe-btn-two" data-tab="tab4" style="margin-top: -20px; margin-bottom: -20px;">Subscribe </button>
+
+        <img src="/img/send2.jpg" class="adjustmini">
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="subheader">
+
+    <div class="dropdown-content" id="news-dropdown">
+
+      <div class="tab">
+
+        <button class="tablinks" id="subtab1" data-tab="subtab1">Markets</button>
+
+        <button class="tablinks" id="subtab2" data-tab="subtab2">Business</button>
+
+        <button class="tablinks" id="subtab3" data-tab="subtab3">Economics</button>
+
+        <button class="tablinks" id="subtab4" data-tab="subtab4">Politics</button>
+
+        <button class="tablinks" id="subtab5" data-tab="subtab5">Law</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+      {
+      "symbols": [
+        {
+          "proName": "FOREXCOM:SPXUSD",
+          "title": "S&P 500 Index"
+        },
+        {
+          "description": "Dow Jones",
+          "proName": "FRED:DJIA"
+        },
+        {
+          "description": "NASDAQ",
+          "proName": "NASDAQ:NDX"
+        },
+        {
+          "description": "EUR to USD",
+          "proName": "FX_IDC:EURUSD"
+        },
+        {
+          "description": "Apple Inc.",
+          "proName": "NASDAQ:AAPL"
+        },
+        {
+          "description": "Microsoft Corp.",
+          "proName": "NASDAQ:MSFT"
+        },
+        {
+          "description": "Alphabet Inc.",
+          "proName": "NASDAQ:GOOGL"
+        },
+        {
+          "description": "Amazon.com Inc.",
+          "proName": "NASDAQ:AMZN"
+        },
+        {
+          "description": "Meta Platforms Inc.",
+          "proName": "NASDAQ:META"
+        },
+        {
+          "description": "JPMorgan Chase & Co.",
+          "proName": "NYSE:JPM"
+        },
+        {
+          "description": "Bank of America Corp.",
+          "proName": "NYSE:BAC"
+        },
+        {
+          "description": "Goldman Sachs Group Inc.",
+          "proName": "NYSE:GS"
+        },
+        {
+          "description": "Morgan Stanley",
+          "proName": "NYSE:MS"
+        },
+        {
+          "description": "Johnson & Johnson",
+          "proName": "NYSE:JNJ"
+        },
+        {
+          "description": "Pfizer Inc.",
+          "proName": "NYSE:PFE"
+        },
+        {
+          "description": "UnitedHealth Group Inc.",
+          "proName": "NYSE:UNH"
+        },
+        {
+          "description": "Tesla Inc.",
+          "proName": "NASDAQ:TSLA"
+        },
+        {
+          "description": "Nike Inc.",
+          "proName": "NYSE:NKE"
+        },
+        {
+          "description": "Home Depot Inc.",
+          "proName": "NYSE:HD"
+        },
+        {
+          "description": "Procter & Gamble Co.",
+          "proName": "NYSE:PG"
+        },
+        {
+          "description": "Coca-Cola Co.",
+          "proName": "NYSE:KO"
+        },
+        {
+          "description": "Boeing Co.",
+          "proName": "NYSE:BA"
+        },
+        {
+          "description": "General Electric Co.",
+          "proName": "NYSE:GE"
+        },
+        {
+          "description": "Exxon Mobil Corp.",
+          "proName": "NYSE:XOM"
+        }
+      ],
+      "showSymbolLogo": true,
+      "isTransparent": false,
+      "displayMode": "regular",
+      "colorTheme": "dark",
+      "locale": "en"
+    }
+      </script>
+  </div>
+    <!-- TradingView Widget END -->
+
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+  
+<!-- EDITING STARTS BELOW. DONT CHANGE ANYTHING IN THE ABOVE SECTION SECTION! -->
+
+
+
+
+
+
+
+
+
+<!-- Sections that should be edited are in [] brackets. Can be both white and green. -->
+
+<!-- If anything is confusing, reference the website or Google Drive example story. -->
+
+
+
+  <div id="hangsengrise" class="stories">
+
+    <div id="catagory">Opinion</div>
+
+    <div id="title">Where retaliation ends and erasure begins: the making of a modern-day genocide</div>
+
+    <div id="dek">An examination of how Israel's drive for retribution in Gaza overshadowed strategic priorities</div>
+
+    <div id="byline">By <u>Galilea Rios Schulz</u></div>
+
+    <div id="date">10/31/2025 • 5 minute read</div>
+
+
+<!-- Below section can be deleted for non-finance stories. -->
+
+
+    <!-- <div id="stocks">In This Article: <u><a href="[Tradingview link to first mentioned stock]" style="color: #4169e1;" target="_blank">[Stock ticker symbol]</a><a href="[Tradingview link to second mentioned stock]" style="color: #4169e1;" target="_blank">[Stock ticker symbol]</a><a href="[Tradingview link to third mentioned stock]" style="color: #4169e1;" target="_blank">[Stock ticker symbol]</a></u></div> -->
+
+
+<!-- Delete or add stock mentions as you see fit. 
+     Simply deleter from the opening <a> bracket to the closing </a> bracket.  -->
+
+
+    <img src="/img/gazawar.png" id="storyphoto">
+
+    <!-- <div id="photocredit">Aerial view of collapsed buildings and destruction in the Gaza Strip. (UNRWA - Ashraf Amra</div> -->
+
+    <div id="bodytext">
+
+
+<!-- To embed links in your story, wrap words or phrases in the below code and add link.
+
+     <a href="[Add link you wish to embed]" target="_blank" style="color: #4169e1;">[Add word or phrase you wish to be associated with link]</a>
+-->
+
+
+<!-- Delete or add paragraphs, story photos and subheaders as you see fit. -->
+
+      
+    <p>Before the <a href="https://www.bbc.com/news/articles/cd9k2dj37wqo" target="_blank" style="color: #4169e1;">latest ceasefire in Gaza,</a> the phrase “legitimate targets” drew no distinction between combatants and civilians. Places once presumed safe, such as schools, hospitals and refugee camps, were routinely bombed.</p>
+
+
+    <p>Looking back, there is a succinct yet <a href="https://podcasts.apple.com/us/podcast/when-is-it-genocide/id1548604447?i=1000721783741" target="_blank" style="color: #4169e1;">controversial</a> term for the type of war Israel waged, which targeted the press, destroyed hospitals, starved children and erased witnesses: Genocide.</p>
+
+
+    <p>An examination by The Analyst finds that in three distinct ways, Israel’s actions in Gaza transformed the war from an act of deterrence following Hamas’ Oct. 7 attack to a conflict fitting the term Genocide. Through this lens, the goal of Israel appears to have been the eradication and forced displacement of the Palestinian population under the cover of a media blackout.</p>
+
+    <div id="subheader">War of Attrition</div>
+
+    <p>Israel’s brutal two-year-long war against the terrorist group Hamas in Gaza killed or injured over 10% of the Palestinian population. The Hamas-run Gaza Health Ministry cites similar figures, estimating that about 65,000 Palestinians were killed while over 164,000 were wounded.</p>
+
+    <p>In July, leading Israeli human rights groups <a href="https://www.cnn.com/2025/07/28/middleeast/israeli-human-rights-group-accuses-israel-genocide-gaza-intl" target="_blank" style="color: #4169e1;">became the first advocacy organizations in Israel to</a> claim that their country was “committing genocide against Palestinians in Gaza.” <a href="https://www.un.org/unispal/document/commission-of-inquiry-report-genocide-in-gaza-a-hrc-60-crp-3/" target="_blank" style="color: #4169e1;">The U.N. followed suit,</a> accusing Israel of committing four acts of war crimes against the Palestinians.</p>
+
+    <p>More recently, the sentiment has spread to the U.S., where support for Israel is typically high due to the two countries’ storied relationship.</p>
+
+    <p>In September, U.S. Senators Chris Van Hollen and Jeff Merkley <a href="https://www.vanhollen.senate.gov/imo/media/doc/van_hollen_merkley_report_following_2025_codel_to_gaza_border_israel_west_bank_jordan_and_egypt.pdf" target="_blank" style="color: #4169e1;">said that the government under Prime Minister Benjamin Netanyahu</a> was “implementing a plan to ethnically clean Gaza of Palestinians,” that the U.S. is complicit in.</p>
+ 
+    <p>The sentiment that Israel must cease hostilities even extended to Israel’s military, with top military commanders <a href="https://www.reuters.com/world/middle-east/israeli-military-chief-opposes-gaza-war-expansion-raising-pressure-netanyahu-2025-08-06/" target="_blank" style="color: #4169e1;">voicing their opposition</a> to continuing the war on moral and practical grounds.</p>
+
+    <p>“There are in Gaza today more than 10% who were killed or injured in this war, more than 200,000,” said former Israel Defense Force Chief of Staff Lt. Gen. Herzi Halevi during a public address last month, “This is not a gentle war.”</p>
+
+    <div id="subheader">Aid Distribution</div>
+
+    <div id="photocredit">Palestinians wait for donated food at a distribution center in Beit Lahiya, northern Gaza Strip, Sunday, March 16, 2025 (Abdel Kareem Hana)</div>
+
+    <p>As deadly as Israel’s military campaign was, many say the country’s mishandling of aid distribution has led to far more civilians dying over the past few months.</p>
+
+     <img src="/img/gazawarimage.png" id="bodyphoto">
+
+    <p>Over 100 humanitarian groups operating in Gaza to provide food and medical supplies, including Doctors Without Borders and Oxfam, <a href="https://www.bbc.com/news/articles/cj6ynz22871o" target="_blank" style="color: #4169e1;">accused Israel of “weaponising aid” in Gaza</a> while letting Palestinians starve.</p>
+
+    <p>The joint statement came after a March decision by the Israeli government to block aid deliveries unless nonprofits meet strict registration requirements, provide staffing details and avoid actions that “delegitimize” Israel. The result is that, even with a ceasefire in place, <a href="https://www.aljazeera.com/news/liveblog/2025/10/25/live-un-says-1-5m-in-gaza-need-aid-israel-blocks-borders-despite-ceasefir" target="_blank" style="color: #4169e1;">most major nonprofits are unable to deliver</a> supplies to Gaza, with over 60 aid distribution requests denied in July alone.</p>
+
+    <p>The French foreign ministry recently highlighted the serious “humanitarian and health context” in wartorn Gaza as a result of the aid blockades.</p>
+
+    <p>“France once again calls on Israel to immediately lift all restrictions imposed on the entry of humanitarian aid into Gaza to allow its immediate, massive, and unhindered delivery,” the ministry said in a <a href="https://www.diplomatie.gouv.fr/en/country-files/israel-palestinian-territories/news/2025/article/joint-statement-on-the-humanitarian-situation-in-gaza-12-08-25" target="_blank" style="color: #4169e1;">statement</a>.</p>
+
+    <p>Israel denies placing overly harsh restrictions on aid, saying that all rules are there to prevent Hamas from seizing supplies.</p>
+
+    <p>The country’s statisticians put the number of trucks entering Gaza each day at 300, less than half the number the UN says are needed to avoid starvation and malnutrition.</p>
+
+    <p>Israel has long expressed disdain toward international advocacy groups such as the U.N. Human Rights Council that have sought to hold Israel’s government accountable for their actions during the war, calling the organization “anti-Israel.”</p>
+
+    <p>Shortly following the release of the U.N.’s report on genocide in Gaza, the Foreign Ministy of Israel lashed back.</p>
+
+    <p>“Israel categorically rejects the distorted and false report and calls for the immediate abolition of the Commission of Inquiry,” the Ministry said in a statement. The Ministry went on to say that the report relied on “entirely on Hamas falsehoods,” accusing its authors of “being proxies for the militant group whose horrific statements about Jews have been condemned worldwide.”</p>
+
+    <div id="subheader">Targeting Journalists</div>
+
+    <p>Israel engaged in a “deadly pattern” of lethal force against journalists and failed to hold perpetrators accountable, according to a <a href="https://cpj.org/reports/2023/05/deadly-pattern-20-journalists-died-by-israeli-military-fire-in-22-years-no-one-has-been-held-accountable/" target="_blank" style="color: #4169e1;">2023 report</a> from the Committee to Protect Journalists.</p>
+
+    <p>The conflict was <a href="https://www.un.org/unispal/document/press-briefing-irene-khan-15sep25/#:~:text=Gaza%20has%20become%20the%20deadliest%20conflict%20ever%20for%20journalists.,according%20to%20one%20research%20institute." target="_blank" style="color: #4169e1;">recognized by the UN</a> as the “deadliest conflict ever for journalists,” with more journalists killed in Gaza than both world wars, the Vietnam War, the war in Yugoslavia and the war in Afghanistan combined.</p>
+
+    <p>Israel’s targeting of journalists was put on full display last month, when the Israeli military <a href="https://www.reuters.com/world/middle-east/israel-hits-gaza-hospital-killing-least-20-people-including-five-journalists-2025-08-25/" target="_blank" style="color: #4169e1;">struck the stairwell of a Gazan hospital where journalists were known to gather.</a> Five journalists were killed, along with nearly a dozen first responders hit by a second strike minutes later targeting the same location.</p>
+
+    <p>The reporters were all Palestinian freelance journalists and photographers given Israel has <a href="https://www.timesofisrael.com/28-countries-including-uk-and-canada-call-on-israel-to-let-journalists-into-gaza/" target="_blank" style="color: #4169e1;">banned foreign reporters from covering the conflict in Gaza.</a> They were assigned to the hospital to cover the sick, injured and those suffering starvation due to Israel’s humanitarian aid restrictions.</p>
+
+    <p>Israel’s military has called the incident a “tragic mishap” while pledging to investigate the matter further.</p>
+
+    <p>The hospital attack wasn’t an isolated incident. A few weeks prior, an Israeli strike on Gaza City killed six journalists, including Gaza’s chief Al Jazeera correspondent Anas Al-Sharif. Israel had accused Al-Sharif of working with Hamas, while failing to provide evidence backing up its assertion.</p>
+
+    <p>“The cameras will not be turned off. God willing, the cameras won't turn off. They will not be absent from the public scene,” said Izz el-Din al-Masri, the brother of slain journalist Hussam al-Masri, at the journalists’ funeral, “We will continue to pursue the image everywhere.”</p>
+
+    <p>With high casualties, the <a href="https://www.ajc.org/news/humanitarian-aid-in-gaza-whats-really-happening#:~:text=Despite%20criticism%20from%20some%20NGOs,said%20Interim%20Director%20John%20Acree." target="_blank" style="color: #4169e1;">restriction of aid</a> and media censorship, Israel’s actions in the Gaza Strip mimicked the hallmarks of a genocidal campaign, obliterating the lives of thousands while disrupting accountability. The United States’ <a href="https://www.npr.org/2025/08/28/nx-s1-5515620/israel-gaza-biden-famine" target="_blank" style="color: #4169e1;">failure to stop Israel,</a> along with its obstruction of <a href="https://www.politico.com/news/magazine/2025/10/01/gar-waza-united-nations-00589045" target="_blank" style="color: #4169e1;">international efforts to do so,</a> highlights a wider erosion of the global mechanisms meant to enforce humanitarian law.</p>
+
+
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+  
+<!-- EDIT ABOVE. DONT CHANGE ANYTHING IN THE BELOW SECTION SECTION! -->
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Footer!!!! -->
+
+
+  <div class="footer">
+
+    <img src="/img/analyst.png" id="footerimg">
+
+    <div class="address">
+
+      <h6>3470 Trousdale Parkway</h6>
+
+      <h6>Los Angeles, CA 90089</h6>
+
+      <h6>theanalystam@gmail.com</h6>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- JAVASCRIPT -->
+	<script src="/js/jquery.js"></script>
+	<script src="/js/jqueryui.js"></script>
+  <script src="/js/lib/waypoints.min.js"></script>  
+  <script src="/js/lib/waypoints-sticky.min.js"></script>  	
+	<script src="/js/script.js"></script>
+  </body>
+</html>
+
+
+<!-- photos courtesy of Sarah Soutoul (copyright) -->
+<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
