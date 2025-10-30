@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/economics/ratecutting";
+        window.location.href = "/stories/politics/gazawar";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/disneysuccession";
+        window.location.href = "/stories/politics/gazawar";
       
    });
 
@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/uschinatrust";
+        window.location.href = "/stories/markets/trumpxitrade";
       
    });
    
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/politics/aisociety";
+        window.location.href = "/stories/politics/trumpxitrade";
       
    });
    
@@ -114,6 +114,18 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory60').click(function(){
+
+        window.location.href = '/stories/politics/gazawar';
+         
+    });
+
+    $('#newsstory59').click(function(){
+
+        window.location.href = '/stories/markets/trumpxitrade';
+         
+    });
 
     $('#newsstory58').click(function(){
 
@@ -818,6 +830,12 @@ $(document).ready(function(){ // begin document.ready block
 
 
       // Politics
+
+    $('#politicsstory8').click(function(){
+
+        window.location.href = '/stories/politics/gazawar/';
+         
+   });
 
    $('#politicsstory7').click(function(){
 
