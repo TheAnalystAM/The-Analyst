@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/politics/gazawar";
+        window.location.href = "/stories/markets/airlinedisruptions";
       
    });
 
@@ -25,13 +25,13 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/greenenergycuts";
+        window.location.href = "/stories/markets/healthinsurancecuts";
       
    });
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/trumpxitrade";
+        window.location.href = "/stories/markets/airlinedisruptions";
       
    });
    
@@ -40,7 +40,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories1').click(function(){
       
-        window.location.href = "/stories/markets/palantirvalue";
+        window.location.href = "/stories/markets/airlinedisruptions";
       
    });
    
@@ -114,6 +114,18 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory62').click(function(){
+
+        window.location.href = '/stories/markets/airlinedisruptions';
+         
+    });
+
+    $('#newsstory61').click(function(){
+
+        window.location.href = '/stories/markets/healthinsurancecuts';
+         
+    });
 
     $('#newsstory60').click(function(){
 
@@ -496,6 +508,18 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory38').click(function(){
+
+        window.location.href = '/stories/markets/airlinedisruptions/';
+      
+    });
+
+    $('#marketsstory38').click(function(){
+
+        window.location.href = '/stories/markets/healthinsurancecuts/';
+      
+    });
 
     $('#marketsstory38').click(function(){
 
