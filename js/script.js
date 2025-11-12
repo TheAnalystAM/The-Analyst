@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/politics/trumpxitrade";
+        window.location.href = "/stories/markets/healthinsurancecuts";
       
    });
    
