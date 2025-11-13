@@ -509,13 +509,14 @@ $(document).ready(function(){ // begin document.ready block
    
       // Markets
 
-    $('#marketsstory38').click(function(){
+
+    $('#marketsstory40').click(function(){
 
         window.location.href = '/stories/markets/airlinedisruptions/';
       
     });
 
-    $('#marketsstory38').click(function(){
+    $('#marketsstory39').click(function(){
 
         window.location.href = '/stories/markets/healthinsurancecuts/';
       
