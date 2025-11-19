@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/airlinedisruptions";
+        window.location.href = "/stories/markets/nvidiacrunch";
       
    });
 
@@ -19,7 +19,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/politics/gazawar";
+        window.location.href = "/stories/markets/nvidiacrunch";
       
    });
 
@@ -58,7 +58,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/ellisonstudiosnewsletter";
+        window.location.href = "/stories/markets/nvidiacrunch";
       
    });
    
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory63').click(function(){
+
+        window.location.href = '/stories/markets/nvidiacrunch';
+         
+    });
 
     $('#newsstory62').click(function(){
 
@@ -509,6 +515,11 @@ $(document).ready(function(){ // begin document.ready block
    
       // Markets
 
+    $('#marketsstory41').click(function(){
+
+        window.location.href = '/stories/markets/nvidiacrunch/';
+      
+    });
 
     $('#marketsstory40').click(function(){
 
