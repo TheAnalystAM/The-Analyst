@@ -25,7 +25,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/healthinsurancecuts";
+        window.location.href = "/stories/markets/holidayprices";
       
    });
 
@@ -52,7 +52,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/economics/ratecutting";
+        window.location.href = "/stories/markets/holidayprices";
       
    });
 
@@ -114,6 +114,12 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+
+    $('#newsstory64').click(function(){
+
+        window.location.href = '/stories/markets/holidayprices';
+         
+    });
 
     $('#newsstory63').click(function(){
 
@@ -514,6 +520,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory42').click(function(){
+
+        window.location.href = '/stories/markets/holidayprices/';
+      
+    });
 
     $('#marketsstory41').click(function(){
 
