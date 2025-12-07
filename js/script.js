@@ -31,7 +31,7 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/airlinedisruptions";
+        window.location.href = "/stories/markets/wbdbid";
       
    });
    
@@ -46,7 +46,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/healthinsurancecuts";
+        window.location.href = "/stories/markets/wbdbid";
       
    });
    
@@ -114,6 +114,13 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
+   
+
+    $('#newsstory65').click(function(){
+
+        window.location.href = '/stories/markets/wbdbid';
+         
+    });
 
     $('#newsstory64').click(function(){
 
@@ -520,6 +527,12 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory43').click(function(){
+
+        window.location.href = '/stories/markets/wbdbid/';
+      
+    });
 
     $('#marketsstory42').click(function(){
 
