@@ -11,7 +11,7 @@ $(document).ready(function(){ // begin document.ready block
    
    $('.topnewsteaser').click(function(){
       
-        window.location.href = "/stories/markets/nvidiacrunch";
+        window.location.href = "/stories/markets/washingtonwallstreet";
       
    });
 
@@ -19,19 +19,19 @@ $(document).ready(function(){ // begin document.ready block
 
    $('#headline1').click(function(){
       
-        window.location.href = "/stories/markets/nvidiacrunch";
+        window.location.href = "/stories/markets/usgunsales";
       
    });
 
    $('#headline2').click(function(){
       
-        window.location.href = "/stories/markets/holidayprices";
+        window.location.href = "/stories/markets/aitrade";
       
    });
 
    $('#headline3').click(function(){
       
-        window.location.href = "/stories/markets/wbdbid";
+        window.location.href = "/stories/markets/washingtonwallstreet";
       
    });
    
@@ -46,19 +46,19 @@ $(document).ready(function(){ // begin document.ready block
    
    $('#thelateststories2').click(function(){
       
-        window.location.href = "/stories/markets/wbdbid";
+        window.location.href = "/stories/markets/washingtonwallstreet";
       
    });
    
    $('#thelateststories3').click(function(){
       
-        window.location.href = "/stories/markets/holidayprices";
+        window.location.href = "/stories/markets/aitrade";
       
    });
 
    $('#thelateststories4').click(function(){
       
-        window.location.href = "/stories/markets/nvidiacrunch";
+        window.location.href = "/stories/markets/usgunsales";
       
    });
    
@@ -114,8 +114,25 @@ $(document).ready(function(){ // begin document.ready block
    // STORIES
 
       // News
-   
 
+    $('#newsstory68').click(function(){
+
+        window.location.href = '/stories/markets/washingtonwallstreet';
+         
+    });
+
+    $('#newsstory67').click(function(){
+
+        window.location.href = '/stories/markets/aitrade';
+         
+    });
+
+    $('#newsstory66').click(function(){
+
+        window.location.href = '/stories/markets/usgunsales';
+         
+    });
+   
     $('#newsstory65').click(function(){
 
         window.location.href = '/stories/markets/wbdbid';
@@ -527,6 +544,24 @@ $(document).ready(function(){ // begin document.ready block
 
    
       // Markets
+
+    $('#marketsstory46').click(function(){
+
+        window.location.href = '/stories/markets/washingtonwallstreet/';
+      
+    });
+
+    $('#marketsstory45').click(function(){
+
+        window.location.href = '/stories/markets/aitrade/';
+      
+    });
+
+    $('#marketsstory44').click(function(){
+
+        window.location.href = '/stories/markets/usgunsales/';
+      
+    });
 
     $('#marketsstory43').click(function(){
 
